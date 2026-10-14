@@ -1,0 +1,21 @@
+{
+  "v": 1,
+  "sheikhs": [
+    {"id": "sayed",    "order": 1,  "name": "أحمد السيد",             "short": "أحمد السيد",      "channels": ["https://www.youtube.com/@alsayyed_ah"]},
+    {"id": "asimi",    "order": 2,  "name": "أدهم العاسمي",           "short": "العاسمي",         "channels": ["https://www.youtube.com/@adhmasmi2"], "note": "القناة الثانية بعد سرقة الأولى"},
+    {"id": "bardoni",  "order": 3,  "name": "محمد البردوني الحسيمي",  "short": "البردوني",        "channels": ["https://www.youtube.com/channel/UCikKBeXeC90S8NJsoXLr9Ng", "https://www.youtube.com/@Shaykh_Mohammed_AlBardouni"]},
+    {"id": "jifri",    "order": 4,  "name": "الحبيب علي الجفري",      "short": "الجفري",          "channels": ["https://www.youtube.com/user/alhabibalitv"]},
+    {"id": "hafiz",    "order": 5,  "name": "الحبيب عمر بن حفيظ",     "short": "ابن حفيظ",        "channels": ["https://www.youtube.com/@HabibOmarCom"]},
+    {"id": "gomaa",    "order": 6,  "name": "علي جمعة",               "short": "علي جمعة",        "channels": ["https://www.youtube.com/@DrAliGomaa"]},
+    {"id": "bouti",    "order": 7,  "name": "محمد سعيد رمضان البوطي", "short": "البوطي",          "channels": ["https://www.youtube.com/@naseemalsham1"]},
+    {"id": "shaarawy", "order": 8,  "name": "محمد متولي الشعراوي",    "short": "الشعراوي",        "channels": ["https://www.youtube.com/@alsharawiofficial"]},
+    {"id": "hawwa",    "order": 9,  "name": "معاذ سعيد حوى",          "short": "معاذ حوى",        "channels": ["https://www.youtube.com/c/drmoathhawwa"]},
+    {"id": "sariri",   "order": 10, "name": "مولود السريري",          "short": "السريري",         "channels": ["https://www.youtube.com/channel/UCikKBeXeC90S8NJsoXLr9Ng", "https://www.youtube.com/@assariry"]},
+    {"id": "omari",    "order": 11, "name": "علي محمود العمري",       "short": "العمري",          "channels": ["https://www.youtube.com/channel/UCBZ9mBjX_L5szWixhVrFMdg"]},
+    {"id": "hashemi",  "order": 12, "name": "ذاكر الهاشمي",           "short": "ذاكر الهاشمي",    "channels": ["https://www.youtube.com/channel/UC2hgUdruvEzm4-sxTWrP2zg"]},
+    {"id": "kamali",   "order": 13, "name": "سعيد الكملي",            "short": "الكملي",          "channels": ["https://www.youtube.com/@elkamali"]},
+    {"id": "samarrai", "order": 14, "name": "فاضل السامرائي",         "short": "السامرائي",       "channels": ["https://www.youtube.com/@LamasatBayania"]},
+    {"id": "ayman",    "order": 15, "name": "أيمن عبد الرحيم",        "short": "أيمن عبد الرحيم", "channels": []},
+    {"id": "dedew",    "order": 16, "name": "محمد الحسن الددو",       "short": "الددو",           "channels": ["https://www.youtube.com/c/dedewiat"]}
+  ]
+}

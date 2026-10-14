@@ -1,0 +1,4791 @@
+{
+  "channel_key": "bardoni-personal",
+  "sheikh_id": "bardoni",
+  "channel_id": "UCZTyYgGeVgGASTQ3cLKVRxw",
+  "channel_title": "الشيخ محمد  البردوني",
+  "source_url": "https://www.youtube.com/@Shaykh_Mohammed_AlBardouni",
+  "total_playlists": 17,
+  "total_playlist_videos": 637,
+  "unique_playlist_videos": 637,
+  "total_channel_uploads_scanned": 657,
+  "unclassified_count": 20,
+  "playlists": [
+    {
+      "playlist_id": "PLUfvC1VJC25A",
+      "title": "آداب البحث و المناظرة",
+      "url": "https://www.youtube.com/playlist?list=PLUfvC1VJC25A",
+      "order_no": 1,
+      "video_count": 15,
+      "total_duration_sec": 64065,
+      "videos": [
+        {
+          "yt_id": "H6Nxm6LOJBk",
+          "title": "شرح فتح الوهاب بشرح الآداب | الدرس 15 -الأخير- ( قوله \" فصل في مسائل اخترعتها-تتمة-\" ) |   البردوني",
+          "url": "https://www.youtube.com/watch?v=H6Nxm6LOJBk",
+          "duration": 6204,
+          "order_no": 1
+        },
+        {
+          "yt_id": "SCivzs8Up6M",
+          "title": "شرح فتح الوهاب بشرح الآداب | الدرس 14 ( قوله \" فصل  في مسائل اخترعتها \" ) |  الشيخ  البردوني",
+          "url": "https://www.youtube.com/watch?v=SCivzs8Up6M",
+          "duration": 5510,
+          "order_no": 2
+        },
+        {
+          "yt_id": "diHEVCxn7I0",
+          "title": "شرح فتح الوهاب بشرح الآداب | الدرس 13 ( قوله \"  ما يتوجه على المتناظرين-تتمة- \" ) |  الشيخ  البردوني",
+          "url": "https://www.youtube.com/watch?v=diHEVCxn7I0",
+          "duration": 4556,
+          "order_no": 3
+        },
+        {
+          "yt_id": "vSQLohC2l3g",
+          "title": "شرح فتح الوهاب بشرح الآداب | الدرس 12 ( قوله \"  ما يتوجه على المتناظرين-تتمة- \" ) |  الشيخ  البردوني",
+          "url": "https://www.youtube.com/watch?v=vSQLohC2l3g",
+          "duration": 3089,
+          "order_no": 4
+        },
+        {
+          "yt_id": "CO8AiMb4QvA",
+          "title": "شرح فتح الوهاب بشرح الآداب | الدرس 11 ( قوله \" النقض \" ) |  الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=CO8AiMb4QvA",
+          "duration": 3872,
+          "order_no": 5
+        },
+        {
+          "yt_id": "FgSkg2Mh1qE",
+          "title": "شرح فتح الوهاب بشرح الآداب | الدرس 10 ( قوله \" الدوران \" ) |  الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=FgSkg2Mh1qE",
+          "duration": 3605,
+          "order_no": 6
+        },
+        {
+          "yt_id": "kbyj_52pfe4",
+          "title": "شرح فتح الوهاب بشرح الآداب | الدرس09( قوله \"الملازمة امتناع انفكاك الشيء عن الشيء\" )| الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=kbyj_52pfe4",
+          "duration": 3331,
+          "order_no": 7
+        },
+        {
+          "yt_id": "gaCdcu-3emE",
+          "title": "شرح فتح الوهاب| الدرس 08 ( قوله \"والامارة هي التي يلزم العلم بها ظن بوجود المدلول\") | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=gaCdcu-3emE",
+          "duration": 5358,
+          "order_no": 8
+        },
+        {
+          "yt_id": "gcU52tV2C9g",
+          "title": "شرح فتح الوهاب بشرح الآداب | الدرس 07 (  تتمة تعريف المناظرة   ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=gcU52tV2C9g",
+          "duration": 3919,
+          "order_no": 9
+        },
+        {
+          "yt_id": "Tms0iw5trhg",
+          "title": "شرح فتح الوهاب بشرح الآداب | الدرس 06 ( الفصل 1 في بيان التعريفات   ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=Tms0iw5trhg",
+          "duration": 4091,
+          "order_no": 10
+        },
+        {
+          "yt_id": "UcsMft9jFsw",
+          "title": "شرح فتح الوهاب بشرح الآداب  | الدرس 05 ( قوله \" وهي مرتبة على ثلاثة فصول٠٠٠\" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=UcsMft9jFsw",
+          "duration": 3789,
+          "order_no": 11
+        },
+        {
+          "yt_id": "ZszHLIKlArU",
+          "title": "شرح فتح الوهاب بشرح الآداب  | الدرس 04 ( قوله \" هذه الصحيفة رسالة لطيفة ٠٠\"  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=ZszHLIKlArU",
+          "duration": 4572,
+          "order_no": 12
+        },
+        {
+          "yt_id": "szSijWTWq3k",
+          "title": "شرح فتح الوهاب بشرح الآداب  | الدرس 03 (قوله  \" أما بعد فهذا شرح٠٠٠ \"  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=szSijWTWq3k",
+          "duration": 4224,
+          "order_no": 13
+        },
+        {
+          "yt_id": "4vZ_Nc62lPc",
+          "title": "شرح فتح الوهاب بشرح الآداب  | الدرس 02 ( أبحاث متعلقة  بالحمدلة ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=4vZ_Nc62lPc",
+          "duration": 4788,
+          "order_no": 14
+        },
+        {
+          "yt_id": "hOgHMJ9sKbc",
+          "title": "شرح فتح الوهاب بشرح الآداب  | الدرس 01 ( المقدمة ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=hOgHMJ9sKbc",
+          "duration": 3157,
+          "order_no": 15
+        }
+      ]
+    },
+    {
+      "playlist_id": "PLUAcOYpvESsermSQMVZ8BhCxRisjKDGKz",
+      "title": "مقتطفات نحوية",
+      "url": "https://www.youtube.com/playlist?list=PLUAcOYpvESsermSQMVZ8BhCxRisjKDGKz",
+      "order_no": 2,
+      "video_count": 1,
+      "total_duration_sec": 1040,
+      "videos": [
+        {
+          "yt_id": "LA0LXeKH9w8",
+          "title": "اقوال العلماء في تقدير خبر لا إله إلا الله   | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=LA0LXeKH9w8",
+          "duration": 1040,
+          "order_no": 1
+        }
+      ]
+    },
+    {
+      "playlist_id": "PLUAcOYpvESsffd6ybv8FVD23bxxxKMPRK",
+      "title": "مقتطفات كلامية",
+      "url": "https://www.youtube.com/playlist?list=PLUAcOYpvESsffd6ybv8FVD23bxxxKMPRK",
+      "order_no": 3,
+      "video_count": 7,
+      "total_duration_sec": 3086,
+      "videos": [
+        {
+          "yt_id": "29SdPJhOq0Q",
+          "title": "هل كل كمال في الشاهد هو كمال في الغائب  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=29SdPJhOq0Q",
+          "duration": 696,
+          "order_no": 1
+        },
+        {
+          "yt_id": "eP0qzTkquN4",
+          "title": "مقتطف \" يجب تسليم المسلمات في المنظرات \"  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=eP0qzTkquN4",
+          "duration": 214,
+          "order_no": 2
+        },
+        {
+          "yt_id": "z6YH08E-Ji0",
+          "title": "مقتطف \"  أسباب عقم المناظرات اليوم عدم إتقان علم الجدل  \"  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=z6YH08E-Ji0",
+          "duration": 352,
+          "order_no": 3
+        },
+        {
+          "yt_id": "1QAMUrKwZsc",
+          "title": "معنى الكسب عند الأشاعرة  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=1QAMUrKwZsc",
+          "duration": 193,
+          "order_no": 4
+        },
+        {
+          "yt_id": "mzhJNyzieZY",
+          "title": "دلالة المعجزة على صدق الرسل هل هي عقلية أم وضعية أم عادية  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=mzhJNyzieZY",
+          "duration": 482,
+          "order_no": 5
+        },
+        {
+          "yt_id": "nIUw9gz4BZ8",
+          "title": "برهان الوحدانية و إبطال تعدد الآلهة   | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=nIUw9gz4BZ8",
+          "duration": 1034,
+          "order_no": 6
+        },
+        {
+          "yt_id": "VnrItMoYEIw",
+          "title": "علم الله لا يسمى تصوريا   | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=VnrItMoYEIw",
+          "duration": 115,
+          "order_no": 7
+        }
+      ]
+    },
+    {
+      "playlist_id": "PLUAcOYpvESsfFCZgvoEkRACYvNBMCs6OY",
+      "title": "أم البراهين",
+      "url": "https://www.youtube.com/playlist?list=PLUAcOYpvESsfFCZgvoEkRACYvNBMCs6OY",
+      "order_no": 4,
+      "video_count": 36,
+      "total_duration_sec": 152116,
+      "videos": [
+        {
+          "yt_id": "lhtjluwWOS4",
+          "title": "شرح أم البراهين | الدرس 36 و الأخير ( معاني محمد رسول الله ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=lhtjluwWOS4",
+          "duration": 4650,
+          "order_no": 1
+        },
+        {
+          "yt_id": "yD9ASBvTcSQ",
+          "title": "شرح أم البراهين | الدرس 35 ( معاني لا إله إلا الله-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=yD9ASBvTcSQ",
+          "duration": 4888,
+          "order_no": 2
+        },
+        {
+          "yt_id": "fQcXFFmOLDo",
+          "title": "شرح أم البراهين | الدرس 33 ( معاني لا إله إلا الله ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=fQcXFFmOLDo",
+          "duration": 6094,
+          "order_no": 3
+        },
+        {
+          "yt_id": "bvfIiRJm20k",
+          "title": "شرح أم البراهين | الدرس 34 ( معاني لا إله إلا الله-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=bvfIiRJm20k",
+          "duration": 4889,
+          "order_no": 4
+        },
+        {
+          "yt_id": "f7mJVw-ZmAI",
+          "title": "شرح أم البراهين | الدرس 32 (  دليل جواز الأعراض البشرية في حق الأنبياء ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=f7mJVw-ZmAI",
+          "duration": 2941,
+          "order_no": 5
+        },
+        {
+          "yt_id": "LIzLYZFiUHA",
+          "title": "شرح أم البراهين | الدرس 31 ( قوله \" برهان وجوب صدق الانبياء \" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=LIzLYZFiUHA",
+          "duration": 4264,
+          "order_no": 6
+        },
+        {
+          "yt_id": "vIJfI8ZeF58",
+          "title": "شرح أم البراهين | الدرس30(قوله\"برهان كون فعل الممكنات أو تركها جائزا في حقه سبحانه\")| الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=vIJfI8ZeF58",
+          "duration": 5428,
+          "order_no": 7
+        },
+        {
+          "yt_id": "WTSHdqtmqhg",
+          "title": "شرح أم البراهين | الدرس29 (قوله \"برهان وجوب اتصافه سبحانه بالقدرة و العلم و الحياة \")|الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=WTSHdqtmqhg",
+          "duration": 4145,
+          "order_no": 8
+        },
+        {
+          "yt_id": "FLSO3rKiHac",
+          "title": "شرح أم البراهين | الدرس 28 ( قوله \" برهان وجوب الوحدانية لله سبحانه-تتمة-  \" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=FLSO3rKiHac",
+          "duration": 4006,
+          "order_no": 9
+        },
+        {
+          "yt_id": "MMU384FDL08",
+          "title": "شرح أم البراهين | الدرس 27 ( قوله \" برهان وجوب الوحدانية لله سبحانه  \" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=MMU384FDL08",
+          "duration": 4207,
+          "order_no": 10
+        },
+        {
+          "yt_id": "iaovSvOxzSU",
+          "title": "شرح أم البراهين | الدرس 26 ( قوله \" برهان وجوب البقاء لله سبحانه  \" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=iaovSvOxzSU",
+          "duration": 4287,
+          "order_no": 11
+        },
+        {
+          "yt_id": "lyo9ZjyeI2k",
+          "title": "شرح أم البراهين | الدرس 25 ( قوله \" برهان وجوب القدم لله سبحانه  \" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=lyo9ZjyeI2k",
+          "duration": 4175,
+          "order_no": 12
+        },
+        {
+          "yt_id": "PLbMPERpY1o",
+          "title": "شرح أم البراهين | الدرس 24 ( قوله \" برهان وجود الله-تتمة-  \" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=PLbMPERpY1o",
+          "duration": 3467,
+          "order_no": 13
+        },
+        {
+          "yt_id": "IyBHJgXnStg",
+          "title": "شرح أم البراهين | الدرس 23 ( قوله \" برهان وجود الله  \" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=IyBHJgXnStg",
+          "duration": 5407,
+          "order_no": 14
+        },
+        {
+          "yt_id": "vDZnQP-nm-c",
+          "title": "شرح أم البراهين | الدرس 22 ( قوله \" و كذا يستحيل عليه سبحانه الجهل  \" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=vDZnQP-nm-c",
+          "duration": 4681,
+          "order_no": 15
+        },
+        {
+          "yt_id": "1AavXe4N4Wo",
+          "title": "شرح أم البراهين | الدرس21 (قوله \" و قد تقرر أن إرادته عامة التعلق بجميع الممكنات \") | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=1AavXe4N4Wo",
+          "duration": 4993,
+          "order_no": 16
+        },
+        {
+          "yt_id": "MolMaw7F8xE",
+          "title": "شرح أم البراهين | الدرس 20 (قوله \" و إيجاد شيء من العالم مع كراهته لوجوده \" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=MolMaw7F8xE",
+          "duration": 5064,
+          "order_no": 17
+        },
+        {
+          "yt_id": "tnt-uEn_3Rc",
+          "title": "شرح أم البراهين | الدرس 19 ( مما يستحيل في حقه  سبحانه مماثلته للحوادث-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=tnt-uEn_3Rc",
+          "duration": 4876,
+          "order_no": 18
+        },
+        {
+          "yt_id": "G21_P6NTGms",
+          "title": "شرح أم البراهين | الدرس 18 (  مما يستحيل في حقه  سبحانه مماثلته للحوادث  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=G21_P6NTGms",
+          "duration": 4491,
+          "order_no": 19
+        },
+        {
+          "yt_id": "70el_6Y9cmU",
+          "title": "شرح أم البراهين | الدرس 17 ( مبحث المستحيلات في حقه تعالى -تتمة-   ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=70el_6Y9cmU",
+          "duration": 3977,
+          "order_no": 20
+        },
+        {
+          "yt_id": "b2jeKettbHQ",
+          "title": "شرح أم البراهين | الدرس 16 ( مبحث المستحيلات في حقه تعالى -تتمة-   ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=b2jeKettbHQ",
+          "duration": 4475,
+          "order_no": 21
+        },
+        {
+          "yt_id": "zzDl-dgkMDE",
+          "title": "شرح أم البراهين | الدرس 15 (  مبحث المستحيلات في حقه تعالى ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=zzDl-dgkMDE",
+          "duration": 4613,
+          "order_no": 22
+        },
+        {
+          "yt_id": "QXIy06_3ObE",
+          "title": "شرح أم البراهين | الدرس 14 ( مبحث الصفات المعنوية  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=QXIy06_3ObE",
+          "duration": 3358,
+          "order_no": 23
+        },
+        {
+          "yt_id": "Sm3ZHefxRdA",
+          "title": "شرح أم البراهين | الدرس 13 (  صفة الكلام  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=Sm3ZHefxRdA",
+          "duration": 4322,
+          "order_no": 24
+        },
+        {
+          "yt_id": "8yuY6j1uD0c",
+          "title": "شرح أم البراهين | الدرس 12 ( صفة الحياة و السمع و البصر ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=8yuY6j1uD0c",
+          "duration": 4161,
+          "order_no": 25
+        },
+        {
+          "yt_id": "W_2g8HoIJTY",
+          "title": "شرح أم البراهين | الدرس 10 (  صفة الإرادة  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=W_2g8HoIJTY",
+          "duration": 3972,
+          "order_no": 26
+        },
+        {
+          "yt_id": "IbSuxzCkDOI",
+          "title": "شرح أم البراهين | الدرس 11 ( صفة العلم  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=IbSuxzCkDOI",
+          "duration": 3971,
+          "order_no": 27
+        },
+        {
+          "yt_id": "iLMycCD26k8",
+          "title": "شرح أم البراهين | الدرس 9 ( صفات المعاني  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=iLMycCD26k8",
+          "duration": 4165,
+          "order_no": 28
+        },
+        {
+          "yt_id": "q4sY6afw0Ew",
+          "title": "شرح أم البراهين | الدرس 8 (  بيان الصفة النفسية  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=q4sY6afw0Ew",
+          "duration": 3425,
+          "order_no": 29
+        },
+        {
+          "yt_id": "bXYsoSCQkQE",
+          "title": "شرح أم البراهين | الدرس 7 ( صفة القيام بالنفس  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=bXYsoSCQkQE",
+          "duration": 3724,
+          "order_no": 30
+        },
+        {
+          "yt_id": "M9eMtnh_apM",
+          "title": "شرح أم البراهين | الدرس 6 ( صفة البقاء و مخالفته سبحانه للحوادث ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=M9eMtnh_apM",
+          "duration": 2905,
+          "order_no": 31
+        },
+        {
+          "yt_id": "JeuqzUTXKec",
+          "title": "شرح أم البراهين | الدرس 5 ( الصفات الواجبة لله سبحانه ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=JeuqzUTXKec",
+          "duration": 2653,
+          "order_no": 32
+        },
+        {
+          "yt_id": "mAT3sQXfXGo",
+          "title": "شرح أم البراهين | الدرس 4 (هل التقليد يكفي في العقائد أم لا ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=mAT3sQXfXGo",
+          "duration": 2136,
+          "order_no": 33
+        },
+        {
+          "yt_id": "8pxHQz_4o3c",
+          "title": "شرح أم البراهين | الدرس 3 ( بيان ما يجب على المكلف شرعا ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=8pxHQz_4o3c",
+          "duration": 2769,
+          "order_no": 34
+        },
+        {
+          "yt_id": "14zEGCCnCyY",
+          "title": "شرح أم البراهين | الدرس 2 ( بيان الحكم و تقسيمه ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=14zEGCCnCyY",
+          "duration": 5961,
+          "order_no": 35
+        },
+        {
+          "yt_id": "pSKjCKdtW1M",
+          "title": "شرح أم البراهين | الدرس 1 ( مقدمة الكتاب ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=pSKjCKdtW1M",
+          "duration": 4576,
+          "order_no": 36
+        }
+      ]
+    },
+    {
+      "playlist_id": "PLUAcOYpvESseAUEPA5FtyoyzrusC7myLv",
+      "title": "ردود علمية",
+      "url": "https://www.youtube.com/playlist?list=PLUAcOYpvESseAUEPA5FtyoyzrusC7myLv",
+      "order_no": 5,
+      "video_count": 5,
+      "total_duration_sec": 8792,
+      "videos": [
+        {
+          "yt_id": "7CiNBWHDy4w",
+          "title": "الجواب5عن الاستشكالات الواردة على التعبير عن مشيئة الله بما شاء الله كان وما لم يشأ لم يكن تعبير خطأ",
+          "url": "https://www.youtube.com/watch?v=7CiNBWHDy4w",
+          "duration": 1298,
+          "order_no": 1
+        },
+        {
+          "yt_id": "TmQmTkgEs08",
+          "title": "الجواب4عن الاستشكالات الواردة على التعبير عن مشيئة الله بما شاء الله كان وما لم يشأ لم يكن تعبير خطأ",
+          "url": "https://www.youtube.com/watch?v=TmQmTkgEs08",
+          "duration": 1733,
+          "order_no": 2
+        },
+        {
+          "yt_id": "GWWqbwmSn2s",
+          "title": "الجواب3عن الاستشكالات الواردة على التعبير عن مشيئة الله بما شاء الله كان وما لم يشأ لم يكن تعبير خطأ",
+          "url": "https://www.youtube.com/watch?v=GWWqbwmSn2s",
+          "duration": 930,
+          "order_no": 3
+        },
+        {
+          "yt_id": "mX90gbPiWXk",
+          "title": "الجواب٢عن الاستشكالات الواردة على التعبير عن مشيئة الله بما شاء الله كان وما لم يشأ لم يكن تعبير خطأ",
+          "url": "https://www.youtube.com/watch?v=mX90gbPiWXk",
+          "duration": 2217,
+          "order_no": 4
+        },
+        {
+          "yt_id": "Hy5jHjEOyQI",
+          "title": "الجواب عن الاستشكالات التي وردت على مقطع \" التعبير بما شاء الله كان و ما لم يشأ لم يكن تعبير خطأ \"",
+          "url": "https://www.youtube.com/watch?v=Hy5jHjEOyQI",
+          "duration": 2614,
+          "order_no": 5
+        }
+      ]
+    },
+    {
+      "playlist_id": "PLUAcOYpvESsdUUiuQUhOAUTtommshegYG",
+      "title": "شرح الاشموني",
+      "url": "https://www.youtube.com/playlist?list=PLUAcOYpvESsdUUiuQUhOAUTtommshegYG",
+      "order_no": 6,
+      "video_count": 107,
+      "total_duration_sec": 388657,
+      "videos": [
+        {
+          "yt_id": "o4YQoXCS_oo",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 107 ( الحال-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=o4YQoXCS_oo",
+          "duration": 2762,
+          "order_no": 1
+        },
+        {
+          "yt_id": "MqihFFcdiKg",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 106 ( الحال-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=MqihFFcdiKg",
+          "duration": 3275,
+          "order_no": 2
+        },
+        {
+          "yt_id": "y-fpQt9RTFk",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 105 ( الحال-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=y-fpQt9RTFk",
+          "duration": 3549,
+          "order_no": 3
+        },
+        {
+          "yt_id": "dBajcYN7t_U",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 104 ( الحال-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=dBajcYN7t_U",
+          "duration": 4158,
+          "order_no": 4
+        },
+        {
+          "yt_id": "eNG6nyWcjSw",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 103 ( الحال ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=eNG6nyWcjSw",
+          "duration": 4317,
+          "order_no": 5
+        },
+        {
+          "yt_id": "eh_mU8R4DS8",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 102 ( المستثنى-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=eh_mU8R4DS8",
+          "duration": 2109,
+          "order_no": 6
+        },
+        {
+          "yt_id": "OBDAbY3St44",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 101 ( المستثنى-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=OBDAbY3St44",
+          "duration": 2821,
+          "order_no": 7
+        },
+        {
+          "yt_id": "RWe76dBYhbY",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 100 ( المستثنى-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=RWe76dBYhbY",
+          "duration": 3894,
+          "order_no": 8
+        },
+        {
+          "yt_id": "16J6Rd8VhME",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 99 ( المستثنى-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=16J6Rd8VhME",
+          "duration": 3973,
+          "order_no": 9
+        },
+        {
+          "yt_id": "1VUG_GP_ms8",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 98 ( المستثنى-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=1VUG_GP_ms8",
+          "duration": 1463,
+          "order_no": 10
+        },
+        {
+          "yt_id": "Fj1ZL6d7gYk",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 97 ( المستثنى-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=Fj1ZL6d7gYk",
+          "duration": 2605,
+          "order_no": 11
+        },
+        {
+          "yt_id": "kofu8UEt7j8",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 96 ( المستثنى-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=kofu8UEt7j8",
+          "duration": 3333,
+          "order_no": 12
+        },
+        {
+          "yt_id": "PQ66tkUiLqE",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 95 ( المستثنى-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=PQ66tkUiLqE",
+          "duration": 3390,
+          "order_no": 13
+        },
+        {
+          "yt_id": "sRYjeMcGrFg",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 94 ( المستثنى ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=sRYjeMcGrFg",
+          "duration": 3641,
+          "order_no": 14
+        },
+        {
+          "yt_id": "oK2Nj_nc2CE",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 93 ( المفعول مغه-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=oK2Nj_nc2CE",
+          "duration": 2153,
+          "order_no": 15
+        },
+        {
+          "yt_id": "yWybhVUkOIU",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 92 ( المفعول مغه ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=yWybhVUkOIU",
+          "duration": 2775,
+          "order_no": 16
+        },
+        {
+          "yt_id": "nmqIC3LngPU",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 91 ( المفعول فيه -تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=nmqIC3LngPU",
+          "duration": 3424,
+          "order_no": 17
+        },
+        {
+          "yt_id": "--esHhg9bv0",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 90 ( المفعول فيه ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=--esHhg9bv0",
+          "duration": 4152,
+          "order_no": 18
+        },
+        {
+          "yt_id": "m8Jgynz1BHk",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 89 ( المفعول له ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=m8Jgynz1BHk",
+          "duration": 2769,
+          "order_no": 19
+        },
+        {
+          "yt_id": "aNxwF3liQS8",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 88 ( المفعول المطلق-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=aNxwF3liQS8",
+          "duration": 2041,
+          "order_no": 20
+        },
+        {
+          "yt_id": "qETNwK38cps",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 87 ( المفعول المطلق-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=qETNwK38cps",
+          "duration": 2605,
+          "order_no": 21
+        },
+        {
+          "yt_id": "xC48PU6jK3k",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 86 ( المفعول المطلق ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=xC48PU6jK3k",
+          "duration": 3732,
+          "order_no": 22
+        },
+        {
+          "yt_id": "qjSGrMmoHlQ",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 85 ( باب التنازع في العمل-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=qjSGrMmoHlQ",
+          "duration": 2562,
+          "order_no": 23
+        },
+        {
+          "yt_id": "VArLomglHUM",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 84 ( باب التنازع في العمل-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=VArLomglHUM",
+          "duration": 3602,
+          "order_no": 24
+        },
+        {
+          "yt_id": "FL_Nv_kgQmo",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 83 ( باب التنازع في العمل ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=FL_Nv_kgQmo",
+          "duration": 4349,
+          "order_no": 25
+        },
+        {
+          "yt_id": "9lxwreJVdJ8",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 82 ( باب تعدي الفعل و لزومه -تتمة-) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=9lxwreJVdJ8",
+          "duration": 5082,
+          "order_no": 26
+        },
+        {
+          "yt_id": "JOqPO_c-8bg",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 81 ( باب تعدي الفعل و لزومه ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=JOqPO_c-8bg",
+          "duration": 3849,
+          "order_no": 27
+        },
+        {
+          "yt_id": "gE-VjOT7N8Q",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 80 ( اشتغال العامل عن المعمول-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=gE-VjOT7N8Q",
+          "duration": 4477,
+          "order_no": 28
+        },
+        {
+          "yt_id": "sUs8F6uJPy4",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 79 ( اشتغال العامل عن المعمول-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=sUs8F6uJPy4",
+          "duration": 5617,
+          "order_no": 29
+        },
+        {
+          "yt_id": "YfkMR4Ya2Q8",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 78 ( اشتغال العامل عن المعمول-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=YfkMR4Ya2Q8",
+          "duration": 3138,
+          "order_no": 30
+        },
+        {
+          "yt_id": "AefI0DTLg90",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 77 ( اشتغال العامل عن المعمول ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=AefI0DTLg90",
+          "duration": 4863,
+          "order_no": 31
+        },
+        {
+          "yt_id": "slM_DhIMnQg",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 76 ( باب النائب عن الفاعل-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=slM_DhIMnQg",
+          "duration": 4604,
+          "order_no": 32
+        },
+        {
+          "yt_id": "4chp1LrzFCY",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 75 ( باب النائب عن الفاعل) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=4chp1LrzFCY",
+          "duration": 2808,
+          "order_no": 33
+        },
+        {
+          "yt_id": "vWRs_SHk-MQ",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 74 ( باب الفاعل-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=vWRs_SHk-MQ",
+          "duration": 1594,
+          "order_no": 34
+        },
+        {
+          "yt_id": "KWKeNe3NoEU",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 73 ( باب الفاعل-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=KWKeNe3NoEU",
+          "duration": 4951,
+          "order_no": 35
+        },
+        {
+          "yt_id": "ATwbg5FkrDU",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 72 ( باب الفاعل-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=ATwbg5FkrDU",
+          "duration": 3817,
+          "order_no": 36
+        },
+        {
+          "yt_id": "qzCQiJee1w8",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 71 ( باب الفاعل-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=qzCQiJee1w8",
+          "duration": 5068,
+          "order_no": 37
+        },
+        {
+          "yt_id": "rKa_cM9Sutk",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 70 ( باب الفاعل ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=rKa_cM9Sutk",
+          "duration": 5876,
+          "order_no": 38
+        },
+        {
+          "yt_id": "SqUlTjyL--w",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 69 ( باب أعلم و أرى ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=SqUlTjyL--w",
+          "duration": 2732,
+          "order_no": 39
+        },
+        {
+          "yt_id": "ASp6EsZ8J_s",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 68 ( باب ظن و أخواتها-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=ASp6EsZ8J_s",
+          "duration": 5245,
+          "order_no": 40
+        },
+        {
+          "yt_id": "6l_aI_b6MkM",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 67 ( باب ظن و أخواتها-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=6l_aI_b6MkM",
+          "duration": 4376,
+          "order_no": 41
+        },
+        {
+          "yt_id": "mJaufYQJaFE",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 66 ( باب ظن و أخواتها-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=mJaufYQJaFE",
+          "duration": 4011,
+          "order_no": 42
+        },
+        {
+          "yt_id": "tUSgR91dBv0",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 65 ( باب ظن و أخواتها ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=tUSgR91dBv0",
+          "duration": 5266,
+          "order_no": 43
+        },
+        {
+          "yt_id": "8DYHo7L26nI",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 64 ( لا التي لنفي الجنس-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=8DYHo7L26nI",
+          "duration": 3292,
+          "order_no": 44
+        },
+        {
+          "yt_id": "KZ1trDGRBJY",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 63 ( لا التي لنفي الجنس-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=KZ1trDGRBJY",
+          "duration": 4250,
+          "order_no": 45
+        },
+        {
+          "yt_id": "2a1FlsfpsnM",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 62 ( لا التي لنفي الجنس-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=2a1FlsfpsnM",
+          "duration": 3840,
+          "order_no": 46
+        },
+        {
+          "yt_id": "b0ph5MuHlnI",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 61 ( لا التي لنفي الجنس ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=b0ph5MuHlnI",
+          "duration": 6658,
+          "order_no": 47
+        },
+        {
+          "yt_id": "gujs-JvoRNM",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 60 ( لا التي لنفي الجنس ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=gujs-JvoRNM",
+          "duration": 4940,
+          "order_no": 48
+        },
+        {
+          "yt_id": "UJcSAJXcl28",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 59 (قوله \" و خففت إن فقل العمل  \" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=UJcSAJXcl28",
+          "duration": 4371,
+          "order_no": 49
+        },
+        {
+          "yt_id": "8tzw-WeaAFY",
+          "title": "شرح الأشموني لألفية ابن مالك| دس58(قوله\"وجائز رفعك معطوف على منصوب إن بعد ان تستكمل\")|الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=8tzw-WeaAFY",
+          "duration": 4957,
+          "order_no": 50
+        },
+        {
+          "yt_id": "3tDa9tMV41w",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 57 (قوله \" ولا يلي ذي الللام ما قد نفيا \") |الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=3tDa9tMV41w",
+          "duration": 3741,
+          "order_no": 51
+        },
+        {
+          "yt_id": "XTmyVyx674s",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 56 (قوله \" مع تلو فا الجزا و ذا يطرد\" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=XTmyVyx674s",
+          "duration": 2975,
+          "order_no": 52
+        },
+        {
+          "yt_id": "Jhnawmy0IaE",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 55 (قوله \" و همز إن افتح لسد مصدر مسدها ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=Jhnawmy0IaE",
+          "duration": 2906,
+          "order_no": 53
+        },
+        {
+          "yt_id": "v_4MCvlj63I",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 54 ( إن و أخواتها ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=v_4MCvlj63I",
+          "duration": 3902,
+          "order_no": 54
+        },
+        {
+          "yt_id": "Gdtd9xIuzsk",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 53 ( قوله \"و جردن عسى أو ارفع بها مضمرا\") | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=Gdtd9xIuzsk",
+          "duration": 2144,
+          "order_no": 55
+        },
+        {
+          "yt_id": "6fkEnFIufe8",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 52 ( قوله \" كأنشأ السائق و طفق٫٫٫\" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=6fkEnFIufe8",
+          "duration": 1787,
+          "order_no": 56
+        },
+        {
+          "yt_id": "l6XuIQVnLxM",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 51 ( أفعال المقاربة ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=l6XuIQVnLxM",
+          "duration": 3985,
+          "order_no": 57
+        },
+        {
+          "yt_id": "D5fpOaDGRws",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 50 (قوله \" في النكرات أعملت كليس لا \" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=D5fpOaDGRws",
+          "duration": 2274,
+          "order_no": 58
+        },
+        {
+          "yt_id": "-bUtzCMIF44",
+          "title": "رح الأشموني لألفية ابن مالك | الدرس 49 ( فصل في ما و لا ولات ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=-bUtzCMIF44",
+          "duration": 3493,
+          "order_no": 59
+        },
+        {
+          "yt_id": "pA181if1HL8",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 48 ( قوله \" و يحذفونها و يبقون الخبر٠٠٠\") | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=pA181if1HL8",
+          "duration": 2520,
+          "order_no": 60
+        },
+        {
+          "yt_id": "Ec5xzq5R8f0",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 47 ( قوله \" و قد تزاد كان في حشو كما٠٠٠\") | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=Ec5xzq5R8f0",
+          "duration": 2001,
+          "order_no": 61
+        },
+        {
+          "yt_id": "BT4Cv-AkuIE",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 45 ( قوله \" و غير ماض مثله قد عمل٫٫  \") | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=BT4Cv-AkuIE",
+          "duration": 3520,
+          "order_no": 62
+        },
+        {
+          "yt_id": "yqYGegNcs28",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 44 ( قوله \" كان و أخواتها   \") | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=yqYGegNcs28",
+          "duration": 2735,
+          "order_no": 63
+        },
+        {
+          "yt_id": "jBhipAw4WoQ",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 43 ( قوله \" مواضع وجوب حذف المبتدأ  \") | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=jBhipAw4WoQ",
+          "duration": 3037,
+          "order_no": 64
+        },
+        {
+          "yt_id": "lIZIlt2IjSk",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 46 ( قوله \"و منع سبق خبر ليس اصطفي٠٠٠  \") | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=lIZIlt2IjSk",
+          "duration": 4389,
+          "order_no": 65
+        },
+        {
+          "yt_id": "gBDYeJpJaPk",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 42 ( قوله \"و بعد لولا غالبا حذف الخبر  \") | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=gBDYeJpJaPk",
+          "duration": 3199,
+          "order_no": 66
+        },
+        {
+          "yt_id": "Q0gKjr0TQ98",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 41 ( قوله \"و نحو عندي درهم و لي وطر \") | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=Q0gKjr0TQ98",
+          "duration": 2136,
+          "order_no": 67
+        },
+        {
+          "yt_id": "7RxJ4vFJkZQ",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 40 ( قوله \"و الأصل في الأخبار ان تؤخرا \") |الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=7RxJ4vFJkZQ",
+          "duration": 3168,
+          "order_no": 68
+        },
+        {
+          "yt_id": "7NF9DsVSms8",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 39 ( قوله \" و لا يكون اسم زمان خبرا \" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=7NF9DsVSms8",
+          "duration": 4192,
+          "order_no": 69
+        },
+        {
+          "yt_id": "_DwoW5170K0",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 38 ( الابتداء-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=_DwoW5170K0",
+          "duration": 4720,
+          "order_no": 70
+        },
+        {
+          "yt_id": "XQ3Xig-0-Dg",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 37 ( الابتداء-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=XQ3Xig-0-Dg",
+          "duration": 3298,
+          "order_no": 71
+        },
+        {
+          "yt_id": "HH7YtcV7c4c",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 36 ( الابتداء ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=HH7YtcV7c4c",
+          "duration": 4294,
+          "order_no": 72
+        },
+        {
+          "yt_id": "baLjkndEDYs",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 35 (المعرف بأداة التعريف-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=baLjkndEDYs",
+          "duration": 3644,
+          "order_no": 73
+        },
+        {
+          "yt_id": "zB2LznMQZOQ",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 34 (المعرف بأداة التعريف ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=zB2LznMQZOQ",
+          "duration": 3039,
+          "order_no": 74
+        },
+        {
+          "yt_id": "Cwt9D7JYlQw",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 33 ( الاسم الموصول-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=Cwt9D7JYlQw",
+          "duration": 2248,
+          "order_no": 75
+        },
+        {
+          "yt_id": "a1GfdKw8Ue0",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 32 ( الاسم الموصول-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=a1GfdKw8Ue0",
+          "duration": 4283,
+          "order_no": 76
+        },
+        {
+          "yt_id": "gKaojqs32wk",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 31 ( الاسم الموصول-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=gKaojqs32wk",
+          "duration": 2612,
+          "order_no": 77
+        },
+        {
+          "yt_id": "l1LI3zwVJG8",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 30 ( الاسم الموصول-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=l1LI3zwVJG8",
+          "duration": 3914,
+          "order_no": 78
+        },
+        {
+          "yt_id": "jKAz7oKy0wg",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 29 ( الاسم الموصول ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=jKAz7oKy0wg",
+          "duration": 2417,
+          "order_no": 79
+        },
+        {
+          "yt_id": "8loVWFgfO6Y",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 28 (  اسم الاشارة  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=8loVWFgfO6Y",
+          "duration": 3637,
+          "order_no": 80
+        },
+        {
+          "yt_id": "A3l9fUu0YT0",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 27 (  العلم-تتمة-  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=A3l9fUu0YT0",
+          "duration": 3345,
+          "order_no": 81
+        },
+        {
+          "yt_id": "wMvtI0yMJi8",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 26 (  العلم ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=wMvtI0yMJi8",
+          "duration": 3443,
+          "order_no": 82
+        },
+        {
+          "yt_id": "klF4ZC54Zqg",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 25 (  الضمائر-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=klF4ZC54Zqg",
+          "duration": 2806,
+          "order_no": 83
+        },
+        {
+          "yt_id": "77ngqg8b-4o",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 24 (  الضمائر-تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=77ngqg8b-4o",
+          "duration": 1751,
+          "order_no": 84
+        },
+        {
+          "yt_id": "PlJxBMKu6lY",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 23 (  الضمائر ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=PlJxBMKu6lY",
+          "duration": 2489,
+          "order_no": 85
+        },
+        {
+          "yt_id": "c5iWCSKPjoA",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 22 (  المعرفة و النكرة-تتمة- ) | الشيخ محمد البردونيالأشموني 22",
+          "url": "https://www.youtube.com/watch?v=c5iWCSKPjoA",
+          "duration": 3563,
+          "order_no": 86
+        },
+        {
+          "yt_id": "B2id3VeS5ig",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 21 (  المعرفة و النكرة ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=B2id3VeS5ig",
+          "duration": 4776,
+          "order_no": 87
+        },
+        {
+          "yt_id": "_TOrr7bzFPk",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 20 ( قوله \"و اجعل لنحو يفعلان النونا٠٠٠ \") |الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=_TOrr7bzFPk",
+          "duration": 5076,
+          "order_no": 88
+        },
+        {
+          "yt_id": "7_TKFeltfX0",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 19 ( قوله \"و ما بتا و ألف قد جمع٠٠٠ \" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=7_TKFeltfX0",
+          "duration": 4079,
+          "order_no": 89
+        },
+        {
+          "yt_id": "Et5t2ecNy_E",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 18 ( قوله \" و شبه ذين و به عشرون٠٠٠ \" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=Et5t2ecNy_E",
+          "duration": 3972,
+          "order_no": 90
+        },
+        {
+          "yt_id": "h4PLX5S8fU8",
+          "title": "شرح الأشموني لألفية ابن مالك |الدرس 17 ( قوله \" و ارفع بواو و بيا اجرر و انصب٠٠ \" )| الشيخ  البردوني",
+          "url": "https://www.youtube.com/watch?v=h4PLX5S8fU8",
+          "duration": 3956,
+          "order_no": 91
+        },
+        {
+          "yt_id": "kQqc0yCouFw",
+          "title": "شرح الأشموني لألفية ابن مالك |الدرس 16( قوله \" و شرط ذا الاعراب أن يضفن ٠٠٠ \" )| الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=kQqc0yCouFw",
+          "duration": 5721,
+          "order_no": 92
+        },
+        {
+          "yt_id": "jmzfE_e_nu8",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 15 ( قوله \"والنصب و الرفع اجعلن إعرابا \" )| الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=jmzfE_e_nu8",
+          "duration": 2567,
+          "order_no": 93
+        },
+        {
+          "yt_id": "4nTs2PHKXZU",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 14 ( قوله \"و أعربو مضارعا إن عري \" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=4nTs2PHKXZU",
+          "duration": 4387,
+          "order_no": 94
+        },
+        {
+          "yt_id": "UA8bc8Yj3Os",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 13 ( \"و فعل أمر و مضي بنيا \" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=UA8bc8Yj3Os",
+          "duration": 4017,
+          "order_no": 95
+        },
+        {
+          "yt_id": "iOpJa_eS5aI",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 12 ( \"أسباب بناء الاسم \" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=iOpJa_eS5aI",
+          "duration": 4556,
+          "order_no": 96
+        },
+        {
+          "yt_id": "blaKumk8xKw",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 11 ( \"   المعرب و المبني \" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=blaKumk8xKw",
+          "duration": 4895,
+          "order_no": 97
+        },
+        {
+          "yt_id": "0qUx0Psk9jI",
+          "title": "شرح الأشموني لألفية ابن مالك |الدرس10( \"تتمة علامات الاسم - علامات الفعل و الحرف\" ) |الشيخ  البردوني",
+          "url": "https://www.youtube.com/watch?v=0qUx0Psk9jI",
+          "duration": 3349,
+          "order_no": 98
+        },
+        {
+          "yt_id": "U8XRAANJJsc",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 09 ( \"  علامات الاسم  \" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=U8XRAANJJsc",
+          "duration": 5100,
+          "order_no": 99
+        },
+        {
+          "yt_id": "XZVhHu11X0M",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 08 ( \" الكلام و ما يتألف منه -تتمة- \" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=XZVhHu11X0M",
+          "duration": 3362,
+          "order_no": 100
+        },
+        {
+          "yt_id": "QJ17M1CdpAo",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 07 ( \" الكلام و ما يتألف منه -تتمة- \" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=QJ17M1CdpAo",
+          "duration": 4393,
+          "order_no": 101
+        },
+        {
+          "yt_id": "RxwUri9HRFU",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 06 ( \" الكلام و ما يتألف منه \" ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=RxwUri9HRFU",
+          "duration": 3860,
+          "order_no": 102
+        },
+        {
+          "yt_id": "r9F8E0nr3qg",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس 05 ( \" مبادئ علم النحو \" ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=r9F8E0nr3qg",
+          "duration": 2282,
+          "order_no": 103
+        },
+        {
+          "yt_id": "lqf1Q6Bd37U",
+          "title": "شرح الأشموني لألفية ابن مالك | الدرس04 ( \" مصليا على النبي المصطفى \" ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=lqf1Q6Bd37U",
+          "duration": 2888,
+          "order_no": 104
+        },
+        {
+          "yt_id": "ABPVKYO7wgA",
+          "title": "شرح الأشموني لألفية ابن مالك  | الدرس 03 (  \"قال محمد هو ابن مالك\" ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=ABPVKYO7wgA",
+          "duration": 4421,
+          "order_no": 105
+        },
+        {
+          "yt_id": "2DTU1boe_eI",
+          "title": "شرح الأشموني لألفية ابن مالك  | الدرس 02 ( مقدمة -تتمة-) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=2DTU1boe_eI",
+          "duration": 3285,
+          "order_no": 106
+        },
+        {
+          "yt_id": "qJHon_gGW7c",
+          "title": "شرح الأشموني لألفية ابن مالك  | الدرس 01 ( مقدمة ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=qJHon_gGW7c",
+          "duration": 4972,
+          "order_no": 107
+        }
+      ]
+    },
+    {
+      "playlist_id": "PLUAcOYpvESsfMYDso-kmPG2OOs7JL4K6s",
+      "title": "الشرح الثاني للرسالة",
+      "url": "https://www.youtube.com/playlist?list=PLUAcOYpvESsfMYDso-kmPG2OOs7JL4K6s",
+      "order_no": 7,
+      "video_count": 131,
+      "total_duration_sec": 313531,
+      "videos": [
+        {
+          "yt_id": "1UQG-mBZqB8",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 129 ( قوله\" والسكنى واجبة على الزوج لكل مطلقة \") | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=1UQG-mBZqB8",
+          "duration": 1918,
+          "order_no": 1
+        },
+        {
+          "yt_id": "j49DGpfbYUU",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 128 (  الإحداد  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=j49DGpfbYUU",
+          "duration": 1905,
+          "order_no": 2
+        },
+        {
+          "yt_id": "XlUE3OoOPfs",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 127 ( باب في العدة والنفقة والاستبراء  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=XlUE3OoOPfs",
+          "duration": 1960,
+          "order_no": 3
+        },
+        {
+          "yt_id": "E2-GdKmq8EY",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 126 ( قوله \" و من اشترى زوجته انفسخ نكاحه \" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=E2-GdKmq8EY",
+          "duration": 2161,
+          "order_no": 4
+        },
+        {
+          "yt_id": "em6nZeoI4b0",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 125 ( قوله \" و للمرأة أن تختلع\" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=em6nZeoI4b0",
+          "duration": 2924,
+          "order_no": 5
+        },
+        {
+          "yt_id": "mKVphcLGpGU",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 124( باب في اللعان ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=mKVphcLGpGU",
+          "duration": 1341,
+          "order_no": 6
+        },
+        {
+          "yt_id": "xGjtAi3AVho",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 124 ( باب في اللعان ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=xGjtAi3AVho",
+          "duration": 1341,
+          "order_no": 7
+        },
+        {
+          "yt_id": "a-E4nS_rbH8",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 123( باب في الظهار ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=a-E4nS_rbH8",
+          "duration": 2117,
+          "order_no": 8
+        },
+        {
+          "yt_id": "4ir-XOv9bkc",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 122( باب في الإيلاء ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=4ir-XOv9bkc",
+          "duration": 2098,
+          "order_no": 9
+        },
+        {
+          "yt_id": "7aWxQj9DZcQ",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 121( قوله \"و لا يجمع بين الأختين \" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=7aWxQj9DZcQ",
+          "duration": 1495,
+          "order_no": 10
+        },
+        {
+          "yt_id": "YKRx-jCcEKA",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 120( قوله \"وترد المرأة لداء الفرج \" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=YKRx-jCcEKA",
+          "duration": 1845,
+          "order_no": 11
+        },
+        {
+          "yt_id": "K9DrQK3O050",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 119( قوله \"والمطلقة قبل البناء لها نصف الصداق\" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=K9DrQK3O050",
+          "duration": 2460,
+          "order_no": 12
+        },
+        {
+          "yt_id": "5rLya61y4ZM",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 118 ( قوله \" والأقراء هي الأطهار \" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=5rLya61y4ZM",
+          "duration": 1693,
+          "order_no": 13
+        },
+        {
+          "yt_id": "PXedQMFaUms",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 117 ( قوله \" و من طلق امرأته ثلاثا لم تحل له \" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=PXedQMFaUms",
+          "duration": 2063,
+          "order_no": 14
+        },
+        {
+          "yt_id": "kKdCitmpQ6E",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 116 ( قوله \" و من لاعن زوجته لم تحل له ابدا \" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=kKdCitmpQ6E",
+          "duration": 2020,
+          "order_no": 15
+        },
+        {
+          "yt_id": "TuVZdV6CGGg",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 115 ( قوله \" و نكاح التفويض جائز من غير خلاف \" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=TuVZdV6CGGg",
+          "duration": 2019,
+          "order_no": 16
+        },
+        {
+          "yt_id": "H028g4Ak9og",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 114 ( قوله \" و يجوزللحر و العبد نكاح ٤ حرائر\" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=H028g4Ak9og",
+          "duration": 1922,
+          "order_no": 17
+        },
+        {
+          "yt_id": "a7uCbN0vVpc",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 113(-باب النكاح-قوله \" وما فسد النكاح لصداقه \" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=a7uCbN0vVpc",
+          "duration": 2485,
+          "order_no": 18
+        },
+        {
+          "yt_id": "w6RMwei5LIE",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 112 (-باب النكاح-قوله \" و لا يجوز نكاح الشغار\" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=w6RMwei5LIE",
+          "duration": 1561,
+          "order_no": 19
+        },
+        {
+          "yt_id": "IhpS7iSW7vs",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 111 (-باب النكاح-قوله \" والابن أولى من الأب \" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=IhpS7iSW7vs",
+          "duration": 1650,
+          "order_no": 20
+        },
+        {
+          "yt_id": "1pTkrtucfVA",
+          "title": "شرح رسالة ابن ابي زيد| الدرس 110(  باب النكاح  قوله\" و للاب انكاح البكرلمن شاء\" )|الشيخ محمدالبردوني",
+          "url": "https://www.youtube.com/watch?v=1pTkrtucfVA",
+          "duration": 1626,
+          "order_no": 21
+        },
+        {
+          "yt_id": "dmv6wJ0MVuc",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 109 (  باب النكاح  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=dmv6wJ0MVuc",
+          "duration": 1849,
+          "order_no": 22
+        },
+        {
+          "yt_id": "S6k_j6oaD64",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 108 (  النذور-تتمة-  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=S6k_j6oaD64",
+          "duration": 1628,
+          "order_no": 23
+        },
+        {
+          "yt_id": "tbnBIuaqqSs",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 107 (  النذور  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=tbnBIuaqqSs",
+          "duration": 2186,
+          "order_no": 24
+        },
+        {
+          "yt_id": "nwvi8xOioyw",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 106 ( باب في الأيمان و النذور-تتمة-  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=nwvi8xOioyw",
+          "duration": 3230,
+          "order_no": 25
+        },
+        {
+          "yt_id": "ICNqF89eeTA",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 105 ( باب في الأيمان و النذور  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=ICNqF89eeTA",
+          "duration": 1692,
+          "order_no": 26
+        },
+        {
+          "yt_id": "PTQsVyKYXT8",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 104 ( باب في الجهاد -تتمة- ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=PTQsVyKYXT8",
+          "duration": 2514,
+          "order_no": 27
+        },
+        {
+          "yt_id": "7qrew1zyYm8",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 103 ( باب في الجهاد  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=7qrew1zyYm8",
+          "duration": 2049,
+          "order_no": 28
+        },
+        {
+          "yt_id": "jDDK90VfLzc",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 102 ( باب في الجهاد  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=jDDK90VfLzc",
+          "duration": 1886,
+          "order_no": 29
+        },
+        {
+          "yt_id": "qw0D5SFO_j0",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 101 ( باب في الجهاد  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=qw0D5SFO_j0",
+          "duration": 3363,
+          "order_no": 30
+        },
+        {
+          "yt_id": "YSaZskooWnU",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 100 ( باب في الجهاد  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=YSaZskooWnU",
+          "duration": 2829,
+          "order_no": 31
+        },
+        {
+          "yt_id": "0JUyVoo2ih0",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 99 ( أحكام العقيقة  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=0JUyVoo2ih0",
+          "duration": 2585,
+          "order_no": 32
+        },
+        {
+          "yt_id": "551mgRL7SSM",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 98 ( أحكام الصيد  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=551mgRL7SSM",
+          "duration": 2123,
+          "order_no": 33
+        },
+        {
+          "yt_id": "Bt8cHSshumw",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 97 ( باب في الضحايا-تتمة-  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=Bt8cHSshumw",
+          "duration": 2034,
+          "order_no": 34
+        },
+        {
+          "yt_id": "w4ujSo2Ljnw",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 96 ( باب في الضحايا-تتمة-  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=w4ujSo2Ljnw",
+          "duration": 3060,
+          "order_no": 35
+        },
+        {
+          "yt_id": "I9wwGEPSZuw",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 95 ( باب في الضحايا-تتمة-  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=I9wwGEPSZuw",
+          "duration": 1266,
+          "order_no": 36
+        },
+        {
+          "yt_id": "hcnQCGGw1d4",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 94 ( باب في الضحايا-تتمة-  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=hcnQCGGw1d4",
+          "duration": 2742,
+          "order_no": 37
+        },
+        {
+          "yt_id": "UBRH7VJkGxk",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 93 ( باب في الضحايا-تتمة-  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=UBRH7VJkGxk",
+          "duration": 2789,
+          "order_no": 38
+        },
+        {
+          "yt_id": "tVlFw2YQF1U",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 93 ( قوله \"و لا يجوز في شيء من ذالك عوراء٠٠ \"  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=tVlFw2YQF1U",
+          "duration": 2789,
+          "order_no": 39
+        },
+        {
+          "yt_id": "K9yi83siReU",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 92 ( باب في الضحايا  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=K9yi83siReU",
+          "duration": 2162,
+          "order_no": 40
+        },
+        {
+          "yt_id": "ybqYnP0v7y4",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 91 ( قوله \"فعليه هدي ينحره بمنى٠٠٠ \"  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=ybqYnP0v7y4",
+          "duration": 1569,
+          "order_no": 41
+        },
+        {
+          "yt_id": "-xUdKBsbNvE",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 90 ( قوله \" و الإفراد بالحج أفضل \"  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=-xUdKBsbNvE",
+          "duration": 2368,
+          "order_no": 42
+        },
+        {
+          "yt_id": "LaFX5f_3okE",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 89 ( قوله \"  و يجتنب الطيب٠٠\"  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=LaFX5f_3okE",
+          "duration": 2323,
+          "order_no": 43
+        },
+        {
+          "yt_id": "xP0kdlUqxFE",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 88 ( قوله \" و التقصير يجزئ ٠٠٠ \"  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=xP0kdlUqxFE",
+          "duration": 1728,
+          "order_no": 44
+        },
+        {
+          "yt_id": "QcGKxZcpkwA",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 87 ( قوله \" و العمرة يفعل فيها كما ذكرنا \"  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=QcGKxZcpkwA",
+          "duration": 3070,
+          "order_no": 45
+        },
+        {
+          "yt_id": "0UshqWRgPos",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 86 ( قوله \" فإذا وصل منى رمى جمرة العقبة \"  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=0UshqWRgPos",
+          "duration": 3180,
+          "order_no": 46
+        },
+        {
+          "yt_id": "sgSC1Nx3S7I",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 85 ( قوله \" ثم اذا صلى الصبح من تاسع منى \"  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=sgSC1Nx3S7I",
+          "duration": 2222,
+          "order_no": 47
+        },
+        {
+          "yt_id": "PjGJ08656HY",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 84 ( قوله \" ثم بعد ذلك يخرج الى الصفا \"  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=PjGJ08656HY",
+          "duration": 2280,
+          "order_no": 48
+        },
+        {
+          "yt_id": "cpK1l4AgfMM",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 83 ( قوله \" و يستحب أن يدخل من كداء \"  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=cpK1l4AgfMM",
+          "duration": 1987,
+          "order_no": 49
+        },
+        {
+          "yt_id": "sKbjdgvx7pU",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 82 ( قوله \" و يستحب أن يدخل من كداء \"  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=sKbjdgvx7pU",
+          "duration": 2109,
+          "order_no": 50
+        },
+        {
+          "yt_id": "pEJ90NhbKMk",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 81 ( قوله \" فأما ميقات أهل الشام \"  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=pEJ90NhbKMk",
+          "duration": 2127,
+          "order_no": 51
+        },
+        {
+          "yt_id": "5kU3Tp0ZSyg",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 80 ( باب في الحج  ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=5kU3Tp0ZSyg",
+          "duration": 2800,
+          "order_no": 52
+        },
+        {
+          "yt_id": "avrAYN69HKk",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 79 ( باب في زكاة الفطر  ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=avrAYN69HKk",
+          "duration": 2036,
+          "order_no": 53
+        },
+        {
+          "yt_id": "M3m-wtl4I3Y",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 78 (  قوله \" و لا توخذ في الصدقة السخلة \"  ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=M3m-wtl4I3Y",
+          "duration": 2162,
+          "order_no": 54
+        },
+        {
+          "yt_id": "8d4EwdJWd6c",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 77 ( قوله\"و كل خليطين فإنهما يترادان بينهما بالسوية \" )|الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=8d4EwdJWd6c",
+          "duration": 1315,
+          "order_no": 55
+        },
+        {
+          "yt_id": "YWDEevwCjIc",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 76 ( قوله \" و لا زكاة من البقر أقل من ثلاثين بقرة \" ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=YWDEevwCjIc",
+          "duration": 1327,
+          "order_no": 56
+        },
+        {
+          "yt_id": "dZj2V7oqgAw",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 75 (  باب في زكاة الماشية  ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=dZj2V7oqgAw",
+          "duration": 1513,
+          "order_no": 57
+        },
+        {
+          "yt_id": "8MCWaLzJ1vA",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 74 (  قوله \" و في الركاز الخمس \"  ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=8MCWaLzJ1vA",
+          "duration": 1783,
+          "order_no": 58
+        },
+        {
+          "yt_id": "SqUgHnPWgZM",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 73 (  أحكام الجزية  ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=SqUgHnPWgZM",
+          "duration": 1842,
+          "order_no": 59
+        },
+        {
+          "yt_id": "cw-Th7BOJUs",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 72 (  قوله \" و لا زكاة على احد في عبده \"  ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=cw-Th7BOJUs",
+          "duration": 1276,
+          "order_no": 60
+        },
+        {
+          "yt_id": "flmt83CR250",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 71 (  قوله \"و من له مال تجب فيه الزكاة و عليه دين \" ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=flmt83CR250",
+          "duration": 2357,
+          "order_no": 61
+        },
+        {
+          "yt_id": "6t3_fNHPHY8",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 70 ( قوله \"و لا زكاة من الذهب في اقل من ٢٠ دينارا \" ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=6t3_fNHPHY8",
+          "duration": 1915,
+          "order_no": 62
+        },
+        {
+          "yt_id": "6J_2nlrbiq4",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 69 ( قوله \"و يجمع القمح و الشعير و السلت في الزكاة \" )| الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=6J_2nlrbiq4",
+          "duration": 2235,
+          "order_no": 63
+        },
+        {
+          "yt_id": "mQpK1IRu-Cw",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 68 (  باب في زكاة العين  ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=mQpK1IRu-Cw",
+          "duration": 2108,
+          "order_no": 64
+        },
+        {
+          "yt_id": "8JZ_u0-SLWE",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 67 (  قوله \" و ليدخل معتكفه قبل غروب الشمس \"  ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=8JZ_u0-SLWE",
+          "duration": 1151,
+          "order_no": 65
+        },
+        {
+          "yt_id": "7t8UoQT6Pok",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 66 (   باب في الاعتكاف   ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=7t8UoQT6Pok",
+          "duration": 2495,
+          "order_no": 66
+        },
+        {
+          "yt_id": "6v0OxXOwKD0",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 65 (  قوله \" و لا يقرب الصائم النساء \"  ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=6v0OxXOwKD0",
+          "duration": 2331,
+          "order_no": 67
+        },
+        {
+          "yt_id": "Wezdi3v-fMw",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 64 (  قوله \" إنما الكفارة على من أفطر متعمدا \"  ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=Wezdi3v-fMw",
+          "duration": 2331,
+          "order_no": 68
+        },
+        {
+          "yt_id": "Htpqb3RLwtE",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 63 ( قوله \" و لا صيام على الصبيان \"  ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=Htpqb3RLwtE",
+          "duration": 3297,
+          "order_no": 69
+        },
+        {
+          "yt_id": "NRNsEvV9uJc",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 62 (  قوله \" من أفطر في تطوعه متعمدا٫٫\"  ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=NRNsEvV9uJc",
+          "duration": 2375,
+          "order_no": 70
+        },
+        {
+          "yt_id": "kpzw_vg_BrU",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 61 (  باب الصيام  ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=kpzw_vg_BrU",
+          "duration": 2769,
+          "order_no": 71
+        },
+        {
+          "yt_id": "o7NfAlZdtRA",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 60 (  قوله \" لا بأس أن تجمع الجنائز في  صلاة واحدة\" ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=o7NfAlZdtRA",
+          "duration": 2026,
+          "order_no": 72
+        },
+        {
+          "yt_id": "9mSkavcChF4",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 59 (  باب صلاة الجنازة  ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=9mSkavcChF4",
+          "duration": 2273,
+          "order_no": 73
+        },
+        {
+          "yt_id": "dLtiOhAMIJ0",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 58 (  قوله \" و لا يغسل الشهيد في المعترك \"  ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=dLtiOhAMIJ0",
+          "duration": 2984,
+          "order_no": 74
+        },
+        {
+          "yt_id": "sUHTern-hpo",
+          "title": "شرح رسالة ابن ابي زيد | الدرس57(قوله \"والمرأة المسلمة تموت في السفر و لا نساء معها\") |الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=sUHTern-hpo",
+          "duration": 2213,
+          "order_no": 75
+        },
+        {
+          "yt_id": "aNOBLCZEPFQ",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 56 (  باب في بيان ما يفعل بالمحتضر  ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=aNOBLCZEPFQ",
+          "duration": 1944,
+          "order_no": 76
+        },
+        {
+          "yt_id": "CDvHNEv3VIw",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 55 (  باب صلاة الاستسقاء  ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=CDvHNEv3VIw",
+          "duration": 1796,
+          "order_no": 77
+        },
+        {
+          "yt_id": "QYIufE7A5M8",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 54 (  باب صلاة الخسوف  ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=QYIufE7A5M8",
+          "duration": 1519,
+          "order_no": 78
+        },
+        {
+          "yt_id": "jo2WHIw9yEI",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 52 (  باب صلاة الخوف  ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=jo2WHIw9yEI",
+          "duration": 1764,
+          "order_no": 79
+        },
+        {
+          "yt_id": "28bc9GukGcQ",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 51 (  قوله \" و لا تجب على مسافر٠٠٠\"  ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=28bc9GukGcQ",
+          "duration": 2601,
+          "order_no": 80
+        },
+        {
+          "yt_id": "r6GBeWqmXbM",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 50 (  قوله \"و الجمعة تجب بالمصر٠٠٠\"  ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=r6GBeWqmXbM",
+          "duration": 2440,
+          "order_no": 81
+        },
+        {
+          "yt_id": "8-K7vf475TY",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 53 (  باب صلاة العيدين  ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=8-K7vf475TY",
+          "duration": 3689,
+          "order_no": 82
+        },
+        {
+          "yt_id": "JpseoZBU5AQ",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 49 (  باب الجمعة ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=JpseoZBU5AQ",
+          "duration": 1865,
+          "order_no": 83
+        },
+        {
+          "yt_id": "X5cwTS99ZN4",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 48( قوله\"و إن نوى المسافر الإقامة في موضع ٤ أيام ٠٠\" )| الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=X5cwTS99ZN4",
+          "duration": 1352,
+          "order_no": 84
+        },
+        {
+          "yt_id": "9xfikqVztnE",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 47 ( باب في سجود القرآن ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=9xfikqVztnE",
+          "duration": 2138,
+          "order_no": 85
+        },
+        {
+          "yt_id": "3iI9d0V7sp4",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 45 ( قوله \"و من صلى على موضع طاهر ٠٠\" ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=3iI9d0V7sp4",
+          "duration": 2649,
+          "order_no": 86
+        },
+        {
+          "yt_id": "AGSgtPunEHM",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 44 ( قوله \"و من أيقن بالوضوء و شك في الحدث ٠٠\" ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=AGSgtPunEHM",
+          "duration": 1630,
+          "order_no": 87
+        },
+        {
+          "yt_id": "PTTIgWXCOhQ",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 43 ( قوله \" و إذا جد السير بالمسافر ٠٠\" ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=PTTIgWXCOhQ",
+          "duration": 2463,
+          "order_no": 88
+        },
+        {
+          "yt_id": "BI5rGYAO7sc",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 42 ( قوله \"و من اضحك و هو في الصلاة أعادها  ٠٠٠\" ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=BI5rGYAO7sc",
+          "duration": 3087,
+          "order_no": 89
+        },
+        {
+          "yt_id": "Bqcy6Cn4MzM",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 46 ( قوله \" و من رعف في الصلاة  ٠٠\" ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=Bqcy6Cn4MzM",
+          "duration": 2530,
+          "order_no": 90
+        },
+        {
+          "yt_id": "lykApozV7x0",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 41 ( قوله \"و من استنكحه الشك في السهو في الصلاة ٠٠\" ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=lykApozV7x0",
+          "duration": 3072,
+          "order_no": 91
+        },
+        {
+          "yt_id": "gnwSmRp3S9U",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 40 ( قوله \"و لا يجزئ سجود السهو لنقص ركعة٠٠  \" ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=gnwSmRp3S9U",
+          "duration": 2781,
+          "order_no": 92
+        },
+        {
+          "yt_id": "iBO4Tyq24T4",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 39 ( باب جامع )| الشيخ  محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=iBO4Tyq24T4",
+          "duration": 2889,
+          "order_no": 93
+        },
+        {
+          "yt_id": "Q63c1HeK5yE",
+          "title": "شرح رسالة ابن ابي زيد | الدرس37 ( قوله \"و من صلى وحده في غير أحد المساجد الثلاثة \" )| الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=Q63c1HeK5yE",
+          "duration": 2530,
+          "order_no": 94
+        },
+        {
+          "yt_id": "vjUDxTOqBqY",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 37  (  باب في الإمامة  ) | الشيخ  محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=vjUDxTOqBqY",
+          "duration": 3051,
+          "order_no": 95
+        },
+        {
+          "yt_id": "7SVXoKDXdDQ",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 36  ( قوله \" ثم بعد أن يصلي العشاء٠٠٠\"  ) | الشيخ  محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=7SVXoKDXdDQ",
+          "duration": 2616,
+          "order_no": 96
+        },
+        {
+          "yt_id": "DB5ihfrtGTs",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 35  ( قوله \"  ثم إذا فرغت من قراءة القنوت \"  ) | الشيخ  محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=DB5ihfrtGTs",
+          "duration": 2717,
+          "order_no": 97
+        },
+        {
+          "yt_id": "tJ_OUvjSKbU",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 34  ( قوله \"ثم إذا فرغت من التسبيح من الركوع \") | الشيخ  محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=tJ_OUvjSKbU",
+          "duration": 3582,
+          "order_no": 98
+        },
+        {
+          "yt_id": "HPBjOawcd3U",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 33 ( باب في بيان صفة العمل في الصلوات المفروضة) | الشيخ  محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=HPBjOawcd3U",
+          "duration": 3481,
+          "order_no": 99
+        },
+        {
+          "yt_id": "-cTZrYIbLCQ",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 32  ( قوله  \"و وقت صلاة المغرب الاختياري \" ) | الشيخ  محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=-cTZrYIbLCQ",
+          "duration": 2569,
+          "order_no": 100
+        },
+        {
+          "yt_id": "tA1uCnr6DpQ",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 31  ( باب في بيان معرفة أوقات الصلاة  ) | الشيخ  محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=tA1uCnr6DpQ",
+          "duration": 3162,
+          "order_no": 101
+        },
+        {
+          "yt_id": "5pjO-Z7x28A",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 30  ( باب في المسح على الخفين  ) | الشيخ  محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=5pjO-Z7x28A",
+          "duration": 2236,
+          "order_no": 102
+        },
+        {
+          "yt_id": "r24J2usaEis",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 29  (صفة التيمم) | الشيخ  محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=r24J2usaEis",
+          "duration": 2401,
+          "order_no": 103
+        },
+        {
+          "yt_id": "rLRCNVIo-R0",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 28  ( قوله \"و من تيمم من هؤلاء ثم أصاب الماء \") | الشيخ  محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=rLRCNVIo-R0",
+          "duration": 2202,
+          "order_no": 104
+        },
+        {
+          "yt_id": "LdzmKBEhYRo",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 27  ( باب في التيمم  ) | الشيخ  محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=LdzmKBEhYRo",
+          "duration": 2977,
+          "order_no": 105
+        },
+        {
+          "yt_id": "M4aLgrbCmtE",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 26  ( قوله \" و يتابع عمق سرته ٠٠٠\" ) | الشيخ  البردوني",
+          "url": "https://www.youtube.com/watch?v=M4aLgrbCmtE",
+          "duration": 978,
+          "order_no": 106
+        },
+        {
+          "yt_id": "dShJ2YhbXBI",
+          "title": "شرح رسالة ابن ابي زيد |  الدرس 25  ( باب في بيان صفة الغسل )  | الشيخ  محمد  البردوني",
+          "url": "https://www.youtube.com/watch?v=dShJ2YhbXBI",
+          "duration": 2146,
+          "order_no": 107
+        },
+        {
+          "yt_id": "-O7R6OCdjck",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 24( قوله \"و ليس عليه اي المتوضئ تحديد غسل أغضاءه٠٠٠\" )| الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=-O7R6OCdjck",
+          "duration": 2303,
+          "order_no": 108
+        },
+        {
+          "yt_id": "RvWeyhwu5xA",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 23 ( قوله \"ثم بعد الفراغ من المضمضة و الاستنشاق٠٠٠\" )| الشيخ  البردوني",
+          "url": "https://www.youtube.com/watch?v=RvWeyhwu5xA",
+          "duration": 3660,
+          "order_no": 109
+        },
+        {
+          "yt_id": "rJfyI8Yf5PQ",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 22 ( قوله \"  ومن لم يخرج منه بول أو غائط ٠٠٠\" )| الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=rJfyI8Yf5PQ",
+          "duration": 3385,
+          "order_no": 110
+        },
+        {
+          "yt_id": "_l_pDWgwl88",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 21 ( قوله  باب في بيان صفة الوضوء \" )| الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=_l_pDWgwl88",
+          "duration": 2893,
+          "order_no": 111
+        },
+        {
+          "yt_id": "RNFkqdTz2BA",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 20 ( قوله \"و أقل ما يصلي فيه الرجل من اللباس ٠\" )| الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=RNFkqdTz2BA",
+          "duration": 2787,
+          "order_no": 112
+        },
+        {
+          "yt_id": "SlbukJTBe4s",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 19 ( قوله \" و طهارة البقعة ٠٠\" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=SlbukJTBe4s",
+          "duration": 2091,
+          "order_no": 113
+        },
+        {
+          "yt_id": "ONi4jrEwXMw",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 18 ( قوله \" باب اشتراط طهورية الماء \" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=ONi4jrEwXMw",
+          "duration": 3128,
+          "order_no": 114
+        },
+        {
+          "yt_id": "jTJc1Kp7r8Q",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 17 ( قوله \" و إذا رأت المرأة القصة البيضاء٠٠\" ) | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=jTJc1Kp7r8Q",
+          "duration": 2801,
+          "order_no": 115
+        },
+        {
+          "yt_id": "SmTwaODTqRQ",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 16 ( موجبات الغسل ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=SmTwaODTqRQ",
+          "duration": 2472,
+          "order_no": 116
+        },
+        {
+          "yt_id": "YjsMJWlZ61k",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 15 ( قوله \"و يجب الوضوء من الملامسة ٠\" ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=YjsMJWlZ61k",
+          "duration": 1950,
+          "order_no": 117
+        },
+        {
+          "yt_id": "OCBUNO3FGtQ",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 14 ( قوله \" المذي ماء ابيض رقيق٫٫٫\" ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=OCBUNO3FGtQ",
+          "duration": 3197,
+          "order_no": 118
+        },
+        {
+          "yt_id": "VhuRlgrdJW0",
+          "title": "شرح رسالة ابن ابي زيد  | الدرس 10  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=VhuRlgrdJW0",
+          "duration": 2894,
+          "order_no": 119
+        },
+        {
+          "yt_id": "2IxnyAZweMw",
+          "title": "شرح رسالة ابن ابي زيد  | الدرس 11  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=2IxnyAZweMw",
+          "duration": 3571,
+          "order_no": 120
+        },
+        {
+          "yt_id": "KuGAVyoXaNY",
+          "title": "شرح رسالة ابن ابي زيد | الدرس 13 ( قوله \"الوضوء يجب لما يخرج معتادا\" ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=KuGAVyoXaNY",
+          "duration": 2004,
+          "order_no": 121
+        },
+        {
+          "yt_id": "AxCJCdjS3i4",
+          "title": "شرح رسالة ابن ابي زيد  | الدرس 12 (باب الطهارة - أحكام الوضوء)  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=AxCJCdjS3i4",
+          "duration": 2270,
+          "order_no": 122
+        },
+        {
+          "yt_id": "t8GH93j3GTE",
+          "title": "شرح رسالة ابن ابي زيد  | الدرس 09  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=t8GH93j3GTE",
+          "duration": 2626,
+          "order_no": 123
+        },
+        {
+          "yt_id": "n2WwisFmmkQ",
+          "title": "شرح رسالة ابن ابي زيد  | الدرس 08  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=n2WwisFmmkQ",
+          "duration": 3464,
+          "order_no": 124
+        },
+        {
+          "yt_id": "wgyxJjxU8eM",
+          "title": "شرح رسالة ابن ابي زيد  | الدرس 07  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=wgyxJjxU8eM",
+          "duration": 3214,
+          "order_no": 125
+        },
+        {
+          "yt_id": "7VKA7JgQYxo",
+          "title": "شرح رسالة ابن ابي زيد  | الدرس 06  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=7VKA7JgQYxo",
+          "duration": 3422,
+          "order_no": 126
+        },
+        {
+          "yt_id": "CiwYNrCrrh8",
+          "title": "شرح رسالة ابن ابي زيد  | الدرس 05  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=CiwYNrCrrh8",
+          "duration": 3461,
+          "order_no": 127
+        },
+        {
+          "yt_id": "Rg_h--0b5g8",
+          "title": "شرح رسالة ابن ابي زيد  | الدرس 04  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=Rg_h--0b5g8",
+          "duration": 4761,
+          "order_no": 128
+        },
+        {
+          "yt_id": "H8Lupt8ep7A",
+          "title": "شرح رسالة ابن ابي زيد  | الدرس 03  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=H8Lupt8ep7A",
+          "duration": 4577,
+          "order_no": 129
+        },
+        {
+          "yt_id": "TXlXS_j34u8",
+          "title": "شرح رسالة ابن ابي زيد  | الدرس 02  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=TXlXS_j34u8",
+          "duration": 2455,
+          "order_no": 130
+        },
+        {
+          "yt_id": "oEJ2xpimmKk",
+          "title": "شرح رسالة ابن ابي زيد  | الدرس 01 ( مقدمة ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=oEJ2xpimmKk",
+          "duration": 4031,
+          "order_no": 131
+        }
+      ]
+    },
+    {
+      "playlist_id": "PLUAcOYpvESseza_zIYNHhztVqtarOJ45h",
+      "title": "مراقي السعود",
+      "url": "https://www.youtube.com/playlist?list=PLUAcOYpvESseza_zIYNHhztVqtarOJ45h",
+      "order_no": 8,
+      "video_count": 90,
+      "total_duration_sec": 135008,
+      "videos": [
+        {
+          "yt_id": "FiovapXZw0k",
+          "title": "شرح مراقي السعود | الدرس 90 ( هل يشترط التنجيز في التكليف-تتمة-  ) | الشيخ  البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=FiovapXZw0k",
+          "duration": 1667,
+          "order_no": 1
+        },
+        {
+          "yt_id": "V-o884kQ0IU",
+          "title": "شرح مراقي السعود | الدرس 89 ( هل يشترط التنجيز في التكليف  ) | الشيخ  البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=V-o884kQ0IU",
+          "duration": 843,
+          "order_no": 2
+        },
+        {
+          "yt_id": "lU3tT-SRouE",
+          "title": "شرح مراقي السعود | الدرس 88 ( مقدمات المحرم هل يجب تركها أم لا ) | الشيخ  البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=lU3tT-SRouE",
+          "duration": 786,
+          "order_no": 3
+        },
+        {
+          "yt_id": "fxQPalXZgq4",
+          "title": "شرح مراقي السعود | الدرس 87 ( ما لا يتم الواجب إلا به هل هو واجب أم لا ) | الشيخ  البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=fxQPalXZgq4",
+          "duration": 2410,
+          "order_no": 4
+        },
+        {
+          "yt_id": "VsAulVPMk4M",
+          "title": "شرح مراقي السعود | الدرس 86 ( مسألة هل يجوز التكليف بالمحال ) | الشيخ  البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=VsAulVPMk4M",
+          "duration": 1329,
+          "order_no": 5
+        },
+        {
+          "yt_id": "8o9IC2QwZY8",
+          "title": "شرح مراقي السعود | الدرس 85 ( هل النهي بعد الوجوب للتحريم أم لا -تتمة- ) | الشيخ  البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=8o9IC2QwZY8",
+          "duration": 702,
+          "order_no": 6
+        },
+        {
+          "yt_id": "NwbF8JKw9_Q",
+          "title": "شرح مراقي السعود | الدرس 84 ( هل النهي بعد الوجوب للتحريم أم لا -تتمة- ) | الشيخ  البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=NwbF8JKw9_Q",
+          "duration": 1927,
+          "order_no": 7
+        },
+        {
+          "yt_id": "N1eLMroBMFc",
+          "title": "شرح مراقي السعود | الدرس 83 ( هل الأمر بعد الحظر للوجوب أم لا -تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=N1eLMroBMFc",
+          "duration": 726,
+          "order_no": 8
+        },
+        {
+          "yt_id": "JVEXrtOLwX8",
+          "title": "شرح مراقي السعود | الدرس 82 ( هل الأمر بعد الحظر للوجوب أم لا ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=JVEXrtOLwX8",
+          "duration": 599,
+          "order_no": 9
+        },
+        {
+          "yt_id": "djtQsxrpfvw",
+          "title": "شرح مراقي السعود | الدرس 81 ( هل النهي عن الشيء أمر بضده ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=djtQsxrpfvw",
+          "duration": 1790,
+          "order_no": 10
+        },
+        {
+          "yt_id": "0HWwduzztCc",
+          "title": "شرح مراقي السعود | الدرس 80 ( هل الأمر بالشيء نهي عن ضده ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=0HWwduzztCc",
+          "duration": 2671,
+          "order_no": 11
+        },
+        {
+          "yt_id": "YQYIqgmXt2E",
+          "title": "شرح مراقي السعود | الدرس 79 ( الأمر هل يجوز أن يعلق بالمشيئة ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=YQYIqgmXt2E",
+          "duration": 1140,
+          "order_no": 12
+        },
+        {
+          "yt_id": "WVSfbmKSeKY",
+          "title": "شرح مراقي السعود | الدرس 78 ( تعليق الامر بالمكلف هل يصح أو لا ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=WVSfbmKSeKY",
+          "duration": 772,
+          "order_no": 13
+        },
+        {
+          "yt_id": "U0AwzmyKOG8",
+          "title": "شرح مراقي السعود | الدرس 76 ( هل الأمر يفيد التكرار-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=U0AwzmyKOG8",
+          "duration": 1184,
+          "order_no": 14
+        },
+        {
+          "yt_id": "gDOoQFqet0g",
+          "title": "شرح مراقي السعود | الدرس 77 ( هل الأمر يستلزم القضاء ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=gDOoQFqet0g",
+          "duration": 1184,
+          "order_no": 15
+        },
+        {
+          "yt_id": "Ndn5Mf7RJTQ",
+          "title": "شرح مراقي السعود | الدرس 75 ( هل الأمر يفيد التكرار ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=Ndn5Mf7RJTQ",
+          "duration": 492,
+          "order_no": 16
+        },
+        {
+          "yt_id": "djrk2PylV-E",
+          "title": "شرح مراقي السعود | الدرس 74 ( هل الأمر يفيد الفور ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=djrk2PylV-E",
+          "duration": 1113,
+          "order_no": 17
+        },
+        {
+          "yt_id": "Ky6eQQ-ZN_A",
+          "title": "شرح مراقي السعود | الدرس 73 ( الأمر-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=Ky6eQQ-ZN_A",
+          "duration": 1188,
+          "order_no": 18
+        },
+        {
+          "yt_id": "aqKjJlEwDgY",
+          "title": "شرح مراقي السعود | الدرس 72 ( الأمر ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=aqKjJlEwDgY",
+          "duration": 1416,
+          "order_no": 19
+        },
+        {
+          "yt_id": "WDhHYGlHJ70",
+          "title": "شرح مراقي السعود | الدرس 71 ( الكناية و التعريض-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=WDhHYGlHJ70",
+          "duration": 870,
+          "order_no": 20
+        },
+        {
+          "yt_id": "NtzzjXyQvBs",
+          "title": "شرح مراقي السعود | الدرس 70 ( الكناية و التعريض ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=NtzzjXyQvBs",
+          "duration": 1047,
+          "order_no": 21
+        },
+        {
+          "yt_id": "2dyMOCXL9sI",
+          "title": "شرح مراقي السعود | الدرس 69 ( المعرب ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=2dyMOCXL9sI",
+          "duration": 925,
+          "order_no": 22
+        },
+        {
+          "yt_id": "pBaPOuAS_UU",
+          "title": "شرح مراقي السعود | الدرس 68 ( علامات المجاز ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=pBaPOuAS_UU",
+          "duration": 863,
+          "order_no": 23
+        },
+        {
+          "yt_id": "ilgicRXXhFE",
+          "title": "شرح مراقي السعود | الدرس 67 ( علامات الحقيقة ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=ilgicRXXhFE",
+          "duration": 2344,
+          "order_no": 24
+        },
+        {
+          "yt_id": "aWUr09k4Tvc",
+          "title": "شرح مراقي السعود | الدرس 66 (  الحقيقة الشرعية مقدمة على غيرها-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=aWUr09k4Tvc",
+          "duration": 801,
+          "order_no": 25
+        },
+        {
+          "yt_id": "EtGSnGoFydU",
+          "title": "شرح مراقي السعود | الدرس 65 ( الحقيقة الشرعية مقدمة على غيرها) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=EtGSnGoFydU",
+          "duration": 1165,
+          "order_no": 26
+        },
+        {
+          "yt_id": "Pt4B6fRee9s",
+          "title": "شرح مراقي السعود | الدرس 64 ( المجاز -تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=Pt4B6fRee9s",
+          "duration": 1159,
+          "order_no": 27
+        },
+        {
+          "yt_id": "dzNYn_50qdc",
+          "title": "شرح مراقي السعود | الدرس 63 ( المجاز-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=dzNYn_50qdc",
+          "duration": 1540,
+          "order_no": 28
+        },
+        {
+          "yt_id": "-D_TDt7q0OY",
+          "title": "شرح مراقي السعود | الدرس 62 ( المجاز-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=-D_TDt7q0OY",
+          "duration": 1386,
+          "order_no": 29
+        },
+        {
+          "yt_id": "KFN4nBlsTjs",
+          "title": "شرح مراقي السعود | الدرس 61 (  المجاز ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=KFN4nBlsTjs",
+          "duration": 1069,
+          "order_no": 30
+        },
+        {
+          "yt_id": "KiHKxffSTR0",
+          "title": "شرح مراقي السعود | الدرس 60 ( الحقيقة -تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=KiHKxffSTR0",
+          "duration": 1185,
+          "order_no": 31
+        },
+        {
+          "yt_id": "yESs4gpn-yE",
+          "title": "شرح مراقي السعود | الدرس 59 ( الحقيقة-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=yESs4gpn-yE",
+          "duration": 1481,
+          "order_no": 32
+        },
+        {
+          "yt_id": "disTSheCD38",
+          "title": "شرح مراقي السعود | الدرس 58 ( الحقيقة ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=disTSheCD38",
+          "duration": 600,
+          "order_no": 33
+        },
+        {
+          "yt_id": "HbsAkN6Pdmc",
+          "title": "شرح مراقي السعود | الدرس 57 ( فصل في المشترك-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=HbsAkN6Pdmc",
+          "duration": 767,
+          "order_no": 34
+        },
+        {
+          "yt_id": "7I6_pwuK0oc",
+          "title": "شرح مراقي السعود  | الدرس 56 ( فصل في المشترك-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=7I6_pwuK0oc",
+          "duration": 1342,
+          "order_no": 35
+        },
+        {
+          "yt_id": "35nDnLTBxv8",
+          "title": "شرح مراقي السعود  | الدرس 55 ( فصل في المشترك ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=35nDnLTBxv8",
+          "duration": 1532,
+          "order_no": 36
+        },
+        {
+          "yt_id": "bAnEu-oD9bA",
+          "title": "شرح مراقي السعود  | الدرس 54 ( فصل في الترادف-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=bAnEu-oD9bA",
+          "duration": 1549,
+          "order_no": 37
+        },
+        {
+          "yt_id": "rntfslydjBw",
+          "title": "شرح مراقي السعود  | الدرس 53 ( فصل في الترادف ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=rntfslydjBw",
+          "duration": 626,
+          "order_no": 38
+        },
+        {
+          "yt_id": "LT-ICCikMo8",
+          "title": "شرح مراقي السعود  | الدرس 52 ( فصل في الاشتقاق-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=LT-ICCikMo8",
+          "duration": 1767,
+          "order_no": 39
+        },
+        {
+          "yt_id": "C7WDZOG_Lb8",
+          "title": "شرح مراقي السعود  | الدرس 51 ( فصل في الاشتقاق -تتمة-) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=C7WDZOG_Lb8",
+          "duration": 664,
+          "order_no": 40
+        },
+        {
+          "yt_id": "SxK6AIZCu0Y",
+          "title": "شرح مراقي السعود  | الدرس 50 ( فصل في الاشتقاق-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=SxK6AIZCu0Y",
+          "duration": 618,
+          "order_no": 41
+        },
+        {
+          "yt_id": "adGniTd5xlI",
+          "title": "شرح مراقي السعود  | الدرس 49 ( فصل في الاشتقاق ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=adGniTd5xlI",
+          "duration": 1539,
+          "order_no": 42
+        },
+        {
+          "yt_id": "H4--MId-NQw",
+          "title": "شرح مراقي السعود  | الدرس 48 (  هل يجوز القياس في اللغة ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=H4--MId-NQw",
+          "duration": 1099,
+          "order_no": 43
+        },
+        {
+          "yt_id": "DNmpHeeEAvM",
+          "title": "شرح مراقي السعود  | الدرس 47 (  هل اللغة توقيفية أم اصطلاحية ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=DNmpHeeEAvM",
+          "duration": 971,
+          "order_no": 44
+        },
+        {
+          "yt_id": "Zl0GrMBqdrM",
+          "title": "شرح مراقي السعود  | الدرس 46 (  أحكام اللغة -تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=Zl0GrMBqdrM",
+          "duration": 1537,
+          "order_no": 45
+        },
+        {
+          "yt_id": "2lVQiYzr75k",
+          "title": "شرح مراقي السعود  | الدرس 45 (  أحكام اللغة -تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=2lVQiYzr75k",
+          "duration": 944,
+          "order_no": 46
+        },
+        {
+          "yt_id": "NDSvKbfP53c",
+          "title": "شرح مراقي السعود  | الدرس 44 (  أحكام اللغة  ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=NDSvKbfP53c",
+          "duration": 1404,
+          "order_no": 47
+        },
+        {
+          "yt_id": "m_V8nm0L574",
+          "title": "شرح مراقي السعود  | الدرس 43 (  أقسام مفهوم المخالفة -تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=m_V8nm0L574",
+          "duration": 1375,
+          "order_no": 48
+        },
+        {
+          "yt_id": "deciVN7f_DE",
+          "title": "شرح مراقي السعود  | الدرس 42 (  أقسام مفهوم المخالفة ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=deciVN7f_DE",
+          "duration": 1120,
+          "order_no": 49
+        },
+        {
+          "yt_id": "8QqJOmvk-jw",
+          "title": "شرح مراقي السعود  | الدرس 41 (  مفهوم المخالفة ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=8QqJOmvk-jw",
+          "duration": 1378,
+          "order_no": 50
+        },
+        {
+          "yt_id": "OiSl4T_9InA",
+          "title": "شرح مراقي السعود  | الدرس 40 (  المنطوق و المفهوم -تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=OiSl4T_9InA",
+          "duration": 502,
+          "order_no": 51
+        },
+        {
+          "yt_id": "9qK51k_JUc4",
+          "title": "شرح مراقي السعود  | الدرس 39 (  المنطوق و المفهوم -تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=9qK51k_JUc4",
+          "duration": 1094,
+          "order_no": 52
+        },
+        {
+          "yt_id": "SZ-0_b43s1w",
+          "title": "شرح مراقي السعود  | الدرس 38 (  المنطوق و المفهوم -تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=SZ-0_b43s1w",
+          "duration": 1640,
+          "order_no": 53
+        },
+        {
+          "yt_id": "1w9wd5p2SkE",
+          "title": "شرح مراقي السعود  | الدرس 37 (  المنطوق و المفهوم -تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=1w9wd5p2SkE",
+          "duration": 840,
+          "order_no": 54
+        },
+        {
+          "yt_id": "CDHIgTq8SL0",
+          "title": "شرح مراقي السعود  | الدرس 36 (هل الأدلة النقلية تفيد اليقين-تتمة-٫المنطوق والمفهوم ) | الشيخ الحسيمي",
+          "url": "https://www.youtube.com/watch?v=CDHIgTq8SL0",
+          "duration": 2494,
+          "order_no": 55
+        },
+        {
+          "yt_id": "7wc5NIh0o4s",
+          "title": "شرح مراقي السعود  | الدرس 35 ( هل الأدلة النقلية تفيد اليقين  ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=7wc5NIh0o4s",
+          "duration": 2244,
+          "order_no": 56
+        },
+        {
+          "yt_id": "rOWhdWO5AKU",
+          "title": "شرح مراقي السعود  | الدرس 34 ( مسألة هل يوجد حشو في القرآن  ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=rOWhdWO5AKU",
+          "duration": 1038,
+          "order_no": 57
+        },
+        {
+          "yt_id": "YW0Y-nEN8l4",
+          "title": "شرح مراقي السعود  | الدرس 33 (  هل يحتج بالقراءة الشاذة  ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=YW0Y-nEN8l4",
+          "duration": 833,
+          "order_no": 58
+        },
+        {
+          "yt_id": "eksOz6Xv6cQ",
+          "title": "شرح مراقي السعود  | الدرس 32 (  هل البسملة من القرآن  ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=eksOz6Xv6cQ",
+          "duration": 1420,
+          "order_no": 59
+        },
+        {
+          "yt_id": "i0Gxvq9hIZ8",
+          "title": "شرح مراقي السعود  | الدرس 31 ( الكتاب و مباحث الأقوال  ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=i0Gxvq9hIZ8",
+          "duration": 2244,
+          "order_no": 60
+        },
+        {
+          "yt_id": "_f42AbAYYKI",
+          "title": "شرح مراقي السعود  | الدرس 30 (  هل كلفنا للامتثال أم للابتلاء  ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=_f42AbAYYKI",
+          "duration": 1279,
+          "order_no": 61
+        },
+        {
+          "yt_id": "JLHpzLYtTOM",
+          "title": "شرح مراقي السعود  | الدرس 29 ( التعلق الإعلامي و التنجيزي  ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=JLHpzLYtTOM",
+          "duration": 1770,
+          "order_no": 62
+        },
+        {
+          "yt_id": "nsPfG6y15Fc",
+          "title": "شرح مراقي السعود  | الدرس 28 ( هل الكف فعل  ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=nsPfG6y15Fc",
+          "duration": 1381,
+          "order_no": 63
+        },
+        {
+          "yt_id": "T62U-hpHPl4",
+          "title": "شرح مراقي السعود  | الدرس 27 ( لا تكليف إلا بفعل  ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=T62U-hpHPl4",
+          "duration": 1400,
+          "order_no": 64
+        },
+        {
+          "yt_id": "PcBnUSYCUyI",
+          "title": "شرح مراقي السعود  | الدرس 26 ( هل يجب الصوم على المسافر و الحائض  ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=PcBnUSYCUyI",
+          "duration": 952,
+          "order_no": 65
+        },
+        {
+          "yt_id": "TDqlEd3Ki1A",
+          "title": "شرح مراقي السعود  | الدرس 25 ( تعريف الجهل - التحسين و التقبيح  ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=TDqlEd3Ki1A",
+          "duration": 1057,
+          "order_no": 66
+        },
+        {
+          "yt_id": "pT8k_onG4b8",
+          "title": "شرح مراقي السعود  | الدرس 24 ( تعريف الظن و الوهم و الشك  ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=pT8k_onG4b8",
+          "duration": 1226,
+          "order_no": 67
+        },
+        {
+          "yt_id": "CwywT2VbkfE",
+          "title": "شرح مراقي السعود  | الدرس 23 ( تعريف التصور و التصديق  ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=CwywT2VbkfE",
+          "duration": 1885,
+          "order_no": 68
+        },
+        {
+          "yt_id": "r7nD_0pFfyA",
+          "title": "شرح مراقي السعود  | الدرس 22 ( تعريف الدليل  ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=r7nD_0pFfyA",
+          "duration": 2343,
+          "order_no": 69
+        },
+        {
+          "yt_id": "xbnwUmQmw1c",
+          "title": "شرح مراقي السعود  | الدرس 21 ( الرخصة و العزيمة  ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=xbnwUmQmw1c",
+          "duration": 1746,
+          "order_no": 70
+        },
+        {
+          "yt_id": "GDh6LHg5voQ",
+          "title": "شرح مراقي السعود  | الدرس 20 (القضاء و الإعادة  ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=GDh6LHg5voQ",
+          "duration": 1231,
+          "order_no": 71
+        },
+        {
+          "yt_id": "ONxbevUFm3I",
+          "title": "شرح مراقي السعود  | الدرس 19 ( تعريف الوقت  ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=ONxbevUFm3I",
+          "duration": 1609,
+          "order_no": 72
+        },
+        {
+          "yt_id": "AH9KbiKBLfM",
+          "title": "شرح مراقي السعود  | الدرس 18 ( الأداء و القضاء ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=AH9KbiKBLfM",
+          "duration": 1448,
+          "order_no": 73
+        },
+        {
+          "yt_id": "ErolOh8IXHA",
+          "title": "شرح مراقي السعود  | الدرس 17 (القبول و الإجزاء ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=ErolOh8IXHA",
+          "duration": 1401,
+          "order_no": 74
+        },
+        {
+          "yt_id": "BJURNosKn2A",
+          "title": "شرح مراقي السعود  | الدرس 16 ( الصحة و الفساد ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=BJURNosKn2A",
+          "duration": 1286,
+          "order_no": 75
+        },
+        {
+          "yt_id": "QM-ctwrgAyg",
+          "title": "شرح مراقي السعود  | الدرس 15 ( أقسام خطاب الوضع -تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=QM-ctwrgAyg",
+          "duration": 1706,
+          "order_no": 76
+        },
+        {
+          "yt_id": "6YZZ99u9zJI",
+          "title": "شرح مراقي السعود  | الدرس 14 ( أقسام خطاب الوضع ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=6YZZ99u9zJI",
+          "duration": 1217,
+          "order_no": 77
+        },
+        {
+          "yt_id": "ewKncLOAqkg",
+          "title": "شرح مراقي السعود  | الدرس 13 ( هل تجب النافلة بالشروع ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=ewKncLOAqkg",
+          "duration": 1379,
+          "order_no": 78
+        },
+        {
+          "yt_id": "Y36x2e1oDNI",
+          "title": "شرح مراقي السعود  | الدرس 12 ( أحكام النية ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=Y36x2e1oDNI",
+          "duration": 1897,
+          "order_no": 79
+        },
+        {
+          "yt_id": "artx7CTuL5Q",
+          "title": "شرح مراقي السعود  | الدرس 11 ( شروط خطاب الوضع ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=artx7CTuL5Q",
+          "duration": 1464,
+          "order_no": 80
+        },
+        {
+          "yt_id": "xpySFZEgnYM",
+          "title": "شرح مراقي السعود  | الدرس 10 ( شروط التكليف ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=xpySFZEgnYM",
+          "duration": 3041,
+          "order_no": 81
+        },
+        {
+          "yt_id": "bc48RRexDBg",
+          "title": "شرح مراقي السعود  | الدرس 09 ( أقسام الحكم التكليفي ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=bc48RRexDBg",
+          "duration": 1497,
+          "order_no": 82
+        },
+        {
+          "yt_id": "GQvzv1hWGQo",
+          "title": "شرح مراقي السعود  | الدرس 08 ( تعريف التكليف - حكم الأشياء قبل الشرع ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=GQvzv1hWGQo",
+          "duration": 2985,
+          "order_no": 83
+        },
+        {
+          "yt_id": "cot-W_jfyyQ",
+          "title": "شرح مراقي السعود  | الدرس 07 ( تعريف الحكم ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=cot-W_jfyyQ",
+          "duration": 3596,
+          "order_no": 84
+        },
+        {
+          "yt_id": "2lRnx3p39Go",
+          "title": "شرح مراقي السعود  | الدرس 06 ( تعريف الفقه ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=2lRnx3p39Go",
+          "duration": 3320,
+          "order_no": 85
+        },
+        {
+          "yt_id": "A-R8POe58wc",
+          "title": "شرح مراقي السعود  | الدرس 05 ( تعريف أصول الفقه-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=A-R8POe58wc",
+          "duration": 2837,
+          "order_no": 86
+        },
+        {
+          "yt_id": "f4-IMInCNSE",
+          "title": "شرح مراقي السعود  | الدرس 04 ( تعريف الأصول الفقه ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=f4-IMInCNSE",
+          "duration": 3145,
+          "order_no": 87
+        },
+        {
+          "yt_id": "YtPaRCCBaZU",
+          "title": "شرح مراقي السعود  | الدرس 03 ( مقدمة العلم ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=YtPaRCCBaZU",
+          "duration": 2856,
+          "order_no": 88
+        },
+        {
+          "yt_id": "PFVPkEkvdLg",
+          "title": "شرح مراقي السعود  | الدرس 02 ( خطبة الكتاب-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=PFVPkEkvdLg",
+          "duration": 3011,
+          "order_no": 89
+        },
+        {
+          "yt_id": "_KqK9fSw388",
+          "title": "شرح مراقي السعود  | الدرس 01 ( خطبة الكتاب ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=_KqK9fSw388",
+          "duration": 4088,
+          "order_no": 90
+        }
+      ]
+    },
+    {
+      "playlist_id": "PLUAcOYpvESsfJk6driIvfxJHDWq-NRtHz",
+      "title": "مقدمات السنوسي",
+      "url": "https://www.youtube.com/playlist?list=PLUAcOYpvESsfJk6driIvfxJHDWq-NRtHz",
+      "order_no": 9,
+      "video_count": 9,
+      "total_duration_sec": 38412,
+      "videos": [
+        {
+          "yt_id": "OJTZdLyMgt4",
+          "title": "شرح المقدمات للسنوسي | الدرس 09 والأخير ( صفة الكلام إلى آخر الكتاب ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=OJTZdLyMgt4",
+          "duration": 4433,
+          "order_no": 1
+        },
+        {
+          "yt_id": "b_yMwnP9pWc",
+          "title": "شرح المقدمات للسنوسي  | الدرس 08 (االصفات الأزلية-تتمة-) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=b_yMwnP9pWc",
+          "duration": 2854,
+          "order_no": 2
+        },
+        {
+          "yt_id": "9T1InfyvGXY",
+          "title": "شرح المقدمات للسنوسي  | الدرس 07 (الممكنات المتقابلة -الصفات الأزلية ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=9T1InfyvGXY",
+          "duration": 5009,
+          "order_no": 3
+        },
+        {
+          "yt_id": "WYRipsItcWo",
+          "title": "شرح المقدمات للسنوسي  | الدرس 06 ( مقدمة الموجودات ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=WYRipsItcWo",
+          "duration": 2651,
+          "order_no": 4
+        },
+        {
+          "yt_id": "8QvQkA1I8bA",
+          "title": "شرح المقدمات للسنوسي  | الدرس 05 ( أصول الكفر و البدع ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=8QvQkA1I8bA",
+          "duration": 4207,
+          "order_no": 5
+        },
+        {
+          "yt_id": "0tutIXfNWm0",
+          "title": "شرح المقدمات للسنوسي  | الدرس 04 ( أنواع الشرك ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=0tutIXfNWm0",
+          "duration": 5483,
+          "order_no": 6
+        },
+        {
+          "yt_id": "7QRKjdsLAuo",
+          "title": "شرح المقدمات للسنوسي  | الدرس 03 ( المذاهب في أفعال العباد ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=7QRKjdsLAuo",
+          "duration": 4753,
+          "order_no": 7
+        },
+        {
+          "yt_id": "OV39fl3BmjQ",
+          "title": "شرح المقدمات للسنوسي  | الدرس 02 ( أقسام الحكم ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=OV39fl3BmjQ",
+          "duration": 4423,
+          "order_no": 8
+        },
+        {
+          "yt_id": "RUHBmBxlIRA",
+          "title": "شرح المقدمات للسنوسي  | الدرس 01 ( المقدمة ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=RUHBmBxlIRA",
+          "duration": 4599,
+          "order_no": 9
+        }
+      ]
+    },
+    {
+      "playlist_id": "PLUAcOYpvESsehGoy1fx-u5rhxe3XOi3ER",
+      "title": "شرح السلم المنورق",
+      "url": "https://www.youtube.com/playlist?list=PLUAcOYpvESsehGoy1fx-u5rhxe3XOi3ER",
+      "order_no": 10,
+      "video_count": 43,
+      "total_duration_sec": 100038,
+      "videos": [
+        {
+          "yt_id": "JmLThqZETsg",
+          "title": "شرح البناني على السلم  | الدرس 18 ( الكليات-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=JmLThqZETsg",
+          "duration": 3370,
+          "order_no": 1
+        },
+        {
+          "yt_id": "MdSiAhVJ6wU",
+          "title": "شرح البناني على السلم  | الدرس 17 ( الكليات ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=MdSiAhVJ6wU",
+          "duration": 2147,
+          "order_no": 2
+        },
+        {
+          "yt_id": "BpQ7xjHSXAM",
+          "title": "شرح البناني على السلم  | الدرس 16 ( أنواع الدلالة الوضعية-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=BpQ7xjHSXAM",
+          "duration": 2318,
+          "order_no": 3
+        },
+        {
+          "yt_id": "bBY5YnPguUw",
+          "title": "شرح البناني على السلم  | الدرس 15 ( أنواع الدلالة الوضعية-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=bBY5YnPguUw",
+          "duration": 2236,
+          "order_no": 4
+        },
+        {
+          "yt_id": "YylGwVz9JjI",
+          "title": "شرح البناني على السلم  | الدرس 14 (  أنواع الدلالة الوضعية-تتمة-  ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=YylGwVz9JjI",
+          "duration": 2868,
+          "order_no": 5
+        },
+        {
+          "yt_id": "GFCZXDv-VAk",
+          "title": "شرح البناني على السلم  | الدرس 13 ( أنواع الدلالة الوضعية-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=GFCZXDv-VAk",
+          "duration": 4450,
+          "order_no": 6
+        },
+        {
+          "yt_id": "MMrYed8TOgA",
+          "title": "شرح البناني على السلم  | الدرس 12 ( أنواع الدلالة الوضعية-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=MMrYed8TOgA",
+          "duration": 1751,
+          "order_no": 7
+        },
+        {
+          "yt_id": "xGcgnQvNhgI",
+          "title": "شرح البناني على السلم  | الدرس 11 (  أنواع الدلالة الوضعية-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=xGcgnQvNhgI",
+          "duration": 2706,
+          "order_no": 8
+        },
+        {
+          "yt_id": "jfkT6LlalDE",
+          "title": "شرح البناني على السلم  | الدرس 10 (  أنواع الدلالة الوضعية-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=jfkT6LlalDE",
+          "duration": 3526,
+          "order_no": 9
+        },
+        {
+          "yt_id": "EJIsSIA-LtI",
+          "title": "شرح البناني على السلم  | الدرس 09 ( أنواع الدلالة الوضعية-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=EJIsSIA-LtI",
+          "duration": 2520,
+          "order_no": 10
+        },
+        {
+          "yt_id": "HyGcxtYhbg0",
+          "title": "شرح البناني على السلم  | الدرس 08 ( أنواع الدلالة الوضعية ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=HyGcxtYhbg0",
+          "duration": 1598,
+          "order_no": 11
+        },
+        {
+          "yt_id": "Kp9A3xqiEUc",
+          "title": "شرح البناني على السلم  | الدرس 07 (أنواع العلم الحادث ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=Kp9A3xqiEUc",
+          "duration": 2560,
+          "order_no": 12
+        },
+        {
+          "yt_id": "LDFZE_NV-jw",
+          "title": "شرح البناني على السلم  | الدرس 06 (فصل في جواز الاشتغال به ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=LDFZE_NV-jw",
+          "duration": 1236,
+          "order_no": 13
+        },
+        {
+          "yt_id": "d42Ir4UDI7M",
+          "title": "شرح البناني على السلم  | الدرس 05 ( تتمة مقدمة المتن ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=d42Ir4UDI7M",
+          "duration": 4271,
+          "order_no": 14
+        },
+        {
+          "yt_id": "xfVmEbMEXy8",
+          "title": "شرح البناني على السلم  | الدرس 04 ( الحمدلة-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=xfVmEbMEXy8",
+          "duration": 2857,
+          "order_no": 15
+        },
+        {
+          "yt_id": "V1HYN2Hcdc4",
+          "title": "شرح البناني على السلم  | الدرس 03 ( الحمدلة ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=V1HYN2Hcdc4",
+          "duration": 3022,
+          "order_no": 16
+        },
+        {
+          "yt_id": "Ck6lVdoYkMg",
+          "title": "شرح البناني على السلم  | الدرس 02 ( البسملة ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=Ck6lVdoYkMg",
+          "duration": 1330,
+          "order_no": 17
+        },
+        {
+          "yt_id": "nJaYFxOs6k0",
+          "title": "شرح البناني على السلم  | الدرس 01 ( المقدمة ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=nJaYFxOs6k0",
+          "duration": 1394,
+          "order_no": 18
+        },
+        {
+          "yt_id": "YW4LG8MpsOU",
+          "title": "شرح البناني على السلم  | الدرس 19 ( نسبة الألفاظ للمعاني ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=YW4LG8MpsOU",
+          "duration": 2009,
+          "order_no": 19
+        },
+        {
+          "yt_id": "SueK9xiKIZw",
+          "title": "شرح البناني على السلم  | الدرس 20 ( نسبة الألفاظ للمعاني-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=SueK9xiKIZw",
+          "duration": 2097,
+          "order_no": 20
+        },
+        {
+          "yt_id": "mmwywcqzpGY",
+          "title": "شرح البناني على السلم  | الدرس 24 ( فصل في المعرفات-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=mmwywcqzpGY",
+          "duration": 3514,
+          "order_no": 21
+        },
+        {
+          "yt_id": "Nhv9gQnnyPw",
+          "title": "شرح البناني على السلم  | الدرس 22 (فصل في بيان الكل و الكلية و الجزء و الجزئية ) | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=Nhv9gQnnyPw",
+          "duration": 1497,
+          "order_no": 22
+        },
+        {
+          "yt_id": "IVBNkWwFeN0",
+          "title": "شرح البناني على السلم  | الدرس 21 ( نسبة الألفاظ للمعاني-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=IVBNkWwFeN0",
+          "duration": 1064,
+          "order_no": 23
+        },
+        {
+          "yt_id": "SYbYf6MdmG0",
+          "title": "شرح البناني على السلم  | الدرس 23 ( فصل في المعرفات ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=SYbYf6MdmG0",
+          "duration": 2255,
+          "order_no": 24
+        },
+        {
+          "yt_id": "ds6i4V_d5uI",
+          "title": "شرح البناني على السلم  | الدرس 25 ( باب في القضايا و أحكامها ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=ds6i4V_d5uI",
+          "duration": 1616,
+          "order_no": 25
+        },
+        {
+          "yt_id": "uzOaiPU4bzY",
+          "title": "شرح البناني على السلم  | الدرس 26 ( باب في القضايا و أحكامها-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=uzOaiPU4bzY",
+          "duration": 641,
+          "order_no": 26
+        },
+        {
+          "yt_id": "TMZgL4hhg-s",
+          "title": "شرح البناني على السلم  | الدرس 27 ( باب في القضايا و أحكامها-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=TMZgL4hhg-s",
+          "duration": 1367,
+          "order_no": 27
+        },
+        {
+          "yt_id": "PFZwjHAJhxw",
+          "title": "شرح البناني على السلم  | الدرس 28 ( باب في القضايا و أحكامها-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=PFZwjHAJhxw",
+          "duration": 2489,
+          "order_no": 28
+        },
+        {
+          "yt_id": "BalanQUm8pE",
+          "title": "شرح البناني على السلم  | الدرس 28 ( باب في القضايا و أحكامها-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=BalanQUm8pE",
+          "duration": 2490,
+          "order_no": 29
+        },
+        {
+          "yt_id": "b6qf_TWbaHw",
+          "title": "شرح البناني على السلم  | الدرس 29 ( باب في القضايا و أحكامها-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=b6qf_TWbaHw",
+          "duration": 1715,
+          "order_no": 30
+        },
+        {
+          "yt_id": "k72MGg7530E",
+          "title": "شرح البناني على السلم  | الدرس 30 ( باب في القضايا و أحكامها-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=k72MGg7530E",
+          "duration": 3186,
+          "order_no": 31
+        },
+        {
+          "yt_id": "S8L96kdkgFg",
+          "title": "شرح البناني على السلم  | الدرس 31 ( باب في القضايا و أحكامها-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=S8L96kdkgFg",
+          "duration": 1666,
+          "order_no": 32
+        },
+        {
+          "yt_id": "rd1eLuLqNUA",
+          "title": "شرح البناني على السلم  | الدرس 32 ( باب في القضايا و أحكامها-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=rd1eLuLqNUA",
+          "duration": 3475,
+          "order_no": 33
+        },
+        {
+          "yt_id": "EKK3ZNlrZdw",
+          "title": "شرح البناني على السلم  | الدرس 33 ( القضية الشرطية و أحكامها ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=EKK3ZNlrZdw",
+          "duration": 2483,
+          "order_no": 34
+        },
+        {
+          "yt_id": "ht0rGAqbDuU",
+          "title": "شرح البناني على السلم  | الدرس 34 ( القضية الشرطية و أحكامها -تتمة-) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=ht0rGAqbDuU",
+          "duration": 2890,
+          "order_no": 35
+        },
+        {
+          "yt_id": "shWn-NDAMMk",
+          "title": "شرح البناني على السلم  | الدرس 35 (  فصل في التناقض ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=shWn-NDAMMk",
+          "duration": 1424,
+          "order_no": 36
+        },
+        {
+          "yt_id": "bck8c35IBqM",
+          "title": "شرح البناني على السلم  | الدرس 36 (  فصل في العكس ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=bck8c35IBqM",
+          "duration": 1689,
+          "order_no": 37
+        },
+        {
+          "yt_id": "QkBzbqgSGJs",
+          "title": "شرح البناني على السلم  | الدرس 37 (  فصل في العكس-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=QkBzbqgSGJs",
+          "duration": 1581,
+          "order_no": 38
+        },
+        {
+          "yt_id": "nEOd5g5Y0zY",
+          "title": "شرح البناني على السلم  | الدرس 38 ( باب في القياس ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=nEOd5g5Y0zY",
+          "duration": 2269,
+          "order_no": 39
+        },
+        {
+          "yt_id": "HvQO72LvGbk",
+          "title": "شرح البناني على السلم  | الدرس 39 ( باب في القياس-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=HvQO72LvGbk",
+          "duration": 3328,
+          "order_no": 40
+        },
+        {
+          "yt_id": "aDmvHpIUU5E",
+          "title": "شرح البناني على السلم  | الدرس 40 ( باب في القياس-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=aDmvHpIUU5E",
+          "duration": 2607,
+          "order_no": 41
+        },
+        {
+          "yt_id": "joU4DmCXZik",
+          "title": "شرح البناني على السلم  | الدرس 41 ( لواحق القياس-أنواع الحجج ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=joU4DmCXZik",
+          "duration": 3252,
+          "order_no": 42
+        },
+        {
+          "yt_id": "O78_axs3n9A",
+          "title": "شرح البناني على السلم  | الدرس 42 و الأخير ( خاتمة ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=O78_axs3n9A",
+          "duration": 1274,
+          "order_no": 43
+        }
+      ]
+    },
+    {
+      "playlist_id": "PLUAcOYpvESsdmhmHc9OzIouNHOep2jxg2",
+      "title": "لامية العرب",
+      "url": "https://www.youtube.com/playlist?list=PLUAcOYpvESsdmhmHc9OzIouNHOep2jxg2",
+      "order_no": 11,
+      "video_count": 10,
+      "total_duration_sec": 33843,
+      "videos": [
+        {
+          "yt_id": "z-sGmF3OmME",
+          "title": "شرح لامية العرب | الدرس 10 ( الأبيات -٢٨-٢٩-٣٠-) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=z-sGmF3OmME",
+          "duration": 3468,
+          "order_no": 1
+        },
+        {
+          "yt_id": "1_8UUrkaXM4",
+          "title": "شرح لامية العرب | الدرس 9 ( الأبيات -٢٥-٢٦-٢٧-) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=1_8UUrkaXM4",
+          "duration": 3831,
+          "order_no": 2
+        },
+        {
+          "yt_id": "NomG4k5UUfY",
+          "title": "شرح لامية العرب | الدرس 8  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=NomG4k5UUfY",
+          "duration": 3376,
+          "order_no": 3
+        },
+        {
+          "yt_id": "wa6_rZynox0",
+          "title": "شرح لامية العرب | الدرس 7 ( الأبيات -٢٠-٢١-٢٢) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=wa6_rZynox0",
+          "duration": 4033,
+          "order_no": 4
+        },
+        {
+          "yt_id": "HKkxXW9PEic",
+          "title": "شرح لامية العرب | الدرس 6 ( الأبيات -١٨-١٩-) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=HKkxXW9PEic",
+          "duration": 2591,
+          "order_no": 5
+        },
+        {
+          "yt_id": "Y0M4fpBXHpk",
+          "title": "شرح لامية العرب | الدرس 5 ( الأبيات -١٣-١٤-١٥-) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=Y0M4fpBXHpk",
+          "duration": 3570,
+          "order_no": 6
+        },
+        {
+          "yt_id": "zX79i1CMVo0",
+          "title": "شرح لامية العرب | الدرس 4 ( الأبيات -١٠-١١-١٢-) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=zX79i1CMVo0",
+          "duration": 3111,
+          "order_no": 7
+        },
+        {
+          "yt_id": "KMfb4gRFW-Q",
+          "title": "شرح لامية العرب | الدرس 3 ( الأبيات -٤-٥-٦-) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=KMfb4gRFW-Q",
+          "duration": 3971,
+          "order_no": 8
+        },
+        {
+          "yt_id": "LjpcXTjXuO0",
+          "title": "شرح لامية العرب | الدرس 2 ( البيتين -٢ و ٣-) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=LjpcXTjXuO0",
+          "duration": 3739,
+          "order_no": 9
+        },
+        {
+          "yt_id": "2jANY622ZAU",
+          "title": "شرح لامية العرب | الدرس 1 ( البيت -٠١-) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=2jANY622ZAU",
+          "duration": 2153,
+          "order_no": 10
+        }
+      ]
+    },
+    {
+      "playlist_id": "PLUAcOYpvESscex1Bq7FWvcH6jUicN_ujq",
+      "title": "مقولات السجاعي",
+      "url": "https://www.youtube.com/playlist?list=PLUAcOYpvESscex1Bq7FWvcH6jUicN_ujq",
+      "order_no": 12,
+      "video_count": 55,
+      "total_duration_sec": 141435,
+      "videos": [
+        {
+          "yt_id": "5ao2xSXdFhg",
+          "title": "شرح المقولات  | الدرس 51 ( الوجود الذهني ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=5ao2xSXdFhg",
+          "duration": 1666,
+          "order_no": 1
+        },
+        {
+          "yt_id": "WV__LCGuUxc",
+          "title": "شرح المقولات  | الدرس 50 ( العلم من أي مقولة ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=WV__LCGuUxc",
+          "duration": 3430,
+          "order_no": 2
+        },
+        {
+          "yt_id": "c-S0dBahhXc",
+          "title": "شرح المقولات  | الدرس 49 ( خواص الإضافة-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=c-S0dBahhXc",
+          "duration": 3988,
+          "order_no": 3
+        },
+        {
+          "yt_id": "EIdz3CjtlXA",
+          "title": "شرح المقولات  | الدرس 48 ( خواص الإضافة-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=EIdz3CjtlXA",
+          "duration": 3933,
+          "order_no": 4
+        },
+        {
+          "yt_id": "PvYKMv8Pdp4",
+          "title": "شرح المقولات  | الدرس 47 ( خواص الإضافة ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=PvYKMv8Pdp4",
+          "duration": 3911,
+          "order_no": 5
+        },
+        {
+          "yt_id": "yVNcb1Wu7MQ",
+          "title": "شرح المقولات  | الدرس 46 ( مقولة الإضافة ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=yVNcb1Wu7MQ",
+          "duration": 4474,
+          "order_no": 6
+        },
+        {
+          "yt_id": "AGBWVbkaing",
+          "title": "شرح المقولات  | الدرس 45 ( مقولة المتى ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=AGBWVbkaing",
+          "duration": 2337,
+          "order_no": 7
+        },
+        {
+          "yt_id": "Wy5Evrh-aqg",
+          "title": "شرح المقولات  | الدرس 44 ( مقولة الأين -تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=Wy5Evrh-aqg",
+          "duration": 2187,
+          "order_no": 8
+        },
+        {
+          "yt_id": "RBdY7J_ruK8",
+          "title": "شرح المقولات  | الدرس 43 ( مقولة الأين -تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=RBdY7J_ruK8",
+          "duration": 5385,
+          "order_no": 9
+        },
+        {
+          "yt_id": "ciVlZ8vgR4s",
+          "title": "شرح المقولات  | الدرس 42 ( مقولة الأين -تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=ciVlZ8vgR4s",
+          "duration": 4784,
+          "order_no": 10
+        },
+        {
+          "yt_id": "_cf53Fia7c8",
+          "title": "شرح المقولات  | الدرس 41 ( مقولة الأين -تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=_cf53Fia7c8",
+          "duration": 1611,
+          "order_no": 11
+        },
+        {
+          "yt_id": "jZqx5oxnHe0",
+          "title": "شرح المقولات  | الدرس 40 ( مقولة الأين -تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=jZqx5oxnHe0",
+          "duration": 1423,
+          "order_no": 12
+        },
+        {
+          "yt_id": "-PnplQ9CW9c",
+          "title": "شرح المقولات  | الدرس 39 ( مقولة الأين -تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=-PnplQ9CW9c",
+          "duration": 1844,
+          "order_no": 13
+        },
+        {
+          "yt_id": "Wm4lwalz7GY",
+          "title": "شرح المقولات  | الدرس 38 ( مقولة الأين -تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=Wm4lwalz7GY",
+          "duration": 1968,
+          "order_no": 14
+        },
+        {
+          "yt_id": "KUWxH_rL2JI",
+          "title": "شرح المقولات  | الدرس 37 ( مقولة الأين ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=KUWxH_rL2JI",
+          "duration": 3082,
+          "order_no": 15
+        },
+        {
+          "yt_id": "Wp1pZd0XSYc",
+          "title": "شرح المقولات  | الدرس 36 ( مقولة الكيف-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=Wp1pZd0XSYc",
+          "duration": 1546,
+          "order_no": 16
+        },
+        {
+          "yt_id": "AzTSakKuprI",
+          "title": "شرح المقولات  | الدرس 35 ( مقولة الكيف-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=AzTSakKuprI",
+          "duration": 1744,
+          "order_no": 17
+        },
+        {
+          "yt_id": "L1I9PsF4Y1Y",
+          "title": "شرح المقولات  | الدرس 34 ( مقولة الكيف ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=L1I9PsF4Y1Y",
+          "duration": 1942,
+          "order_no": 18
+        },
+        {
+          "yt_id": "zXOVdJOO_lQ",
+          "title": "شرح المقولات  | الدرس 33 ( مقولة الكم-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=zXOVdJOO_lQ",
+          "duration": 2786,
+          "order_no": 19
+        },
+        {
+          "yt_id": "VNgGOFfweow",
+          "title": "شرح المقولات  | الدرس 32 ( مقولة الكم-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=VNgGOFfweow",
+          "duration": 1849,
+          "order_no": 20
+        },
+        {
+          "yt_id": "xHFjkeAQHKY",
+          "title": "شرح المقولات  | الدرس 31 ( مقولة الكم ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=xHFjkeAQHKY",
+          "duration": 3067,
+          "order_no": 21
+        },
+        {
+          "yt_id": "_7jzBMRzJLk",
+          "title": "شرح المقولات  | الدرس 30 ( أحكام الجوهر-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=_7jzBMRzJLk",
+          "duration": 1263,
+          "order_no": 22
+        },
+        {
+          "yt_id": "UpN5uZ3gNsM",
+          "title": "شرح المقولات  | الدرس 29 ( أحكام الجوهر-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=UpN5uZ3gNsM",
+          "duration": 1364,
+          "order_no": 23
+        },
+        {
+          "yt_id": "tvs2Q4ZPmSg",
+          "title": "شرح المقولات  | الدرس 28 ( أحكام الجوهر ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=tvs2Q4ZPmSg",
+          "duration": 1134,
+          "order_no": 24
+        },
+        {
+          "yt_id": "dFYsYkKwyCA",
+          "title": "شرح المقولات  | الدرس 27 ( أقسام الجوهر -تتمة-) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=dFYsYkKwyCA",
+          "duration": 1143,
+          "order_no": 25
+        },
+        {
+          "yt_id": "4eLFjkbIB6Y",
+          "title": "شرح المقولات  | الدرس 26 ( أقسام الجوهر -تتمة-) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=4eLFjkbIB6Y",
+          "duration": 2214,
+          "order_no": 26
+        },
+        {
+          "yt_id": "2BKZgTonMV4",
+          "title": "شرح المقولات  | الدرس 25 ( إبطال الجوهر الفلسفي و إثبات الجوهر الفرد) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=2BKZgTonMV4",
+          "duration": 2485,
+          "order_no": 27
+        },
+        {
+          "yt_id": "-BCGo9VKP_E",
+          "title": "شرح مقولات السجاعي | الدرس 24 ( أقسام الجوهر ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=-BCGo9VKP_E",
+          "duration": 2210,
+          "order_no": 28
+        },
+        {
+          "yt_id": "0CaEZQJoIBE",
+          "title": "شرح مقولات السجاعي | الدرس 23 ( الكلام على المجردات - تتمة - ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=0CaEZQJoIBE",
+          "duration": 2385,
+          "order_no": 29
+        },
+        {
+          "yt_id": "wluu6GmRbAI",
+          "title": "شرح مقولات السجاعي | الدرس 22 ( الكلام على المجردات ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=wluu6GmRbAI",
+          "duration": 2899,
+          "order_no": 30
+        },
+        {
+          "yt_id": "gBPQze5M7EU",
+          "title": "شرح مقولات السجاعي | الدرس 21 ( تعريف الجوهر ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=gBPQze5M7EU",
+          "duration": 2179,
+          "order_no": 31
+        },
+        {
+          "yt_id": "UaEyUGxBbgI",
+          "title": "شرح مقولات السجاعي | الدرس 20 ( أحكام العرض-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=UaEyUGxBbgI",
+          "duration": 3151,
+          "order_no": 32
+        },
+        {
+          "yt_id": "gYCwbt78aSk",
+          "title": "شرح مقولات السجاعي | الدرس 19 ( أحكام العرض ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=gYCwbt78aSk",
+          "duration": 2446,
+          "order_no": 33
+        },
+        {
+          "yt_id": "S1O1NHXfvg8",
+          "title": "شرح المقولات| الدرس 18 (الكلام على قول المصنف \"و ذهب أكثر المتكلمين إلى انها عدمية\")| الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=S1O1NHXfvg8",
+          "duration": 3304,
+          "order_no": 34
+        },
+        {
+          "yt_id": "-b7m0SKlnys",
+          "title": "شرح المقولات  | الدرس 17 (الكلام على قول المصنف \"  قال ابن السبكي و الأصح ٠٠٠  \") | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=-b7m0SKlnys",
+          "duration": 4170,
+          "order_no": 35
+        },
+        {
+          "yt_id": "BXduTe_Pwt4",
+          "title": "شرح المقولات  | الدرس 16 (الكلام على قول المصنف \"  قال ابن السبكي و الأصح ٠٠٠  \") | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=BXduTe_Pwt4",
+          "duration": 3221,
+          "order_no": 36
+        },
+        {
+          "yt_id": "4rsUxcWdGJs",
+          "title": "شرح المقولات  | الدرس 15 (الكلام على قول المصنف \" و اعلم أن الخلاف لم يقع٠٠٠  \") | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=4rsUxcWdGJs",
+          "duration": 1705,
+          "order_no": 37
+        },
+        {
+          "yt_id": "TQziet4-RoE",
+          "title": "شرح المقولات  | الدرس 14 (الكلام على قول المصنف \" ثم إن ما يأتي ليس تحديدا٠٠٠  \") | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=TQziet4-RoE",
+          "duration": 2109,
+          "order_no": 38
+        },
+        {
+          "yt_id": "W9T2QiL7AHc",
+          "title": "شرح المقولات  | الدرس 13 (الكلام على قول المصنف \" و لا يرد على الحصر الوحدة٠٠٠ \") | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=W9T2QiL7AHc",
+          "duration": 3671,
+          "order_no": 39
+        },
+        {
+          "yt_id": "3nkeziiWWzQ",
+          "title": "شرح مقولات السجاعي | الدرس 12 (الكلام على قول المصنف \" الأجناس العالية٠٠٠ \") | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=3nkeziiWWzQ",
+          "duration": 2627,
+          "order_no": 40
+        },
+        {
+          "yt_id": "hg5DGDxCc4A",
+          "title": "شرح مقولات السجاعي | الدرس11 (الكلام على قول المصنف \" و بعد \") | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=hg5DGDxCc4A",
+          "duration": 2339,
+          "order_no": 41
+        },
+        {
+          "yt_id": "JsfsJ7K_oFQ",
+          "title": "شرح مقولات السجاعي | الدرس10(الكلام على قول المصنف \" و تقدس عن الكم و الكيف-تتمة-\") | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=JsfsJ7K_oFQ",
+          "duration": 2140,
+          "order_no": 42
+        },
+        {
+          "yt_id": "jtWiKKhZbnw",
+          "title": "شرح مقولات السجاعي  | الدرس 9 (الكلام على قول المصنف \" و تقدس عن الكم و الكيف\") | الشيخ  البردوني",
+          "url": "https://www.youtube.com/watch?v=jtWiKKhZbnw",
+          "duration": 2240,
+          "order_no": 43
+        },
+        {
+          "yt_id": "NMSEmAdaRTo",
+          "title": "شرح مقولات السجاعي  | الدرس 8 (الكلام على قول المصنف \" حمدا لمن تنزه\") | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=NMSEmAdaRTo",
+          "duration": 2512,
+          "order_no": 44
+        },
+        {
+          "yt_id": "lXtzjYjna2U",
+          "title": "شرح مقولات السجاعي  | الدرس 7 ( الكلام على قول المصنف \" حمدا\"-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=lXtzjYjna2U",
+          "duration": 1471,
+          "order_no": 45
+        },
+        {
+          "yt_id": "nRpR4zB8FVI",
+          "title": "شرح مقولات السجاعي  | الدرس 6 ( الكلام على قول المصنف \" حمدا\"-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=nRpR4zB8FVI",
+          "duration": 2247,
+          "order_no": 46
+        },
+        {
+          "yt_id": "udDOgR7GXPc",
+          "title": "شرح مقولات السجاعي  | الدرس 5 ( الكلام على قول المصنف \" حمدا\"-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=udDOgR7GXPc",
+          "duration": 2498,
+          "order_no": 47
+        },
+        {
+          "yt_id": "EXCyvqUfEr8",
+          "title": "شرح مقولات السجاعي  | الدرس 4 ( الكلام على قول المصنف \" حمدا \" ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=EXCyvqUfEr8",
+          "duration": 4084,
+          "order_no": 48
+        },
+        {
+          "yt_id": "D6rnIXzVnKY",
+          "title": "شرح مقولات السجاعي  | الدرس 3 ( المقدمة-تتمة-) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=D6rnIXzVnKY",
+          "duration": 3086,
+          "order_no": 49
+        },
+        {
+          "yt_id": "L8ZJe0xyDWk",
+          "title": "شرح مقولات السجاعي  | الدرس 2 ( المقدمة-تتمة-) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=L8ZJe0xyDWk",
+          "duration": 3528,
+          "order_no": 50
+        },
+        {
+          "yt_id": "EKSOHolaTKo",
+          "title": "شرح مقولات السجاعي  | الدرس 1 ( المقدمة) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=EKSOHolaTKo",
+          "duration": 2831,
+          "order_no": 51
+        },
+        {
+          "yt_id": "Zo92SYWRZ9Q",
+          "title": "شرح المقولات  | الدرس 52 ( الوجود الذهني-تتمة- ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=Zo92SYWRZ9Q",
+          "duration": 2800,
+          "order_no": 52
+        },
+        {
+          "yt_id": "zZ6ZdGweIfA",
+          "title": "شرح المقولات  | الدرس 53 ( مقولة الوضع ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=zZ6ZdGweIfA",
+          "duration": 2957,
+          "order_no": 53
+        },
+        {
+          "yt_id": "M0fezqkPFHo",
+          "title": "شرح المقولات  | الدرس 54 ( مقولة الملك ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=M0fezqkPFHo",
+          "duration": 763,
+          "order_no": 54
+        },
+        {
+          "yt_id": "Jt2pc1wSdls",
+          "title": "شرح المقولات  | الدرس 55 و الأخير ( مقولة أن يفعل و أن ينفعل ) | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=Jt2pc1wSdls",
+          "duration": 1302,
+          "order_no": 55
+        }
+      ]
+    },
+    {
+      "playlist_id": "PLUAcOYpvESsexbP-VZMreG8j4NaklPVEg",
+      "title": "مقتطفات البردوني",
+      "url": "https://www.youtube.com/playlist?list=PLUAcOYpvESsexbP-VZMreG8j4NaklPVEg",
+      "order_no": 13,
+      "video_count": 23,
+      "total_duration_sec": 9514,
+      "videos": [
+        {
+          "yt_id": "yq0wXCuLRSY",
+          "title": "قوت الأرواح يغني عن قوت الابدان  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=yq0wXCuLRSY",
+          "duration": 73,
+          "order_no": 1
+        },
+        {
+          "yt_id": "pg69YJZEHzs",
+          "title": "لرد على الملاحدة و الطبائعيين في نسبتهم التأثير الى الطبيعة  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=pg69YJZEHzs",
+          "duration": 379,
+          "order_no": 2
+        },
+        {
+          "yt_id": "rpBxDVtxPj4",
+          "title": "مقتطف \"  الممكن عند المتكلمين و عند المناطقة  \"  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=rpBxDVtxPj4",
+          "duration": 208,
+          "order_no": 3
+        },
+        {
+          "yt_id": "7J7IB9I4dMg",
+          "title": "مقتطف \"  الفرق بين الحال و الاعتبار  \"  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=7J7IB9I4dMg",
+          "duration": 389,
+          "order_no": 4
+        },
+        {
+          "yt_id": "fFZeGpBJd30",
+          "title": "مقتطف \"  مسألة تعذيب الطائع و إثابة الكافر \"  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=fFZeGpBJd30",
+          "duration": 326,
+          "order_no": 5
+        },
+        {
+          "yt_id": "vEpUIBjYBq4",
+          "title": "مقتطف \" الفرق بين العرض عند المتكلمين و عند المناطقة \"  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=vEpUIBjYBq4",
+          "duration": 107,
+          "order_no": 6
+        },
+        {
+          "yt_id": "NSa3xhd84XA",
+          "title": "مقتطف \" مذاهب العلماء في الأحوال  \"  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=NSa3xhd84XA",
+          "duration": 590,
+          "order_no": 7
+        },
+        {
+          "yt_id": "23EIbccSqkg",
+          "title": "مقتطف \" هل المنطق جميع مباحثه قطعية \"  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=23EIbccSqkg",
+          "duration": 341,
+          "order_no": 8
+        },
+        {
+          "yt_id": "ANRNLvQrBgE",
+          "title": "مقتطف \"  هل الأشاعرة يثبتون عشرين صفة لله فقط  \"  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=ANRNLvQrBgE",
+          "duration": 99,
+          "order_no": 9
+        },
+        {
+          "yt_id": "Ke6Jj-2e280",
+          "title": "مقتطف \" هل أسماء الكتب من قبيل علم الشخص أو من قبيل علم الجنس \"  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=Ke6Jj-2e280",
+          "duration": 524,
+          "order_no": 10
+        },
+        {
+          "yt_id": "vQdwFd-xw4Q",
+          "title": "مقتطف \" التعبير عن مشيئة الله بما شاء الله كان و ما لم يشأ لم يكن تعبير خطأ \"  | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=vQdwFd-xw4Q",
+          "duration": 184,
+          "order_no": 11
+        },
+        {
+          "yt_id": "L5QdX56-PTU",
+          "title": "مقتطف \" أسماء الكتب هل هي من قبيل علم الشخص أم علم الجنس \"  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=L5QdX56-PTU",
+          "duration": 524,
+          "order_no": 12
+        },
+        {
+          "yt_id": "06IZN4s8Qh4",
+          "title": "رد على من يطعن في اللغة العربية   | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=06IZN4s8Qh4",
+          "duration": 1018,
+          "order_no": 13
+        },
+        {
+          "yt_id": "0v92ZHUEHNE",
+          "title": "مقتطف \"  ما معنى قول الإمام مالك الاستواء معلوم و الكيف مجهول  \"  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=0v92ZHUEHNE",
+          "duration": 336,
+          "order_no": 14
+        },
+        {
+          "yt_id": "kpcra-RIPw0",
+          "title": "حكم الاحتفال بالمولد النبوي  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=kpcra-RIPw0",
+          "duration": 625,
+          "order_no": 15
+        },
+        {
+          "yt_id": "e94ZMnUVgFU",
+          "title": "مقتطف \" بعض أسباب تخلف الأمة  \"  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=e94ZMnUVgFU",
+          "duration": 605,
+          "order_no": 16
+        },
+        {
+          "yt_id": "RjsD4gIBUBM",
+          "title": "مقتطف \" الفرق بين علم الجنس و اسم الجنس و علم الشخص \"  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=RjsD4gIBUBM",
+          "duration": 827,
+          "order_no": 17
+        },
+        {
+          "yt_id": "6SUOpiQBSBE",
+          "title": "مقتطف \" كيف نميز بين الفصل و الخاصة \"  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=6SUOpiQBSBE",
+          "duration": 1160,
+          "order_no": 18
+        },
+        {
+          "yt_id": "8EqBrSryAEY",
+          "title": "مقتطف \" رسالة إلى طلاب العلم \"  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=8EqBrSryAEY",
+          "duration": 480,
+          "order_no": 19
+        },
+        {
+          "yt_id": "FAIFffrw8LQ",
+          "title": "مقتطف \" اصطلاحات أهل كل فن في معنى العقل \"  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=FAIFffrw8LQ",
+          "duration": 270,
+          "order_no": 20
+        },
+        {
+          "yt_id": "LKHULg_66dA",
+          "title": "مقتطف \" قصور الألفاظ عن نقل جميع معاني الوجود  \"  | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=LKHULg_66dA",
+          "duration": 120,
+          "order_no": 21
+        },
+        {
+          "yt_id": "xC9MF-eWwtk",
+          "title": "لا خالق لهذا الكون إلا الله وحده فضيلة الشيخ#محمد_البردوني_الحسيمي",
+          "url": "https://www.youtube.com/watch?v=xC9MF-eWwtk",
+          "duration": 181,
+          "order_no": 22
+        },
+        {
+          "yt_id": "gI5cdyab3Dg",
+          "title": "مقتطف \" بعض الفروق بين القاعدة الأصولية و القاعدة الفقهية \"  | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=gI5cdyab3Dg",
+          "duration": 148,
+          "order_no": 23
+        }
+      ]
+    },
+    {
+      "playlist_id": "PLUAcOYpvESse1UQURvSfN26cknWuxaITg",
+      "title": "شرح منظومة الأجهوري",
+      "url": "https://www.youtube.com/playlist?list=PLUAcOYpvESse1UQURvSfN26cknWuxaITg",
+      "order_no": 14,
+      "video_count": 19,
+      "total_duration_sec": 36490,
+      "videos": [
+        {
+          "yt_id": "RGKe1yoo0HM",
+          "title": "الدرس 1| شرح منظومة الأجهوري في أصول الدين | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=RGKe1yoo0HM",
+          "duration": 959,
+          "order_no": 1
+        },
+        {
+          "yt_id": "9fI4n39QTgw",
+          "title": "الدرس 2| شرح منظومة الأجهوري في أصول الدين| الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=9fI4n39QTgw",
+          "duration": 1820,
+          "order_no": 2
+        },
+        {
+          "yt_id": "iQepFmNQG5g",
+          "title": "الدرس 3| شرح منظومة الأجهوري في أصول الدين | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=iQepFmNQG5g",
+          "duration": 2169,
+          "order_no": 3
+        },
+        {
+          "yt_id": "o6TG4o4HYzU",
+          "title": "الدرس 4| شرح منظومة الأجهوري في أصول الدين| الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=o6TG4o4HYzU",
+          "duration": 2433,
+          "order_no": 4
+        },
+        {
+          "yt_id": "PL7cLO1CHrI",
+          "title": "الدرس 5 | شرح منظومة الأجهوري في أصول الدين- مسألة إيمان المقلد- | الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=PL7cLO1CHrI",
+          "duration": 1808,
+          "order_no": 5
+        },
+        {
+          "yt_id": "1rLvZJWWEbA",
+          "title": "الدرس 6 | شرح منظومة الأجهوري في أصول الدين- ما يجب لله (الوجود والقدم و البقاء)- | الشيخ  البردوني",
+          "url": "https://www.youtube.com/watch?v=1rLvZJWWEbA",
+          "duration": 1855,
+          "order_no": 6
+        },
+        {
+          "yt_id": "A2LXrfhc630",
+          "title": "الدرس7 |شرح منظومة الأجهوري في أصول الدين- ما يجب لله(مخالفة الحوادث-القيام بنفسه)- | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=A2LXrfhc630",
+          "duration": 1282,
+          "order_no": 7
+        },
+        {
+          "yt_id": "mY0-CH2caGU",
+          "title": "الدرس8 |شرح منظومة الأجهوري في أصول الدين- ما يجب لله(صفة الوحدانية)- | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=mY0-CH2caGU",
+          "duration": 2023,
+          "order_no": 8
+        },
+        {
+          "yt_id": "uZ7HfUwQ9A0",
+          "title": "الدرس 9 | شرح منظومة الأجهوري في أصول الدين- صفات المعاني(العلم والقدرة والارادة)- | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=uZ7HfUwQ9A0",
+          "duration": 2112,
+          "order_no": 9
+        },
+        {
+          "yt_id": "kMG2qEqcZNI",
+          "title": "الدرس 10 | شرح منظومة الأجهوري في أصول الدين- صفات المعاني(تعلقات القدرة و الإرادة)-  الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=kMG2qEqcZNI",
+          "duration": 1719,
+          "order_no": 10
+        },
+        {
+          "yt_id": "iJB7OTezZgk",
+          "title": "الدرس 11 | شرح منظومة الأجهوري في أصول الدين- صفات المعاني(الحياة)- | الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=iJB7OTezZgk",
+          "duration": 2036,
+          "order_no": 11
+        },
+        {
+          "yt_id": "GnN5vLUzYX4",
+          "title": "الدرس12| شرح منظومة الأجهوري في أصول الدين- الخلاف في كون السمع و البصر من جنس العلم |الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=GnN5vLUzYX4",
+          "duration": 1636,
+          "order_no": 12
+        },
+        {
+          "yt_id": "S3vyy009qdQ",
+          "title": "الدرس 13 | شرح منظومة الأجهوري في أصول الدين- ما يستحيل في حق الله تعالى و ما يجوز |الشيخ البردوني",
+          "url": "https://www.youtube.com/watch?v=S3vyy009qdQ",
+          "duration": 1517,
+          "order_no": 13
+        },
+        {
+          "yt_id": "p9m_iN9jUXw",
+          "title": "الدرس 14 | شرح منظومة الأجهوري في أصول الدين- الدليل على صفة الوجود و القدم و البقاء و مخالفة...",
+          "url": "https://www.youtube.com/watch?v=p9m_iN9jUXw",
+          "duration": 1952,
+          "order_no": 14
+        },
+        {
+          "yt_id": "JoMDidqg8eE",
+          "title": "الدرس 15 | شرح منظومة الأجهوري في أصول الدين- دليل الوحدانية و اتصافه بالعلم و القدرة و الارادة ...",
+          "url": "https://www.youtube.com/watch?v=JoMDidqg8eE",
+          "duration": 1784,
+          "order_no": 15
+        },
+        {
+          "yt_id": "R6IeyogNIxU",
+          "title": "الدرس16|شرح منظومة الأجهوري في أصول الدين- الكلام على كون الصفات عيناأو غيرا للذات٫هل الصفات تتفاضل-",
+          "url": "https://www.youtube.com/watch?v=R6IeyogNIxU",
+          "duration": 2246,
+          "order_no": 16
+        },
+        {
+          "yt_id": "XBFxOsi7wrc",
+          "title": "الدرس 17 | شرح منظومة الأجهوري في أصول الدين- بحث ما يجب لله و ما يستحيل و ما يجوز و أدلة ذلك..-",
+          "url": "https://www.youtube.com/watch?v=XBFxOsi7wrc",
+          "duration": 2512,
+          "order_no": 17
+        },
+        {
+          "yt_id": "wpTCLpbWG_Q",
+          "title": "الدرس18|شرح منظومة الأجهوري في أصول الدين-جمع كلمة التوحيد لجميع ما تقدم من المعاني-|الشيخ البردوني-",
+          "url": "https://www.youtube.com/watch?v=wpTCLpbWG_Q",
+          "duration": 1573,
+          "order_no": 18
+        },
+        {
+          "yt_id": "_YPMldAxOyk",
+          "title": "الدرس 19(الأخير) | شرح منظومة الأجهوري في أصول الدين- خاتمة في التصوف - | الشيخ محمد البردوني",
+          "url": "https://www.youtube.com/watch?v=_YPMldAxOyk",
+          "duration": 3054,
+          "order_no": 19
+        }
+      ]
+    },
+    {
+      "playlist_id": "PLUAcOYpvESsc6Jr_5RifBrKdL_oODakIo",
+      "title": "شرح الرسالة",
+      "url": "https://www.youtube.com/playlist?list=PLUAcOYpvESsc6Jr_5RifBrKdL_oODakIo",
+      "order_no": 15,
+      "video_count": 48,
+      "total_duration_sec": 141036,
+      "videos": [
+        {
+          "yt_id": "_BPLrIuavkA",
+          "title": "شرح رسالة ابن ابي زيد القيرواني | الدرس الأول ، الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=_BPLrIuavkA",
+          "duration": 1981,
+          "order_no": 1
+        },
+        {
+          "yt_id": "CxhQ6xzPaJs",
+          "title": "شرح رسالة ابن ابي زيد القيرواني | الدرس الثاني| الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=CxhQ6xzPaJs",
+          "duration": 1802,
+          "order_no": 2
+        },
+        {
+          "yt_id": "5jKLkZg8qJg",
+          "title": "شرح رسالة ابن ابي زيد القيرواني| الدرس 3| الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=5jKLkZg8qJg",
+          "duration": 2268,
+          "order_no": 3
+        },
+        {
+          "yt_id": "XS0O7oSyoZU",
+          "title": "شرح رسالة ابن أبي زيد القيرواني| الدرس 4| الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=XS0O7oSyoZU",
+          "duration": 2564,
+          "order_no": 4
+        },
+        {
+          "yt_id": "sw1eYoznEms",
+          "title": "شرح متن الرسالة| الدرس5 / الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=sw1eYoznEms",
+          "duration": 2308,
+          "order_no": 5
+        },
+        {
+          "yt_id": "xIAhpY7RBR8",
+          "title": "شرح رسالة ابن أبي زيد القيرواني| الدرس 6",
+          "url": "https://www.youtube.com/watch?v=xIAhpY7RBR8",
+          "duration": 2049,
+          "order_no": 6
+        },
+        {
+          "yt_id": "MQHImiXRxMw",
+          "title": "شرح رسالة ابن أبي زيد القيرواني/ الدرس: 7 / الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=MQHImiXRxMw",
+          "duration": 1954,
+          "order_no": 7
+        },
+        {
+          "yt_id": "HStLszjMlhI",
+          "title": "شرح رسالة ابن أبي زيد القيرواني رحمه الله/ الدرس 8/ الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=HStLszjMlhI",
+          "duration": 2335,
+          "order_no": 8
+        },
+        {
+          "yt_id": "8UTwOh7dlL4",
+          "title": "شرح رسالة ابن أبي زيد القيرواني رحمه الله/الدرس:9",
+          "url": "https://www.youtube.com/watch?v=8UTwOh7dlL4",
+          "duration": 2026,
+          "order_no": 9
+        },
+        {
+          "yt_id": "MVXDryd-S4E",
+          "title": "الدرس 10|| شرح رسالة ابن أبي زيد القيرواني رحمه الله// الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=MVXDryd-S4E",
+          "duration": 1619,
+          "order_no": 10
+        },
+        {
+          "yt_id": "A4lnMaNQ_Es",
+          "title": "الدرس 11// شرح رسالة ابن أبي زيد القيرواني رحمه الله-باب طهارة الماء-|| الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=A4lnMaNQ_Es",
+          "duration": 1764,
+          "order_no": 11
+        },
+        {
+          "yt_id": "I1pGiF8rH-I",
+          "title": "الدرس 12// شرح رسالة ابن أبي زيد القيرواني رحمه الله|| -باب طهارة الماء- الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=I1pGiF8rH-I",
+          "duration": 1650,
+          "order_no": 12
+        },
+        {
+          "yt_id": "rArNLO8JfvM",
+          "title": "الدرس 13// شرح رسالة ابن أبي زيد القيرواني رحمه الله|| -طهارة البقعة والثوب-",
+          "url": "https://www.youtube.com/watch?v=rArNLO8JfvM",
+          "duration": 2269,
+          "order_no": 13
+        },
+        {
+          "yt_id": "JsvP3nJM750",
+          "title": "الدرس 14// شرح رسالة ابن أبي زيد القيرواني رحمه الله|| - باب صفة الوضوء-",
+          "url": "https://www.youtube.com/watch?v=JsvP3nJM750",
+          "duration": 2162,
+          "order_no": 14
+        },
+        {
+          "yt_id": "eZcAtHt-7uI",
+          "title": "الدرس 15// شرح رسالة ابن أبي زيد القيرواني رحمه الله| الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=eZcAtHt-7uI",
+          "duration": 2632,
+          "order_no": 15
+        },
+        {
+          "yt_id": "pFom59uCJcU",
+          "title": "الدرس 16// شرح رسالة ابن أبي زيد القيرواني رحمه الله||",
+          "url": "https://www.youtube.com/watch?v=pFom59uCJcU",
+          "duration": 2206,
+          "order_no": 16
+        },
+        {
+          "yt_id": "ukFvWmSLWIw",
+          "title": "الدرس 17// شرح رسالة ابن أبي زيد القيرواني رحمه الله||",
+          "url": "https://www.youtube.com/watch?v=ukFvWmSLWIw",
+          "duration": 3168,
+          "order_no": 17
+        },
+        {
+          "yt_id": "uWQalEkO6Zg",
+          "title": "الدرس 18// شرح رسالة ابن أبي زيد القيرواني رحمه الله||",
+          "url": "https://www.youtube.com/watch?v=uWQalEkO6Zg",
+          "duration": 1825,
+          "order_no": 18
+        },
+        {
+          "yt_id": "dQwlwTUCbFk",
+          "title": "الدرس 19// شرح رسالة ابن أبي زيد القيرواني رحمه الله||",
+          "url": "https://www.youtube.com/watch?v=dQwlwTUCbFk",
+          "duration": 2783,
+          "order_no": 19
+        },
+        {
+          "yt_id": "Sv0qEcCoxqw",
+          "title": "الدرس 20// شرح رسالة ابن أبي زيد القيرواني رحمه الله|| الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=Sv0qEcCoxqw",
+          "duration": 2157,
+          "order_no": 20
+        },
+        {
+          "yt_id": "Z5h_5C7TgJs",
+          "title": "الدرس 21// باب في بيان صفة الغسل// شرح رسالة ابن أبي زيد القيرواني رحمه الله",
+          "url": "https://www.youtube.com/watch?v=Z5h_5C7TgJs",
+          "duration": 3035,
+          "order_no": 21
+        },
+        {
+          "yt_id": "AoAwmE4VCqE",
+          "title": "الدرس 22// -تكملة لباب صفة الغسل- شرح رسالة ابن أبي زيد القيرواني رحمه الله",
+          "url": "https://www.youtube.com/watch?v=AoAwmE4VCqE",
+          "duration": 1932,
+          "order_no": 22
+        },
+        {
+          "yt_id": "SVK3RsKAoFE",
+          "title": "الدرس 23// -باب التيمم- شرح رسالة ابن أبي زيد القيرواني رحمه الله",
+          "url": "https://www.youtube.com/watch?v=SVK3RsKAoFE",
+          "duration": 3221,
+          "order_no": 23
+        },
+        {
+          "yt_id": "cSbnIEifcVQ",
+          "title": "الدرس 24// -باب التيمم- شرح رسالة ابن أبي زيد القيرواني رحمه الله",
+          "url": "https://www.youtube.com/watch?v=cSbnIEifcVQ",
+          "duration": 3098,
+          "order_no": 24
+        },
+        {
+          "yt_id": "_dwzn3Sbibc",
+          "title": "الدرس 25// شرح رسالة ابن أبي زيد القيرواني رحمه الله| الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=_dwzn3Sbibc",
+          "duration": 3032,
+          "order_no": 25
+        },
+        {
+          "yt_id": "sbBoZAbByVc",
+          "title": "الدرس 26// باب في المسح على الخفين|| شرح رسالة ابن أبي زيد القيرواني رحمه الله",
+          "url": "https://www.youtube.com/watch?v=sbBoZAbByVc",
+          "duration": 3124,
+          "order_no": 26
+        },
+        {
+          "yt_id": "wz9Tt20pZPI",
+          "title": "الدرس 27// باب اوقات الصلاة| شرح رسالة ابن أبي زيد القيرواني رحمه الله",
+          "url": "https://www.youtube.com/watch?v=wz9Tt20pZPI",
+          "duration": 3463,
+          "order_no": 27
+        },
+        {
+          "yt_id": "DxxLtMdP8gg",
+          "title": "الدرس 28// شرح رسالة ابن أبي زيد القيرواني رحمه الله| الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=DxxLtMdP8gg",
+          "duration": 3768,
+          "order_no": 28
+        },
+        {
+          "yt_id": "HKqdu5djRs4",
+          "title": "الدرس 29// - باب في الأذان والإقامة- وشيء من باب صفة العمل في الصلاة|شرح رسالة ابن أبي زيد القيرواني",
+          "url": "https://www.youtube.com/watch?v=HKqdu5djRs4",
+          "duration": 3010,
+          "order_no": 29
+        },
+        {
+          "yt_id": "SBrgVpi6_30",
+          "title": "الدرس 30// شرح رسالة ابن أبي زيد القيرواني رحمه الله",
+          "url": "https://www.youtube.com/watch?v=SBrgVpi6_30",
+          "duration": 4332,
+          "order_no": 30
+        },
+        {
+          "yt_id": "rCrIfhsC8jY",
+          "title": "الدرس 31// شرح رسالة ابن أبي زيد القيرواني رحمه الله",
+          "url": "https://www.youtube.com/watch?v=rCrIfhsC8jY",
+          "duration": 3693,
+          "order_no": 31
+        },
+        {
+          "yt_id": "7aZZN5wigmo",
+          "title": "شرح رسالة ابن أبي زيد القيرواني رحمه الله/ الدرس 32 باب في العمل في الصلاة: وتكبر في حال انحطاطك..",
+          "url": "https://www.youtube.com/watch?v=7aZZN5wigmo",
+          "duration": 4249,
+          "order_no": 32
+        },
+        {
+          "yt_id": "coqWitaYCXQ",
+          "title": "شرح رسالة ابن أبي زيد القيرواني رحمه الله/ الدرس 33 باب في العمل في الصلاة:ويركع ركعتي الفجر...",
+          "url": "https://www.youtube.com/watch?v=coqWitaYCXQ",
+          "duration": 2550,
+          "order_no": 33
+        },
+        {
+          "yt_id": "Yiu7SotwMx8",
+          "title": "شرح رسالة ابن أبي زيد القيرواني رحمه الله/ الدرس 34",
+          "url": "https://www.youtube.com/watch?v=Yiu7SotwMx8",
+          "duration": 3400,
+          "order_no": 34
+        },
+        {
+          "yt_id": "O7DRMKrCSgQ",
+          "title": "الدرس 35/ باب الإمامة| شرح رسالة ابن أبي زيد القيرواني رحمه الله",
+          "url": "https://www.youtube.com/watch?v=O7DRMKrCSgQ",
+          "duration": 4501,
+          "order_no": 35
+        },
+        {
+          "yt_id": "5fm81oqalM4",
+          "title": "الدرس 36/ باب الإمامة| شرح رسالة ابن أبي زيد القيرواني رحمه الله",
+          "url": "https://www.youtube.com/watch?v=5fm81oqalM4",
+          "duration": 3144,
+          "order_no": 36
+        },
+        {
+          "yt_id": "2RbCvy0wZBI",
+          "title": "الدرس 37| -باب جمل- شرح رسالة ابن أبي زيد القيرواني رحمه الله",
+          "url": "https://www.youtube.com/watch?v=2RbCvy0wZBI",
+          "duration": 4307,
+          "order_no": 37
+        },
+        {
+          "yt_id": "xKFjuGWyyQ8",
+          "title": "الدرس 38| شرح رسالة ابن أبي زيد القيرواني رحمه الله/ الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=xKFjuGWyyQ8",
+          "duration": 3148,
+          "order_no": 38
+        },
+        {
+          "yt_id": "QlLw-9UmHGw",
+          "title": "الدرس39/ شرح رسالة ابن أبي زيد القيرواني رحمه الله-ورخص الجمع بين المغرب والعشاء ليلة المطر-...",
+          "url": "https://www.youtube.com/watch?v=QlLw-9UmHGw",
+          "duration": 4067,
+          "order_no": 39
+        },
+        {
+          "yt_id": "1Ht8Sezy7iw",
+          "title": "الدرس 40/ شرح رسالة ابن أبي زيد القيرواني رحمه الله- الجمع بين الصلاتين المتحدتي الوقت",
+          "url": "https://www.youtube.com/watch?v=1Ht8Sezy7iw",
+          "duration": 3474,
+          "order_no": 40
+        },
+        {
+          "yt_id": "Jwll2gHBjpY",
+          "title": "الدرس41/ شرح رسالة ابن أبي زيد القيرواني رحمه الله- وإن لم يقدر على مس الماء لضرر به",
+          "url": "https://www.youtube.com/watch?v=Jwll2gHBjpY",
+          "duration": 3141,
+          "order_no": 41
+        },
+        {
+          "yt_id": "u9HebsVg4EU",
+          "title": "الدرس 42/شرح رسالة ابن أبي زيد القيرواني رحمه الله (ومن رعف مع الإمام....)",
+          "url": "https://www.youtube.com/watch?v=u9HebsVg4EU",
+          "duration": 4284,
+          "order_no": 42
+        },
+        {
+          "yt_id": "VMf7xpC15SY",
+          "title": "الدرس43/شرح رسالةابن أبي زيدالقيرواني رحمه الله -الفرق بين الدم القليل والكثير-الى(باب في صلاة السفر",
+          "url": "https://www.youtube.com/watch?v=VMf7xpC15SY",
+          "duration": 2981,
+          "order_no": 43
+        },
+        {
+          "yt_id": "VmqFjxTfxhY",
+          "title": "الدرس 44/ شرح رسالة ابن أبي زيد القيرواني رحمه الله-باب في صلاة السفر الى (باب في الجمعة)",
+          "url": "https://www.youtube.com/watch?v=VmqFjxTfxhY",
+          "duration": 3121,
+          "order_no": 44
+        },
+        {
+          "yt_id": "i-HidYSOlX0",
+          "title": "الدرس 45/ شرح رسالة ابن أبي زيد القيرواني رحمه الله (باب في الجمعة)",
+          "url": "https://www.youtube.com/watch?v=i-HidYSOlX0",
+          "duration": 4154,
+          "order_no": 45
+        },
+        {
+          "yt_id": "g-o5OnisjiU",
+          "title": "الدرس 46/ شرح رسالة ابن أبي زيد القيرواني رحمه الله- #الشيخ_محمد_البردوني_الحسيمي",
+          "url": "https://www.youtube.com/watch?v=g-o5OnisjiU",
+          "duration": 3035,
+          "order_no": 46
+        },
+        {
+          "yt_id": "TW8rlBkEUQs",
+          "title": "الدرس 47/(باب صلاة الخوف) شرح رسالة ابن أبي زيد القيرواني رحمه الله-#الشيخ_محمد_البردوني_الحسيمي",
+          "url": "https://www.youtube.com/watch?v=TW8rlBkEUQs",
+          "duration": 4680,
+          "order_no": 47
+        },
+        {
+          "yt_id": "X-47Qfb3yhU",
+          "title": "الدرس 48/ شرح رسالة ابن أبي زيد القيرواني رحمه الله-#الشيخ_محمد_البردومي_الحسيمي",
+          "url": "https://www.youtube.com/watch?v=X-47Qfb3yhU",
+          "duration": 3570,
+          "order_no": 48
+        }
+      ]
+    },
+    {
+      "playlist_id": "PLUAcOYpvESsdjtAxvegKAkgul6dk0ojEx",
+      "title": "إقبار الانتصار",
+      "url": "https://www.youtube.com/playlist?list=PLUAcOYpvESsdjtAxvegKAkgul6dk0ojEx",
+      "order_no": 16,
+      "video_count": 5,
+      "total_duration_sec": 6947,
+      "videos": [
+        {
+          "yt_id": "Xtc71SvfEVM",
+          "title": "\"إقبارُ الانتصار\" مناقشة لكتاب 'الانتصار للتدمرية'(الحلقة الخامسة) | الشيخ محمد البردوني الحسيمي.",
+          "url": "https://www.youtube.com/watch?v=Xtc71SvfEVM",
+          "duration": 1558,
+          "order_no": 1
+        },
+        {
+          "yt_id": "gLi3d3iEDyU",
+          "title": "\"إقبار الاِنتصار\" مناقشة لكتابة 'الانتصار للتدمرية' (الحلقة الثالثة) || الشيخ محمد البردوني الحسيمي.",
+          "url": "https://www.youtube.com/watch?v=gLi3d3iEDyU",
+          "duration": 1268,
+          "order_no": 2
+        },
+        {
+          "yt_id": "-9t4xqN39BM",
+          "title": "\"إقبارُ الاِنتصار\" مناقشة لكتاب 'الانتصار للتدمرية' (الحلقة الثانية) || الشيخ محمد البردوني الحسيمي.",
+          "url": "https://www.youtube.com/watch?v=-9t4xqN39BM",
+          "duration": 1701,
+          "order_no": 3
+        },
+        {
+          "yt_id": "QMU6Qq5jp9s",
+          "title": "\"إقبارُ الاِنتِصار\" مناقشة لكتاب 'الانتصار للتدمرية'  (الحلقة الأولى) || الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=QMU6Qq5jp9s",
+          "duration": 1145,
+          "order_no": 4
+        },
+        {
+          "yt_id": "FUdGGd7zW4k",
+          "title": "\"إقبارُ الانتصار\" مناقشة لكتاب 'الانتصار للتدمرية' (الحلقة الرابعة) || الشيخ محمد البردوني الحسيمي",
+          "url": "https://www.youtube.com/watch?v=FUdGGd7zW4k",
+          "duration": 1275,
+          "order_no": 5
+        }
+      ]
+    },
+    {
+      "playlist_id": "PLUAcOYpvESscVasxu06H1MdMvZHc8szJI",
+      "title": "شرح حواشي اليوسي على كبرى السنوسي",
+      "url": "https://www.youtube.com/playlist?list=PLUAcOYpvESscVasxu06H1MdMvZHc8szJI",
+      "order_no": 17,
+      "video_count": 33,
+      "total_duration_sec": 53505,
+      "videos": [
+        {
+          "yt_id": "feFCVBDsq60",
+          "title": "شرح حواشي اليوسي على كبرى السنوسي - 1 -",
+          "url": "https://www.youtube.com/watch?v=feFCVBDsq60",
+          "duration": 1886,
+          "order_no": 1
+        },
+        {
+          "yt_id": "edhpHIW8L1s",
+          "title": "شرح حواشي اليوسي على كبرى السنوسي - 3 -",
+          "url": "https://www.youtube.com/watch?v=edhpHIW8L1s",
+          "duration": 1563,
+          "order_no": 2
+        },
+        {
+          "yt_id": "7YgFZZIk9U4",
+          "title": "شرح حواشي اليوسي على كبرى السنوسي - 5 -",
+          "url": "https://www.youtube.com/watch?v=7YgFZZIk9U4",
+          "duration": 1406,
+          "order_no": 3
+        },
+        {
+          "yt_id": "uOvr9L3tYZc",
+          "title": "شرح حواشي اليوسي على كبرى السنوسي - 6 -",
+          "url": "https://www.youtube.com/watch?v=uOvr9L3tYZc",
+          "duration": 1990,
+          "order_no": 4
+        },
+        {
+          "yt_id": "SJmLoBXJTuw",
+          "title": "شرح حواشي اليوسي على كبرى السنوسي - 7 -",
+          "url": "https://www.youtube.com/watch?v=SJmLoBXJTuw",
+          "duration": 1990,
+          "order_no": 5
+        },
+        {
+          "yt_id": "fJHaobopIn8",
+          "title": "شرح حواشي اليوسي على كبرى السنوسي - 7  تتمة -",
+          "url": "https://www.youtube.com/watch?v=fJHaobopIn8",
+          "duration": 734,
+          "order_no": 6
+        },
+        {
+          "yt_id": "yajoi_QjrE4",
+          "title": "شرح حواشي اليوسي على كبرى السنوسي - 8 -",
+          "url": "https://www.youtube.com/watch?v=yajoi_QjrE4",
+          "duration": 1911,
+          "order_no": 7
+        },
+        {
+          "yt_id": "HGmYRCXQJuw",
+          "title": "شرح حواشي اليوسي على كبرى السنوسي - 9 -",
+          "url": "https://www.youtube.com/watch?v=HGmYRCXQJuw",
+          "duration": 1796,
+          "order_no": 8
+        },
+        {
+          "yt_id": "_Xq-waAfHEQ",
+          "title": "شرح حواشي اليوسي على كبرى السنوسي - 10 -",
+          "url": "https://www.youtube.com/watch?v=_Xq-waAfHEQ",
+          "duration": 999,
+          "order_no": 9
+        },
+        {
+          "yt_id": "37kJRbBQyeM",
+          "title": "شرح حواشي اليوسي على كبرى السنوسي - 11 -",
+          "url": "https://www.youtube.com/watch?v=37kJRbBQyeM",
+          "duration": 1405,
+          "order_no": 10
+        },
+        {
+          "yt_id": "voLfWQWKmEQ",
+          "title": "شرح حواشي اليوسي على كبرى السنوسي - 12 -",
+          "url": "https://www.youtube.com/watch?v=voLfWQWKmEQ",
+          "duration": 1981,
+          "order_no": 11
+        },
+        {
+          "yt_id": "NiQaItX21J8",
+          "title": "شرح حواشي اليوسي على كبرى السنوسي - 13 -",
+          "url": "https://www.youtube.com/watch?v=NiQaItX21J8",
+          "duration": 1827,
+          "order_no": 12
+        },
+        {
+          "yt_id": "9URwVbVRcKY",
+          "title": "شرح حواشي اليوسي على كبرى السنوسي - 13 * -",
+          "url": "https://www.youtube.com/watch?v=9URwVbVRcKY",
+          "duration": 2164,
+          "order_no": 13
+        },
+        {
+          "yt_id": "ln5pY7-l558",
+          "title": "شرح حواشي اليوسي على كبرى السنوسي - 14 -",
+          "url": "https://www.youtube.com/watch?v=ln5pY7-l558",
+          "duration": 1867,
+          "order_no": 14
+        },
+        {
+          "yt_id": "BurxJs1M448",
+          "title": "شرح حواشي اليوسي على كبرى السنوسي - 15 -",
+          "url": "https://www.youtube.com/watch?v=BurxJs1M448",
+          "duration": 1608,
+          "order_no": 15
+        },
+        {
+          "yt_id": "O90c3Z0G6so",
+          "title": "شرح حواشي اليوسي على كبرى السنوسي - 16 -",
+          "url": "https://www.youtube.com/watch?v=O90c3Z0G6so",
+          "duration": 1645,
+          "order_no": 16
+        },
+        {
+          "yt_id": "cLscqLJ1U4E",
+          "title": "شرح حواشي اليوسي على كبرى السنوسي - 17 -",
+          "url": "https://www.youtube.com/watch?v=cLscqLJ1U4E",
+          "duration": 2625,
+          "order_no": 17
+        },
+        {
+          "yt_id": "Hd8ArPKfdwA",
+          "title": "شرح حواشي اليوسي على كبرى السنوسي - 18 -",
+          "url": "https://www.youtube.com/watch?v=Hd8ArPKfdwA",
+          "duration": 1867,
+          "order_no": 18
+        },
+        {
+          "yt_id": "aHT7Y6W-Xmw",
+          "title": "شرح حواشي اليوسي على كبرى السنوسي -19-",
+          "url": "https://www.youtube.com/watch?v=aHT7Y6W-Xmw",
+          "duration": 1664,
+          "order_no": 19
+        },
+        {
+          "yt_id": "oi1lQz3XsSU",
+          "title": "شرح حواشي اليوسي على كبرى السنوسي -20-",
+          "url": "https://www.youtube.com/watch?v=oi1lQz3XsSU",
+          "duration": 1764,
+          "order_no": 20
+        },
+        {
+          "yt_id": "rbUu_UBkg0s",
+          "title": "شرح حواشي اليوسي على كبرى السنوسي -21-",
+          "url": "https://www.youtube.com/watch?v=rbUu_UBkg0s",
+          "duration": 1569,
+          "order_no": 21
+        },
+        {
+          "yt_id": "8Hfs1C-eWC0",
+          "title": "شرح حواشي اليوسي على كبرى السنوسي -22-",
+          "url": "https://www.youtube.com/watch?v=8Hfs1C-eWC0",
+          "duration": 1656,
+          "order_no": 22
+        },
+        {
+          "yt_id": "wUtU9UbsEdI",
+          "title": "شرح حواشي اليوسي على كبرى السنوسي -23 -",
+          "url": "https://www.youtube.com/watch?v=wUtU9UbsEdI",
+          "duration": 1738,
+          "order_no": 23
+        },
+        {
+          "yt_id": "D_ACDzsyAsM",
+          "title": "شرح حواشي اليوسي على كبرى السنوسي -24 -",
+          "url": "https://www.youtube.com/watch?v=D_ACDzsyAsM",
+          "duration": 1636,
+          "order_no": 24
+        },
+        {
+          "yt_id": "wz3u5HtJvRs",
+          "title": "شرح حواشي اليوسي على كبرى السنوسي -25 -",
+          "url": "https://www.youtube.com/watch?v=wz3u5HtJvRs",
+          "duration": 1390,
+          "order_no": 25
+        },
+        {
+          "yt_id": "w_D2lbhqXwA",
+          "title": "شرح حواشي اليوسي على كبرى السنوسي - 26 -",
+          "url": "https://www.youtube.com/watch?v=w_D2lbhqXwA",
+          "duration": 1598,
+          "order_no": 26
+        },
+        {
+          "yt_id": "_059TzKq4dM",
+          "title": "شرح حواشي اليوسي على كبرى السنوسي - 27 -",
+          "url": "https://www.youtube.com/watch?v=_059TzKq4dM",
+          "duration": 541,
+          "order_no": 27
+        },
+        {
+          "yt_id": "__8xQiB804o",
+          "title": "شرح حواشي اليوسي على كبرى السنوسي - 28 -",
+          "url": "https://www.youtube.com/watch?v=__8xQiB804o",
+          "duration": 1772,
+          "order_no": 28
+        },
+        {
+          "yt_id": "DxlgUURexm4",
+          "title": "شرح حواشي اليوسي على كبرى السنوسي - 29 -",
+          "url": "https://www.youtube.com/watch?v=DxlgUURexm4",
+          "duration": 1713,
+          "order_no": 29
+        },
+        {
+          "yt_id": "ylRs_4sA6vI",
+          "title": "شرح حواشي اليوسي على كبرى السنوسي - 30 -",
+          "url": "https://www.youtube.com/watch?v=ylRs_4sA6vI",
+          "duration": 357,
+          "order_no": 30
+        },
+        {
+          "yt_id": "vqYzKLfJH5w",
+          "title": "شرح حواشي اليوسي على كبرى السنوسي -31-",
+          "url": "https://www.youtube.com/watch?v=vqYzKLfJH5w",
+          "duration": 1806,
+          "order_no": 31
+        },
+        {
+          "yt_id": "wLKd3EMAmVM",
+          "title": "شرح حواشي اليوسي على كبرى السنوسي -32-",
+          "url": "https://www.youtube.com/watch?v=wLKd3EMAmVM",
+          "duration": 1232,
+          "order_no": 32
+        },
+        {
+          "yt_id": "CNXkZ9NfUVU",
+          "title": "شرح حواشي اليوسي على كبرى السنوسي -33-",
+          "url": "https://www.youtube.com/watch?v=CNXkZ9NfUVU",
+          "duration": 1805,
+          "order_no": 33
+        }
+      ]
+    }
+  ],
+  "unclassified_playlist": {
+    "playlist_id": "bardoni-personal__unclassified",
+    "title": "غير مصنف",
+    "video_count": 20,
+    "total_duration_sec": 34324,
+    "videos": [
+      {
+        "yt_id": "3Oxk3oqMKvw",
+        "title": "قوت الروح يغني عن قوت البدن قصة ابراهيم بن ادهم يمكث اربعين يوما لا يأكل ولا يشرب",
+        "url": "https://www.youtube.com/watch?v=3Oxk3oqMKvw",
+        "duration": 61,
+        "order_no": 1
+      },
+      {
+        "yt_id": "_EDwzkxfeFo",
+        "title": "الدرس 55/ -باب الصيام- شرح رسالة ابن أبي زيد القيرواني رحمه الله",
+        "url": "https://www.youtube.com/watch?v=_EDwzkxfeFo",
+        "duration": 1911,
+        "order_no": 2
+      },
+      {
+        "yt_id": "JCq0FcAbf3w",
+        "title": "الدرس 54/ شرح رسالة ابن أبي زيد القيرواني رحمه الله ( باب في الدعاء للطفل..)",
+        "url": "https://www.youtube.com/watch?v=JCq0FcAbf3w",
+        "duration": 1106,
+        "order_no": 3
+      },
+      {
+        "yt_id": "JWNtQxfPcU0",
+        "title": "الدرس 53/ شرح رسالة ابن أبي زيد القيرواني رحمه الله ( باب الصلاة على الجنائز....)",
+        "url": "https://www.youtube.com/watch?v=JWNtQxfPcU0",
+        "duration": 3660,
+        "order_no": 4
+      },
+      {
+        "yt_id": "R1A05Nj5lDs",
+        "title": "الدرس 52/ شرح رسالة ابن أبي زيد القيرواني رحمه الله ( ويصلى على ق*تل نفسه.....)",
+        "url": "https://www.youtube.com/watch?v=R1A05Nj5lDs",
+        "duration": 3356,
+        "order_no": 5
+      },
+      {
+        "yt_id": "3uocl2c9G8c",
+        "title": "الدرس 51/ شرح رسالة ابن أبي زيد القيرواني رحمه الله(ولا بأس بغسل أحد الزوجين صاحبه...)",
+        "url": "https://www.youtube.com/watch?v=3uocl2c9G8c",
+        "duration": 3581,
+        "order_no": 6
+      },
+      {
+        "yt_id": "oNoVV_Fs_0k",
+        "title": "الدرس 50/ ( باب ما يفعل بالمحتضر) شرح رسالة ابن أبي زيد القيرواني رحمه الله",
+        "url": "https://www.youtube.com/watch?v=oNoVV_Fs_0k",
+        "duration": 2908,
+        "order_no": 7
+      },
+      {
+        "yt_id": "7BKU8WOQpIU",
+        "title": "الدرس 49/ ( باب صلاة الاستسقاء) شرح رسالة ابن أبي زيد القيرواني رحمه الله",
+        "url": "https://www.youtube.com/watch?v=7BKU8WOQpIU",
+        "duration": 2516,
+        "order_no": 8
+      },
+      {
+        "yt_id": "BQfrQ3y4UEk",
+        "title": "شرح رسالة ابن أبي زيد القيرواني رحمه الله-تتمة الدرس 38-",
+        "url": "https://www.youtube.com/watch?v=BQfrQ3y4UEk",
+        "duration": 1600,
+        "order_no": 9
+      },
+      {
+        "yt_id": "4fH2f2kpqnY",
+        "title": "اتمام الرد على الدعاوى الجزافية في سلسلة المطالب الإلهية| الشيخ محمد البردوني الحسيمي",
+        "url": "https://www.youtube.com/watch?v=4fH2f2kpqnY",
+        "duration": 1542,
+        "order_no": 10
+      },
+      {
+        "yt_id": "Ca-9Sn9B4bs",
+        "title": "رد الدعاوى الجزافية في سلسلة المطالب الإلهية",
+        "url": "https://www.youtube.com/watch?v=Ca-9Sn9B4bs",
+        "duration": 1991,
+        "order_no": 11
+      },
+      {
+        "yt_id": "1z3LcOEmZwA",
+        "title": "قصة الشيخ محمد البردوني الحسيمي مع شيخه ابو سعيد الأنجري -رحمه الله-",
+        "url": "https://www.youtube.com/watch?v=1z3LcOEmZwA",
+        "duration": 850,
+        "order_no": 12
+      },
+      {
+        "yt_id": "1HxLWi0M3jQ",
+        "title": "المنهج المتبع لمن يريد التبحر في علم الكلام| وأهمية فهم المصطلحات وخطورتها",
+        "url": "https://www.youtube.com/watch?v=1HxLWi0M3jQ",
+        "duration": 220,
+        "order_no": 13
+      },
+      {
+        "yt_id": "QNpJY0-SPdo",
+        "title": "القول السديد في تقسيم التوحيد| الشيخ محمد البردوني الحسيمي",
+        "url": "https://www.youtube.com/watch?v=QNpJY0-SPdo",
+        "duration": 1173,
+        "order_no": 14
+      },
+      {
+        "yt_id": "E6OcfZ7Aklg",
+        "title": "فزع المتخمط في ردع المسفسط الجزء الثاني -حوار مع الشيخ حسام الحمايدة- الشيخ محمد البردوني الحسيمي",
+        "url": "https://www.youtube.com/watch?v=E6OcfZ7Aklg",
+        "duration": 962,
+        "order_no": 15
+      },
+      {
+        "yt_id": "v9MbOm0d9Io",
+        "title": "التأويل عند السلف الصالح|| الشيخ محمد البردوني الحسيمي",
+        "url": "https://www.youtube.com/watch?v=v9MbOm0d9Io",
+        "duration": 1955,
+        "order_no": 16
+      },
+      {
+        "yt_id": "FW23SRraZlQ",
+        "title": "طلائع الوعد في مناصرة سعد / الشيخ محمد البردوني الحسيمي",
+        "url": "https://www.youtube.com/watch?v=FW23SRraZlQ",
+        "duration": 1734,
+        "order_no": 17
+      },
+      {
+        "yt_id": "TgDfzmqN0Hg",
+        "title": "كشف اللثام عما نشر من المغالطات حول علماء الكلام / الشيخ محمد البردوني الحسيمي",
+        "url": "https://www.youtube.com/watch?v=TgDfzmqN0Hg",
+        "duration": 1501,
+        "order_no": 18
+      },
+      {
+        "yt_id": "jHb917lGeOo",
+        "title": "ما المقصود بالعقل عند علماء الكلام| حتى يقال انهم يقدمون العقل على كتاب الله ورسوله",
+        "url": "https://www.youtube.com/watch?v=jHb917lGeOo",
+        "duration": 158,
+        "order_no": 19
+      },
+      {
+        "yt_id": "CQJXsM3hyCs",
+        "title": "\"لا جديد في نقد المنطق الأرسطي\" (الحلقة الأولى) | الشيخ محمد البردوني الحسيمي.",
+        "url": "https://www.youtube.com/watch?v=CQJXsM3hyCs",
+        "duration": 1539,
+        "order_no": 20
+      }
+    ]
+  }
+}

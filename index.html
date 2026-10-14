@@ -1,0 +1,1439 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#F4EEE2">
+<title>شيخ — مستكشف ومنتقي سلاسل ودروس المشايخ</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg">
+<script>document.documentElement.dataset.theme=localStorage.getItem('cheikh.theme')||'paper'</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root,[data-theme=paper]{--bg:#F4EEE2;--card:#FBF7EF;--ink:#2A241D;--mut:#7E7262;--line:#E2D6C1;--acc:#7B2D26;--gold:#AE8848;--soft:#EAE0CC;--press:#EFE5D4;--ok:#266841;--ok-bg:rgba(38,104,65,.13);--warn:#A65E16;--warn-bg:rgba(166,94,22,.14);--bad:#A82424;--bad-bg:rgba(168,36,36,.13);--glass:rgba(244,238,226,.94)}
+[data-theme=night]{--bg:#13100D;--card:#1C1814;--ink:#EFE6D6;--mut:#A39684;--line:#302922;--acc:#E5A699;--gold:#CCA55E;--soft:#28221C;--press:#231E18;--ok:#58B87E;--ok-bg:rgba(88,184,126,.16);--warn:#E2A052;--warn-bg:rgba(226,160,82,.16);--bad:#EB6A6A;--bad-bg:rgba(235,106,106,.16);--glass:rgba(19,16,13,.94)}
+[data-theme=light]{--bg:#F7F7F5;--card:#FFFFFF;--ink:#1D1A16;--mut:#6E665C;--line:#E5E0D6;--acc:#7B2D26;--gold:#9F7B3C;--soft:#EFECE6;--press:#F5F2EC;--ok:#23663E;--ok-bg:rgba(35,102,62,.12);--warn:#9E5812;--warn-bg:rgba(158,88,18,.13);--bad:#A12222;--bad-bg:rgba(161,34,34,.12);--glass:rgba(247,247,245,.94)}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html{background:var(--bg)}
+body{max-width:960px;margin:0 auto;overflow-x:hidden;color:var(--ink);font:15px/1.65 'Noto Naskh Arabic',serif;padding-bottom:calc(115px + env(safe-area-inset-bottom))}
+a{color:inherit;text-decoration:none}
+button,input,select{font:inherit;color:inherit;background:none;border:0}
+button{cursor:pointer}
+
+/* Top Header */
+.top{position:sticky;top:0;z-index:30;display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:calc(58px + env(safe-area-inset-top));padding:env(safe-area-inset-top) 14px 6px;background:var(--glass);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border-bottom:1px solid var(--line);flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:8px;min-width:0}
+.brand img{width:28px;height:28px;border-radius:7px;flex:none}
+.brand b{font:700 21px/1.2 Amiri,serif;color:var(--acc);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:240px}
+.acts{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.ib{width:38px;height:38px;display:grid;place-items:center;border-radius:50%;color:var(--mut);border:1px solid transparent}
+.ib:hover{background:var(--soft)}
+.ib svg{width:20px;height:20px}
+
+/* Clear 2-tab DB Mode Switcher */
+.mode-switch{display:inline-flex;background:var(--soft);padding:3px;border-radius:99px;border:1px solid var(--line);gap:2px}
+.mode-opt{padding:4px 11px;border-radius:99px;font-size:12px;color:var(--mut);transition:all .15s;white-space:nowrap}
+.mode-opt.on{background:var(--acc);color:var(--card);font-weight:700;box-shadow:0 1px 3px rgba(0,0,0,.18)}
+
+/* Primary Navigation Tabs (Sheikhs Grid vs Global Series Explorer) */
+.nav-tabs{display:flex;gap:6px;padding:10px 14px 4px}
+.nav-tab{flex:1;padding:9px 12px;border-radius:12px;border:1px solid var(--line);background:var(--card);font-weight:700;font-size:14px;color:var(--mut);text-align:center;transition:all .15s}
+.nav-tab.on{background:var(--acc);color:var(--card);border-color:var(--acc);box-shadow:0 2px 6px rgba(0,0,0,.1)}
+
+/* Stats Strip */
+.stats-strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(125px,1fr));gap:8px;padding:10px 14px 6px}
+.stat-box{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:8px 8px;text-align:center}
+.stat-box b{display:block;font-size:17px;font-weight:700;color:var(--acc);font-variant-numeric:tabular-nums}
+.stat-box span{font-size:11.5px;color:var(--mut)}
+
+/* Sheikhs Grid */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:12px;padding:12px 14px}
+.sh{position:relative;display:flex;flex-direction:column;align-items:center;text-align:center;padding:12px 8px 10px;border-radius:14px;background:var(--card);border:1px solid var(--line);transition:all .15s}
+.sh.has-sel{border-color:var(--ok);box-shadow:0 0 0 1.5px var(--ok)}
+.sh:hover{background:var(--press)}
+.sh-sel-btn{position:absolute;top:8px;left:8px;font-size:11px;padding:2px 7px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--mut);z-index:2}
+.sh-sel-btn.on{background:var(--ok);color:#fff;border-color:var(--ok);font-weight:700}
+.pt{position:relative;width:78px;height:78px}
+.pt svg{position:absolute;inset:0;width:100%;height:100%;transform:rotate(-90deg)}
+.ph{position:absolute;inset:6px;border-radius:50%;overflow:hidden;display:grid;place-items:center;background:var(--soft);color:var(--acc);font:700 24px Amiri,serif}
+.ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 20%}
+.nm{margin-top:8px;font:700 15.5px/1.35 Amiri,serif;min-height:2.4em;display:flex;align-items:center;justify-content:center}
+.mt{margin-top:2px;color:var(--mut);font-size:12px;font-variant-numeric:tabular-nums}
+.badge-row{display:flex;gap:4px;margin-top:5px;flex-wrap:wrap;justify-content:center}
+.pill{font-size:11px;padding:1px 7px;border-radius:99px;background:var(--soft);color:var(--ink);font-variant-numeric:tabular-nums}
+.pill.ok{background:var(--ok-bg);color:var(--ok);font-weight:600}
+.pill.warn{background:var(--warn-bg);color:var(--warn);font-weight:600}
+.pill.bad{background:var(--bad-bg);color:var(--bad);font-weight:600}
+
+/* View Head */
+.view-head{padding:12px 14px;border-bottom:1px solid var(--line);background:var(--card);margin-bottom:6px}
+.view-head h1{font:700 21px/1.35 Amiri,serif;color:var(--acc)}
+.view-head p{font-size:13px;color:var(--mut);margin-top:2px}
+.ch-links{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.ch-link{font-size:12px;padding:3px 10px;border-radius:99px;border:1px solid var(--line);background:var(--bg);color:var(--gold)}
+
+/* Filter Panel & Presets */
+.filter-bar{padding:8px 14px;display:flex;flex-direction:column;gap:8px}
+.search-row{display:flex;gap:8px;flex-wrap:wrap}
+.search-input{flex:1;min-width:200px;height:40px;padding:0 12px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);outline:none}
+.search-input:focus{border-color:var(--gold)}
+.btn-filter-toggle{display:inline-flex;align-items:center;gap:6px;padding:0 14px;height:40px;border-radius:10px;border:1px solid var(--line);background:var(--card);font-weight:600;font-size:13.5px}
+.btn-filter-toggle.active{border-color:var(--acc);background:var(--soft);color:var(--acc)}
+.presets-row{display:flex;gap:6px;overflow-x:auto;padding-bottom:2px}
+.presets-row::-webkit-scrollbar{display:none}
+.chip{flex:none;padding:5px 11px;border-radius:99px;border:1px solid var(--line);background:var(--card);font-size:12.5px;color:var(--mut);transition:all .12s}
+.chip.on{background:var(--acc);color:var(--card);border-color:var(--acc);font-weight:600}
+.chip.inc{background:var(--ok-bg);color:var(--ok);border-color:var(--ok);font-weight:700}
+.chip.exc{background:var(--bad-bg);color:var(--bad);border-color:var(--bad);font-weight:700;text-decoration:line-through}
+
+/* Advanced Filter Drawer */
+.adv-panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin:4px 14px 8px;display:flex;flex-direction:column;gap:14px;box-shadow:0 4px 14px rgba(0,0,0,.05)}
+.adv-sec{display:flex;flex-direction:column;gap:6px}
+.adv-sec-head{display:flex;align-items:center;justify-content:space-between;font-size:13px;font-weight:700;color:var(--acc)}
+.adv-sec-head small{font-weight:400;color:var(--mut);font-size:11.5px}
+.adv-chips{display:flex;flex-wrap:wrap;gap:6px}
+.adv-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px}
+.field-box{display:flex;flex-direction:column;gap:4px;background:var(--bg);padding:8px 10px;border-radius:10px;border:1px solid var(--line)}
+.field-box label{font-size:12px;font-weight:600;color:var(--mut)}
+.field-box select,.field-box input{height:34px;padding:0 8px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink);outline:none;font-size:13px}
+.range-pair{display:flex;align-items:center;gap:6px}
+.range-pair input{width:100%;text-align:center}
+
+/* Bulk Selection Toolbar */
+.bulk-bar{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;padding:8px 14px;margin:2px 14px 8px;background:var(--soft);border:1px solid var(--line);border-radius:12px;font-size:13px}
+.bulk-stats{font-weight:600;color:var(--ink);font-variant-numeric:tabular-nums}
+.bulk-stats b{color:var(--acc)}
+.bulk-btns{display:flex;flex-wrap:wrap;gap:6px}
+.b-btn{padding:4px 10px;border-radius:8px;background:var(--card);border:1px solid var(--line);font-size:12px;font-weight:600;color:var(--ink)}
+.b-btn:hover{border-color:var(--acc);color:var(--acc)}
+.b-btn.primary{background:var(--ok);color:#fff;border-color:var(--ok)}
+
+/* Series List & Cards with Checkbox */
+.s-list{display:flex;flex-direction:column;gap:8px;padding:4px 14px 18px}
+.s-card{display:flex;align-items:stretch;gap:10px;padding:11px 12px;border-radius:13px;background:var(--card);border:1px solid var(--line);transition:all .12s}
+.s-card.selected{border-color:var(--ok);background:var(--ok-bg)}
+.s-check{flex:none;width:30px;display:flex;align-items:flex-start;justify-content:center;padding-top:2px}
+.chk-box{width:24px;height:24px;border-radius:7px;border:2px solid var(--mut);background:var(--card);display:grid;place-items:center;color:#fff;font-weight:700;font-size:14px;transition:all .12s}
+.s-card.selected .chk-box{background:var(--ok);border-color:var(--ok)}
+.s-main{flex:1;min-width:0;cursor:pointer}
+.s-top{display:flex;align-items:flex-start;justify-content:space-between;gap:8px}
+.s-title{font:700 16px/1.45 Amiri,serif;color:var(--ink)}
+.s-badges{display:flex;gap:4px;flex-wrap:wrap;flex:none}
+.s-state{font-size:11px;padding:1px 8px;border-radius:99px;border:1px solid var(--line)}
+.s-state.completed{color:var(--ok);border-color:var(--ok);background:var(--ok-bg)}
+.s-state.ongoing{color:var(--gold);border-color:var(--gold)}
+.s-state.stopped{color:var(--warn);border-color:var(--warn);background:var(--warn-bg)}
+.s-nums{display:flex;flex-wrap:wrap;gap:8px 12px;margin-top:6px;font-size:12.5px;color:var(--mut);font-variant-numeric:tabular-nums}
+.s-nums b{color:var(--ink)}
+.s-note{margin-top:5px;font-size:12px;color:var(--warn)}
+
+/* Lesson Row & Child Elements (التتمات والأجزاء الفرعية) */
+.l-group{display:flex;flex-direction:column;border-radius:12px;background:var(--card);border:1px solid var(--line);overflow:hidden}
+.l-row{display:flex;align-items:center;gap:10px;padding:10px 12px;background:var(--card)}
+.l-num{flex:none;min-width:34px;height:34px;padding:0 6px;border-radius:8px;background:var(--soft);display:grid;place-items:center;font-weight:700;font-size:13px;color:var(--acc);font-variant-numeric:tabular-nums;white-space:nowrap}
+.l-body{flex:1;min-width:0}
+.l-title{font-weight:600;font-size:14.5px;line-height:1.45;word-break:break-word}
+.l-meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px;font-size:12px;color:var(--mut);font-variant-numeric:tabular-nums}
+.yt-btn{flex:none;padding:6px 10px;border-radius:8px;background:var(--soft);color:var(--acc);font-size:12px;font-weight:600}
+.l-children{display:flex;flex-direction:column;gap:6px;padding:7px 12px 9px 12px;margin-right:22px;border-top:1px dashed var(--line);border-right:3px solid var(--gold);background:var(--bg)}
+.l-child{display:flex;align-items:center;gap:8px;padding:7px 10px;border-radius:9px;background:var(--card);border:1px solid var(--line)}
+.l-child-num{flex:none;padding:2px 8px;border-radius:6px;background:var(--warn-bg);color:var(--warn);font-weight:700;font-size:11.5px;font-variant-numeric:tabular-nums;white-space:nowrap}
+
+/* Sticky Bottom Selection Dock */
+.sel-dock{position:fixed;bottom:0;left:0;right:0;z-index:40;background:var(--glass);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);border-top:2px solid var(--ok);padding:10px 14px calc(10px + env(safe-area-inset-bottom));box-shadow:0 -4px 20px rgba(0,0,0,.15)}
+.sel-dock-inner{max-width:960px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.sel-info{display:flex;flex-direction:column;gap:2px}
+.sel-info b{font-size:14.5px;color:var(--ok)}
+.sel-info span{font-size:12px;color:var(--mut);font-variant-numeric:tabular-nums}
+.sel-actions{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.dock-btn{padding:7px 13px;border-radius:10px;font-size:13px;font-weight:700;border:1px solid var(--line);background:var(--card)}
+.dock-btn.save{background:var(--ok);color:#fff;border-color:var(--ok);padding:7px 16px}
+.dock-btn.danger{color:var(--bad);border-color:var(--bad)}
+
+/* Modal Dialog */
+dialog{margin:auto;width:min(94vw,680px);max-height:85vh;border:1px solid var(--line);border-radius:16px;background:var(--card);color:var(--ink);padding:0;box-shadow:0 16px 48px rgba(0,0,0,.35)}
+dialog::backdrop{background:rgba(0,0,0,.55);-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px)}
+.dlg-head{display:flex;align-items:center;justify-content:space-between;padding:14px 16px;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--card);z-index:2}
+.dlg-head h2{font:700 19px Amiri,serif;color:var(--acc)}
+.dlg-body{padding:14px 16px;overflow-y:auto;max-height:calc(85vh - 130px);display:flex;flex-direction:column;gap:12px}
+.dlg-foot{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:12px 16px;border-top:1px solid var(--line);background:var(--bg);flex-wrap:wrap}
+.sel-group{border:1px solid var(--line);border-radius:12px;padding:10px 12px;background:var(--bg)}
+.sel-group-head{display:flex;align-items:center;justify-content:space-between;font-weight:700;margin-bottom:6px;color:var(--acc)}
+.sel-item{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:5px 0;border-top:1px dashed var(--line);font-size:13px}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <button class="ib" id="backBtn" hidden aria-label="رجوع" title="رجوع">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+    </button>
+    <img src="icons/icon.svg" alt="">
+    <b id="navTitle">شيخ</b>
+  </div>
+  <div class="acts">
+    <div class="mode-switch" role="group" aria-label="اختيار قاعدة البيانات">
+      <button class="mode-opt" id="btnCurated" type="button"></button>
+      <button class="mode-opt" id="btnRaw" type="button"></button>
+    </div>
+    <label class="b-btn" style="cursor:pointer" title="استيراد ملف تحديد JSON سابق">
+      📂 استيراد تحديد
+      <input type="file" id="importSelInput" accept=".json" hidden>
+    </label>
+    <button class="ib" id="themeBtn" aria-label="تغيير الثيم" title="تغيير الثيم">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="8.5"/><path d="M12 3.5a8.5 8.5 0 0 1 0 17z" fill="currentColor"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="app"></main>
+
+<!-- Sticky Bottom Selection Dock -->
+<aside class="sel-dock" id="selDock" hidden>
+  <div class="sel-dock-inner">
+    <div class="sel-info">
+      <b id="selDockTitle">0 سلسلة محددة</b>
+      <span id="selDockSub">0 درس · 0 ساعة</span>
+    </div>
+    <div class="sel-actions">
+      <button class="dock-btn" id="btnReviewSel" type="button">معاينة المحدد</button>
+      <button class="dock-btn danger" id="btnClearSel" type="button">مسح</button>
+      <button class="dock-btn save" id="btnSaveJson" type="button">💾 حفظ JSON (Save)</button>
+    </div>
+  </div>
+</aside>
+
+<!-- Selection Review & Save Modal -->
+<dialog id="reviewDlg">
+  <div class="dlg-head">
+    <h2>السلاسل المحددة للتصدير (JSON)</h2>
+    <button class="ib" id="closeDlgBtn" type="button" aria-label="إغلاق">✕</button>
+  </div>
+  <div class="dlg-body" id="dlgBody"></div>
+  <div class="dlg-foot">
+    <label style="display:flex;align-items:center;gap:6px;font-size:13px;cursor:pointer">
+      <input type="checkbox" id="chkIncludeLessons" checked style="width:17px;height:17px">
+      <span>تضمين قائمة الدروس الكاملة (العناوين والروابط) داخل ملف JSON</span>
+    </label>
+    <div style="display:flex;gap:8px">
+      <button class="dock-btn" id="dlgClose2" type="button">إغلاق</button>
+      <button class="dock-btn save" id="dlgSaveBtn" type="button">💾 تنزيل ملف JSON الآن</button>
+    </div>
+  </div>
+</dialog>
+
+<script>
+const STATE_LABELS = {completed: 'مكتملة', ongoing: 'مستمرة', stopped: 'متوقفة'};
+const THEMES = ['paper', 'night', 'light'];
+
+let DB_MODE = localStorage.getItem('cheikh.dbmode') || 'curated';
+let CATALOG = null;
+let ALL_SERIES_MAP = new Map(); // seriesId -> enriched series object
+
+function getSelectionKey() {
+  return `cheikh.selected.${DB_MODE}`;
+}
+
+let SELECTED = new Set(JSON.parse(localStorage.getItem(getSelectionKey()) || '[]'));
+
+function saveSelectionToStorage() {
+  localStorage.setItem(getSelectionKey(), JSON.stringify([...SELECTED]));
+  updateSelectionDock();
+}
+
+// Comprehensive Filter State
+function defaultFilters() {
+  return {
+    q: '',                 // search text (must match)
+    excludeQ: '',          // exclude words (comma/space separated)
+    sheikhs: new Set(),    // empty = all sheikhs; otherwise selected sheikh_ids
+    states: new Set(),     // 'completed', 'ongoing', 'stopped' (empty = all)
+    completeness: 'all',   // 'all' | 'exact' | 'has_missing' | 'missing_1_3' | 'missing_gt_3'
+    transcript: 'all',     // 'all' | 'full' | 'partial' | 'any' | 'zero' | 'needs_work'
+    summary: 'all',        // 'all' | 'any' | 'full' | 'zero'
+    questions: 'all',      // 'all' | 'any' | 'full' | 'zero'
+    selection: 'all',      // 'all' | 'selected' | 'unselected'
+    minLessons: '',
+    maxLessons: '',
+    minAvgMin: '',         // min average lesson duration in minutes
+    maxAvgMin: '',         // max average lesson duration in minutes
+    minTotalHours: '',
+    maxTotalHours: '',
+    minTrPct: '',
+    maxTrPct: '',
+    sortBy: 'default',     // 'default' | 'lessons_desc' | 'lessons_asc' | 'hours_desc' | 'avg_dur_desc' | 'tr_pct_desc' | 'tr_rem_asc' | 'missing_desc' | 'title_asc'
+    preset: 'all'
+  };
+}
+
+let F = defaultFilters();
+let showAdvFilter = false;
+let currentView = {
+  type: 'home',       // 'home' (sheikhs grid) | 'explorer' (all series across site) | 'sheikh' (single sheikh) | 'series' (lessons inside a series)
+  sheikhId: null,
+  seriesId: null,
+  lessonFilter: 'all',
+  lessonQ: ''
+};
+
+const esc = s => String(s || '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const norm = s => String(s || '').replace(/[\u064B-\u0652\u0640]/g,'').replace(/[أإآ]/g,'ا').replace(/ة/g,'ه').replace(/ى/g,'ي').toLowerCase();
+const fmtDur = sec => {
+  if (!sec) return '';
+  const h = Math.floor(sec / 3600), m = Math.floor((sec % 3600) / 60), s = sec % 60;
+  return h > 0 ? `${h}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}` : `${m}:${String(s).padStart(2,'0')}`;
+};
+const fmtHours = sec => sec ? `${(sec / 3600).toFixed(1)} س` : '0 س';
+const fmtMin = sec => sec ? `${Math.round(sec / 60)} د` : '—';
+
+document.getElementById('themeBtn').onclick = () => {
+  const cur = document.documentElement.dataset.theme || 'paper';
+  const next = THEMES[(THEMES.indexOf(cur) + 1) % THEMES.length];
+  document.documentElement.dataset.theme = next;
+  localStorage.setItem('cheikh.theme', next);
+};
+
+function updateModeBtn() {
+  const bCur = document.getElementById('btnCurated');
+  const bRaw = document.getElementById('btnRaw');
+  if (DB_MODE === 'curated') {
+    bCur.textContent = '✓ المنقّحة (curated.db)';
+    bCur.className = 'mode-opt on';
+    bRaw.textContent = 'الخام (cheikh.db)';
+    bRaw.className = 'mode-opt';
+  } else {
+    bCur.textContent = 'المنقّحة (curated.db)';
+    bCur.className = 'mode-opt';
+    bRaw.textContent = '✓ الخام (cheikh.db)';
+    bRaw.className = 'mode-opt on';
+  }
+}
+
+async function loadCatalog() {
+  updateModeBtn();
+  SELECTED = new Set(JSON.parse(localStorage.getItem(getSelectionKey()) || '[]'));
+  const file = DB_MODE === 'curated' ? 'data/catalog_curated.json' : 'data/catalog_raw.json';
+  const res = await fetch(file + '?t=' + Date.now(), {cache: 'no-store'});
+  CATALOG = await res.json();
+  ALL_SERIES_MAP.clear();
+  for (const sh of CATALOG.sheikhs) {
+    for (const sr of (sh.series || [])) {
+      sr.sheikh_id = sr.sheikh_id || sh.id;
+      sr.sheikh_name = sr.sheikh_name || sh.name;
+      sr.sheikh_short = sr.sheikh_short || sh.short_name;
+      ALL_SERIES_MAP.set(sr.id, sr);
+    }
+  }
+  updateSelectionDock();
+  if (currentView.type === 'explorer') renderExplorer();
+  else if (currentView.type === 'sheikh') openSheikh(currentView.sheikhId);
+  else openHome();
+}
+
+document.getElementById('btnCurated').onclick = () => {
+  if (DB_MODE !== 'curated') {
+    DB_MODE = 'curated';
+    localStorage.setItem('cheikh.dbmode', DB_MODE);
+    loadCatalog();
+  }
+};
+document.getElementById('btnRaw').onclick = () => {
+  if (DB_MODE !== 'raw') {
+    DB_MODE = 'raw';
+    localStorage.setItem('cheikh.dbmode', DB_MODE);
+    loadCatalog();
+  }
+};
+
+document.getElementById('backBtn').onclick = () => {
+  if (currentView.type === 'series') {
+    if (currentView.fromExplorer) openExplorer();
+    else openSheikh(currentView.sheikhId);
+  } else {
+    openHome();
+  }
+};
+
+// Import previously saved selection JSON
+document.getElementById('importSelInput').onchange = async e => {
+  const file = e.target.files?.[0];
+  if (!file) return;
+  try {
+    const txt = await file.text();
+    const data = JSON.parse(txt);
+    let ids = [];
+    if (Array.isArray(data.selected_series_ids)) ids = data.selected_series_ids;
+    else if (Array.isArray(data.series)) ids = data.series.map(s => s.id);
+    else if (Array.isArray(data.sheikhs)) {
+      for (const sh of data.sheikhs) {
+        for (const s of (sh.series || [])) ids.push(s.id);
+      }
+    }
+    let added = 0;
+    for (const id of ids) {
+      if (ALL_SERIES_MAP.has(id)) {
+        SELECTED.add(id);
+        added++;
+      }
+    }
+    saveSelectionToStorage();
+    rerenderCurrent();
+    alert(`تم استيراد تحديد ${added} سلسلة بنجاح.`);
+  } catch (err) {
+    alert('تعذر قراءة ملف JSON المحدد.');
+  }
+  e.target.value = '';
+};
+
+function ringSvg(pct) {
+  const r = 35, c = 2 * Math.PI * r;
+  const off = c - (Math.min(100, Math.max(0, pct)) / 100) * c;
+  return `<svg viewBox="0 0 78 78"><circle cx="39" cy="39" r="${r}" fill="none" stroke="var(--line)" stroke-width="2.5"/><circle cx="39" cy="39" r="${r}" fill="none" stroke="var(--gold)" stroke-width="3" stroke-dasharray="${c.toFixed(1)}" stroke-dashoffset="${off.toFixed(1)}" stroke-linecap="round"/></svg>`;
+}
+
+function updateSelectionDock() {
+  const dock = document.getElementById('selDock');
+  // Clean any orphan IDs not in current catalog
+  const validSel = [...SELECTED].filter(id => ALL_SERIES_MAP.has(id));
+  if (validSel.length === 0) {
+    dock.hidden = true;
+    return;
+  }
+  dock.hidden = false;
+  const sheikhSet = new Set();
+  let lessons = 0, trans = 0, dur = 0;
+  for (const id of validSel) {
+    const sr = ALL_SERIES_MAP.get(id);
+    if (!sr) continue;
+    sheikhSet.add(sr.sheikh_id);
+    lessons += sr.actual_count || 0;
+    trans += sr.transcribed_count || 0;
+    dur += sr.total_duration || 0;
+  }
+  const rem = Math.max(0, lessons - trans);
+  document.getElementById('selDockTitle').textContent = `✓ ${validSel.length.toLocaleString('en-US')} سلسلة محددة (من ${sheikhSet.size} مشايخ)`;
+  document.getElementById('selDockSub').textContent = `إجمالي الدروس: ${lessons.toLocaleString('en-US')} · مفرّغ: ${trans.toLocaleString('en-US')} · متبقي للتفريغ: ${rem.toLocaleString('en-US')} · المدة: ${fmtHours(dur)}`;
+}
+
+// Evaluate whether a series matches current filter F
+function matchesSeriesFilter(sr, lockSheikhId = null) {
+  if (lockSheikhId && sr.sheikh_id !== lockSheikhId) return false;
+  if (!lockSheikhId && F.sheikhs.size > 0 && !F.sheikhs.has(sr.sheikh_id)) return false;
+
+  // Selection status
+  const isSel = SELECTED.has(sr.id);
+  if (F.selection === 'selected' && !isSel) return false;
+  if (F.selection === 'unselected' && isSel) return false;
+
+  // State
+  if (F.states.size > 0 && !F.states.has(sr.state)) return false;
+
+  // Completeness / Gaps
+  const missing = sr.missing_count ?? Math.max(0, (sr.expected_count || sr.actual_count) - sr.actual_count);
+  if (F.completeness === 'exact' && missing > 0) return false;
+  if (F.completeness === 'has_missing' && missing === 0) return false;
+  if (F.completeness === 'missing_1_3' && (missing < 1 || missing > 3)) return false;
+  if (F.completeness === 'missing_gt_3' && missing <= 3) return false;
+
+  // Transcription status
+  const act = sr.actual_count || 0;
+  const tr = sr.transcribed_count || 0;
+  if (F.transcript === 'full' && (act === 0 || tr < act)) return false;
+  if (F.transcript === 'partial' && (tr === 0 || tr >= act)) return false;
+  if (F.transcript === 'any' && tr === 0) return false;
+  if (F.transcript === 'zero' && tr > 0) return false;
+  if (F.transcript === 'needs_work' && tr >= act) return false;
+
+  // Summary status
+  const sm = sr.summary_count || 0;
+  if (F.summary === 'any' && sm === 0) return false;
+  if (F.summary === 'full' && (act === 0 || sm < act)) return false;
+  if (F.summary === 'zero' && sm > 0) return false;
+
+  // Questions status
+  const qs = sr.questions_count || 0;
+  if (F.questions === 'any' && qs === 0) return false;
+  if (F.questions === 'full' && (act === 0 || qs < act)) return false;
+  if (F.questions === 'zero' && qs > 0) return false;
+
+  // Lesson count range
+  if (F.minLessons !== '' && act < Number(F.minLessons)) return false;
+  if (F.maxLessons !== '' && act > Number(F.maxLessons)) return false;
+
+  // Avg lesson duration (minutes)
+  const avgMin = (sr.avg_duration || 0) / 60;
+  if (F.minAvgMin !== '' && avgMin < Number(F.minAvgMin)) return false;
+  if (F.maxAvgMin !== '' && avgMin > Number(F.maxAvgMin)) return false;
+
+  // Total duration (hours)
+  const totHrs = (sr.total_duration || 0) / 3600;
+  if (F.minTotalHours !== '' && totHrs < Number(F.minTotalHours)) return false;
+  if (F.maxTotalHours !== '' && totHrs > Number(F.maxTotalHours)) return false;
+
+  // Transcription % range
+  const trPct = act > 0 ? Math.round((tr / act) * 100) : 0;
+  if (F.minTrPct !== '' && trPct < Number(F.minTrPct)) return false;
+  if (F.maxTrPct !== '' && trPct > Number(F.maxTrPct)) return false;
+
+  // Search query (all space-separated tokens must match title, note, or sheikh)
+  const hay = norm(`${sr.title} ${sr.note || ''} ${sr.sheikh_name || ''}`);
+  if (F.q.trim()) {
+    const tokens = norm(F.q).split(/\s+/).filter(Boolean);
+    for (const tk of tokens) {
+      if (!hay.includes(tk)) return false;
+    }
+  }
+
+  // Exclude words
+  if (F.excludeQ.trim()) {
+    const exTokens = norm(F.excludeQ).split(/[\s,،]+/).filter(Boolean);
+    for (const tk of exTokens) {
+      if (hay.includes(tk)) return false;
+    }
+  }
+
+  return true;
+}
+
+function sortSeriesList(list) {
+  const arr = [...list];
+  const s = F.sortBy;
+  if (s === 'lessons_desc') arr.sort((a, b) => b.actual_count - a.actual_count);
+  else if (s === 'lessons_asc') arr.sort((a, b) => a.actual_count - b.actual_count);
+  else if (s === 'hours_desc') arr.sort((a, b) => (b.total_duration || 0) - (a.total_duration || 0));
+  else if (s === 'avg_dur_desc') arr.sort((a, b) => (b.avg_duration || 0) - (a.avg_duration || 0));
+  else if (s === 'tr_pct_desc') {
+    arr.sort((a, b) => {
+      const pa = a.actual_count ? a.transcribed_count / a.actual_count : 0;
+      const pb = b.actual_count ? b.transcribed_count / b.actual_count : 0;
+      return pb - pa || b.transcribed_count - a.transcribed_count;
+    });
+  } else if (s === 'tr_rem_asc') {
+    arr.sort((a, b) => {
+      const ra = Math.max(0, a.actual_count - a.transcribed_count);
+      const rb = Math.max(0, a.actual_count - b.transcribed_count);
+      return (ra === 0 ? 999999 : ra) - (rb === 0 ? 999999 : rb);
+    });
+  } else if (s === 'missing_desc') {
+    arr.sort((a, b) => (b.missing_count || 0) - (a.missing_count || 0));
+  } else if (s === 'title_asc') {
+    arr.sort((a, b) => a.title.localeCompare(b.title, 'ar'));
+  }
+  return arr;
+}
+
+function applyPreset(presetName) {
+  const keepSheikhs = new Set(F.sheikhs);
+  const keepQ = F.q;
+  F = defaultFilters();
+  F.sheikhs = keepSheikhs;
+  F.q = keepQ;
+  F.preset = presetName;
+
+  if (presetName === 'complete_no_gaps') {
+    F.states.add('completed');
+    F.completeness = 'exact';
+  } else if (presetName === 'partial_tr') {
+    F.transcript = 'partial';
+    F.sortBy = 'tr_rem_asc';
+  } else if (presetName === 'zero_tr') {
+    F.transcript = 'zero';
+  } else if (presetName === 'full_tr') {
+    F.transcript = 'full';
+  } else if (presetName === 'has_gaps') {
+    F.completeness = 'has_missing';
+    F.sortBy = 'missing_desc';
+  } else if (presetName === 'selected_only') {
+    F.selection = 'selected';
+  }
+}
+
+function countActiveFilters(lockSheikhId) {
+  let c = 0;
+  if (!lockSheikhId && F.sheikhs.size > 0) c++;
+  if (F.states.size > 0) c++;
+  if (F.completeness !== 'all') c++;
+  if (F.transcript !== 'all') c++;
+  if (F.summary !== 'all') c++;
+  if (F.questions !== 'all') c++;
+  if (F.selection !== 'all') c++;
+  if (F.minLessons !== '' || F.maxLessons !== '') c++;
+  if (F.minAvgMin !== '' || F.maxAvgMin !== '') c++;
+  if (F.minTotalHours !== '' || F.maxTotalHours !== '') c++;
+  if (F.minTrPct !== '' || F.maxTrPct !== '') c++;
+  if (F.excludeQ.trim() !== '') c++;
+  if (F.sortBy !== 'default') c++;
+  return c;
+}
+
+function openHome() {
+  currentView = {type: 'home', sheikhId: null, seriesId: null, lessonFilter: 'all', lessonQ: ''};
+  document.getElementById('backBtn').hidden = true;
+  document.getElementById('navTitle').textContent = 'شيخ';
+  renderHome();
+}
+
+function openExplorer() {
+  currentView = {type: 'explorer', sheikhId: null, seriesId: null, lessonFilter: 'all', lessonQ: ''};
+  document.getElementById('backBtn').hidden = false;
+  document.getElementById('navTitle').textContent = 'مستكشف كل السلاسل';
+  renderExplorer();
+}
+
+function rerenderCurrent() {
+  if (currentView.type === 'home') renderHome();
+  else if (currentView.type === 'explorer') renderExplorer();
+  else if (currentView.type === 'sheikh') {
+    const sh = CATALOG.sheikhs.find(x => x.id === currentView.sheikhId);
+    if (sh) renderSheikh(sh);
+  }
+}
+
+function navTabsHtml(active) {
+  return `
+    <div class="nav-tabs">
+      <button class="nav-tab ${active === 'home' ? 'on' : ''}" id="tabHome" type="button">👤 المشايخ (${CATALOG.totals.sheikhs})</button>
+      <button class="nav-tab ${active === 'explorer' ? 'on' : ''}" id="tabExplorer" type="button">🔍 مستكشف وفلترة كل السلاسل (${ALL_SERIES_MAP.size})</button>
+    </div>
+  `;
+}
+
+function bindNavTabs() {
+  const th = document.getElementById('tabHome');
+  const te = document.getElementById('tabExplorer');
+  if (th) th.onclick = () => openHome();
+  if (te) te.onclick = () => openExplorer();
+}
+
+function renderHome() {
+  const app = document.getElementById('app');
+  if (!CATALOG) {
+    app.innerHTML = '<p style="padding:40px;text-align:center;color:var(--mut)">جاري تحميل قاعدة البيانات...</p>';
+    return;
+  }
+  const t = CATALOG.totals;
+  const qNorm = norm(F.q);
+  const filtered = CATALOG.sheikhs.filter(s => !qNorm || norm(s.name).includes(qNorm) || norm(s.short_name).includes(qNorm));
+
+  app.innerHTML = `
+    ${navTabsHtml('home')}
+    <section class="stats-strip">
+      <div class="stat-box"><b>${t.sheikhs}</b><span>شيخاً</span></div>
+      <div class="stat-box"><b>${ALL_SERIES_MAP.size.toLocaleString('en-US')}</b><span>سلسلة</span></div>
+      <div class="stat-box"><b>${t.total_lessons.toLocaleString('en-US')}</b><span>درس وفيديو</span></div>
+      <div class="stat-box"><b>${t.transcribed.toLocaleString('en-US')}</b><span>مفرّغ نصياً</span></div>
+    </section>
+    <div class="filter-bar">
+      <div class="search-row">
+        <input id="homeSearch" class="search-input" type="search" placeholder="ابحث عن شيخ، أو انتقل إلى «مستكشف وفلترة كل السلاسل» للبحث الشامل..." value="${esc(F.q)}">
+      </div>
+    </div>
+    <div class="grid">
+      ${filtered.map(s => {
+        const pct = s.total_lessons ? Math.round((s.transcribed_count / s.total_lessons) * 100) : 0;
+        const init = (s.short_name || s.name).replace(/^ال/, '')[0] || 'ش';
+        const shSeriesIds = (s.series || []).map(x => x.id);
+        const selCount = shSeriesIds.filter(id => SELECTED.has(id)).length;
+        const allSel = shSeriesIds.length > 0 && selCount === shSeriesIds.length;
+        return `<div class="sh ${selCount > 0 ? 'has-sel' : ''}" data-sid="${esc(s.id)}">
+          ${shSeriesIds.length > 0 ? `<button class="sh-sel-btn ${allSel ? 'on' : ''}" data-toggle-sheikh="${esc(s.id)}" type="button" title="تحديد أو إلغاء تحديد كل سلاسل هذا الشيخ">${allSel ? '✓ الكل محدد' : '+ تحديد الكل'}</button>` : ''}
+          <a href="#sheikh=${encodeURIComponent(s.id)}" class="sh-open" data-sid="${esc(s.id)}" style="display:flex;flex-direction:column;align-items:center;width:100%">
+            <span class="pt">
+              ${ringSvg(pct)}
+              <span class="ph">${esc(init)}${s.photo ? `<img loading="lazy" src="${esc(s.photo)}" alt="" onerror="this.remove()">` : ''}</span>
+            </span>
+            <span class="nm">${esc(s.name)}</span>
+            <span class="mt">${s.series_count} سلسلة · ${s.total_lessons.toLocaleString('en-US')} درس</span>
+            <div class="badge-row">
+              ${selCount > 0 ? `<span class="pill ok">✓ محدد ${selCount} سلسلة</span>` : ''}
+              ${s.transcribed_count ? `<span class="pill ok">مفرّغ ${s.transcribed_count}</span>` : ''}
+              ${s.unclassified_count ? `<span class="pill warn">غير مصنف ${s.unclassified_count}</span>` : ''}
+            </div>
+          </a>
+        </div>`;
+      }).join('')}
+    </div>
+  `;
+
+  bindNavTabs();
+  const inp = document.getElementById('homeSearch');
+  inp.oninput = e => {
+    F.q = e.target.value;
+    renderHome();
+    const el = document.getElementById('homeSearch');
+    el.focus();
+    el.setSelectionRange(el.value.length, el.value.length);
+  };
+  app.querySelectorAll('.sh-open').forEach(a => {
+    a.onclick = e => {
+      e.preventDefault();
+      openSheikh(a.dataset.sid);
+    };
+  });
+  app.querySelectorAll('[data-toggle-sheikh]').forEach(btn => {
+    btn.onclick = e => {
+      e.stopPropagation();
+      const sid = btn.dataset.toggleSheikh;
+      const sh = CATALOG.sheikhs.find(x => x.id === sid);
+      if (!sh) return;
+      const ids = (sh.series || []).map(x => x.id);
+      const allSel = ids.every(id => SELECTED.has(id));
+      for (const id of ids) {
+        if (allSel) SELECTED.delete(id);
+        else SELECTED.add(id);
+      }
+      saveSelectionToStorage();
+      renderHome();
+    };
+  });
+}
+
+// Shared Filter + Bulk Selection + Series List Renderer (used by both Global Explorer and Single Sheikh view)
+function renderFilterAndSeriesHtml(lockSheikhId) {
+  const allCandidateSeries = [];
+  for (const sh of CATALOG.sheikhs) {
+    if (lockSheikhId && sh.id !== lockSheikhId) continue;
+    for (const sr of (sh.series || [])) {
+      allCandidateSeries.push(sr);
+    }
+  }
+  const matched = sortSeriesList(allCandidateSeries.filter(sr => matchesSeriesFilter(sr, lockSheikhId)));
+  const activeFilterCount = countActiveFilters(lockSheikhId);
+
+  const matchedLessons = matched.reduce((a, s) => a + (s.actual_count || 0), 0);
+  const matchedTrans = matched.reduce((a, s) => a + (s.transcribed_count || 0), 0);
+  const matchedHours = matched.reduce((a, s) => a + (s.total_duration || 0), 0);
+  const matchedSelCount = matched.filter(s => SELECTED.has(s.id)).length;
+
+  return {
+    matched,
+    html: `
+      <div class="filter-bar">
+        <div class="search-row">
+          <input id="seriesSearchInput" class="search-input" type="search" placeholder="ابحث في عناوين السلاسل أو الملاحظات..." value="${esc(F.q)}">
+          <button class="btn-filter-toggle ${showAdvFilter || activeFilterCount > 0 ? 'active' : ''}" id="btnToggleAdv" type="button">
+            ⚙️ فلترة متقدمة شاملة ${activeFilterCount > 0 ? `(${activeFilterCount} مفعّل)` : ''} ${showAdvFilter ? '▲' : '▼'}
+          </button>
+          ${activeFilterCount > 0 || F.q ? `<button class="b-btn" id="btnResetFilters" type="button" style="height:40px;color:var(--bad)">إعادة ضبط الفلاتر ↺</button>` : ''}
+        </div>
+
+        <!-- Quick Presets (100% factual only) -->
+        <div class="presets-row">
+          ${[
+            ['all', 'الكل'],
+            ['complete_no_gaps', '✅ مكتملة وتامة بلا فجوات'],
+            ['partial_tr', '⏳ مفرّغة جزئياً (الأقرب للاكتمال)'],
+            ['zero_tr', '🆕 غير مفرّغة إطلاقاً (0%)'],
+            ['full_tr', '🟢 مفرّغة بالكامل 100%'],
+            ['has_gaps', '⚠️ سلاسل بها دروس مفقودة'],
+            ['selected_only', `✓ المحددة فقط (${SELECTED.size})`],
+          ].map(([k, lbl]) => `<button class="chip ${F.preset === k ? 'on' : ''}" data-preset="${k}" type="button">${lbl}</button>`).join('')}
+        </div>
+      </div>
+
+      ${showAdvFilter ? `
+      <section class="adv-panel">
+        ${!lockSheikhId ? `
+        <div class="adv-sec">
+          <div class="adv-sec-head">
+            <span>1. المشايخ (اختر شيخاً أو عدة مشايخ للدمج بينهم)</span>
+            <div>
+              <button class="b-btn" id="btnShAll" type="button">الكل</button>
+            </div>
+          </div>
+          <div class="adv-chips">
+            ${CATALOG.sheikhs.filter(s => s.series_count > 0).map(s => `
+              <button class="chip ${F.sheikhs.has(s.id) ? 'on' : ''}" data-sh-chip="${esc(s.id)}" type="button">${esc(s.short_name || s.name)} (${s.series_count})</button>
+            `).join('')}
+          </div>
+        </div>
+        ` : ''}
+
+        <div class="adv-sec">
+          <div class="adv-sec-head"><span>2. حالة السلسلة</span></div>
+          <div class="adv-chips">
+            ${[
+              ['completed', 'مكتملة (completed)'],
+              ['ongoing', 'مستمرة حالياً (ongoing)'],
+              ['stopped', 'متوقفة قبل الإتمام (stopped)']
+            ].map(([st, lbl]) => `<button class="chip ${F.states.has(st) ? 'on' : ''}" data-state-chip="${st}" type="button">${lbl}</button>`).join('')}
+          </div>
+        </div>
+
+        <div class="adv-grid">
+          <div class="field-box">
+            <label>3. اكتمال الدروس والفجوات</label>
+            <select id="fltCompleteness">
+              <option value="all" ${F.completeness==='all'?'selected':''}>الكل</option>
+              <option value="exact" ${F.completeness==='exact'?'selected':''}>تامة بلا نقص (الفعلي = المفترض)</option>
+              <option value="has_missing" ${F.completeness==='has_missing'?'selected':''}>بها دروس مفقودة (المفترض > الفعلي)</option>
+              <option value="missing_1_3" ${F.completeness==='missing_1_3'?'selected':''}>نقص يسير (1 إلى 3 دروس مفقودة)</option>
+              <option value="missing_gt_3" ${F.completeness==='missing_gt_3'?'selected':''}>نقص كبير (أكثر من 3 دروس مفقودة)</option>
+            </select>
+          </div>
+
+          <div class="field-box">
+            <label>4. حالة التفريغ النصي</label>
+            <select id="fltTranscript">
+              <option value="all" ${F.transcript==='all'?'selected':''}>الكل</option>
+              <option value="full" ${F.transcript==='full'?'selected':''}>مفرّغة بالكامل (100%)</option>
+              <option value="partial" ${F.transcript==='partial'?'selected':''}>مفرّغة جزئياً (بدأت ولم تكتمل)</option>
+              <option value="any" ${F.transcript==='any'?'selected':''}>بها أي تفريغ (> 0)</option>
+              <option value="zero" ${F.transcript==='zero'?'selected':''}>غير مفرّغة إطلاقاً (0%)</option>
+              <option value="needs_work" ${F.transcript==='needs_work'?'selected':''}>تحتاج تفريغ (أقل من 100%)</option>
+            </select>
+          </div>
+
+          <div class="field-box">
+            <label>5. حالة الملخصات</label>
+            <select id="fltSummary">
+              <option value="all" ${F.summary==='all'?'selected':''}>الكل</option>
+              <option value="any" ${F.summary==='any'?'selected':''}>بها ملخصات (> 0)</option>
+              <option value="full" ${F.summary==='full'?'selected':''}>مكتملة الملخصات (100%)</option>
+              <option value="zero" ${F.summary==='zero'?'selected':''}>بدون ملخصات (0)</option>
+            </select>
+          </div>
+
+          <div class="field-box">
+            <label>6. حالة الأسئلة</label>
+            <select id="fltQuestions">
+              <option value="all" ${F.questions==='all'?'selected':''}>الكل</option>
+              <option value="any" ${F.questions==='any'?'selected':''}>بها أسئلة (> 0)</option>
+              <option value="full" ${F.questions==='full'?'selected':''}>مكتملة الأسئلة (100%)</option>
+              <option value="zero" ${F.questions==='zero'?'selected':''}>بدون أسئلة (0)</option>
+            </select>
+          </div>
+
+          <div class="field-box">
+            <label>7. عدد الدروس في السلسلة (من — إلى)</label>
+            <div class="range-pair">
+              <input type="number" id="fltMinLessons" placeholder="أدنى (مثلاً 5)" min="0" value="${esc(F.minLessons)}">
+              <span>—</span>
+              <input type="number" id="fltMaxLessons" placeholder="أقصى (مثلاً 60)" min="0" value="${esc(F.maxLessons)}">
+            </div>
+          </div>
+
+          <div class="field-box">
+            <label>8. متوسط مدة الدرس بالدقائق (لعزل الدروس المطولة)</label>
+            <div class="range-pair">
+              <input type="number" id="fltMinAvgMin" placeholder="أدنى د (مثلاً 20)" min="0" value="${esc(F.minAvgMin)}">
+              <span>—</span>
+              <input type="number" id="fltMaxAvgMin" placeholder="أقصى د" min="0" value="${esc(F.maxAvgMin)}">
+            </div>
+          </div>
+
+          <div class="field-box">
+            <label>9. إجمالي ساعات السلسلة (من — إلى)</label>
+            <div class="range-pair">
+              <input type="number" id="fltMinHours" placeholder="أدنى ساعة" min="0" step="0.5" value="${esc(F.minTotalHours)}">
+              <span>—</span>
+              <input type="number" id="fltMaxHours" placeholder="أقصى ساعة" min="0" step="0.5" value="${esc(F.maxTotalHours)}">
+            </div>
+          </div>
+
+          <div class="field-box">
+            <label>10. نسبة التفريغ % (من — إلى)</label>
+            <div class="range-pair">
+              <input type="number" id="fltMinTrPct" placeholder="من %" min="0" max="100" value="${esc(F.minTrPct)}">
+              <span>—</span>
+              <input type="number" id="fltMaxTrPct" placeholder="إلى %" min="0" max="100" value="${esc(F.maxTrPct)}">
+            </div>
+          </div>
+
+          <div class="field-box">
+            <label>11. حالة التحديد (Selected)</label>
+            <select id="fltSelection">
+              <option value="all" ${F.selection==='all'?'selected':''}>الكل</option>
+              <option value="selected" ${F.selection==='selected'?'selected':''}>المحددة فقط (✓)</option>
+              <option value="unselected" ${F.selection==='unselected'?'selected':''}>غير المحددة فقط</option>
+            </select>
+          </div>
+
+          <div class="field-box">
+            <label>12. استبعاد كلمات من العنوان (افصل بفاصلة)</label>
+            <input type="text" id="fltExcludeQ" placeholder="مثال: مقتطفات, Shorts, English" value="${esc(F.excludeQ)}">
+          </div>
+
+          <div class="field-box">
+            <label>13. ترتيب النتائج حسب</label>
+            <select id="fltSortBy">
+              <option value="default" ${F.sortBy==='default'?'selected':''}>الترتيب الأصلي</option>
+              <option value="lessons_desc" ${F.sortBy==='lessons_desc'?'selected':''}>عدد الدروس (الأكثر أولاً)</option>
+              <option value="lessons_asc" ${F.sortBy==='lessons_asc'?'selected':''}>عدد الدروس (الأقل أولاً)</option>
+              <option value="hours_desc" ${F.sortBy==='hours_desc'?'selected':''}>إجمالي الساعات (الأطول أولاً)</option>
+              <option value="avg_dur_desc" ${F.sortBy==='avg_dur_desc'?'selected':''}>متوسط مدة الدرس (الأطول أولاً)</option>
+              <option value="tr_pct_desc" ${F.sortBy==='tr_pct_desc'?'selected':''}>نسبة التفريغ % (الأعلى أولاً)</option>
+              <option value="tr_rem_asc" ${F.sortBy==='tr_rem_asc'?'selected':''}>الأقرب لإتمام التفريغ (الأقل متبقياً)</option>
+              <option value="missing_desc" ${F.sortBy==='missing_desc'?'selected':''}>عدد الدروس المفقودة (الأكثر أولاً)</option>
+              <option value="title_asc" ${F.sortBy==='title_asc'?'selected':''}>أبجدياً حسب العنوان</option>
+            </select>
+          </div>
+        </div>
+      </section>
+      ` : ''}
+
+      <!-- Bulk Selection Bar for Matched Series -->
+      <div class="bulk-bar">
+        <div class="bulk-stats">
+          النتائج المطابقة: <b>${matched.length.toLocaleString('en-US')}</b> سلسلة
+          (${matchedLessons.toLocaleString('en-US')} درس · مفرّغ ${matchedTrans.toLocaleString('en-US')} · ${fmtHours(matchedHours)})
+          — محدّد منها: <b>${matchedSelCount}</b>
+        </div>
+        <div class="bulk-btns">
+          <button class="b-btn primary" id="btnSelMatched" type="button">☑ تحديد كل النتائج (${matched.length})</button>
+          <button class="b-btn" id="btnUnselMatched" type="button">☐ إلغاء تحديد النتائج</button>
+          <button class="b-btn" id="btnInvertMatched" type="button">⇄ عكس التحديد</button>
+        </div>
+      </div>
+
+      <!-- Series Cards List -->
+      <div class="s-list">
+        ${matched.length ? matched.map(sr => {
+          const isSel = SELECTED.has(sr.id);
+          const missing = sr.missing_count || 0;
+          return `
+            <div class="s-card ${isSel ? 'selected' : ''}" data-card-srid="${esc(sr.id)}">
+              <button class="s-check" data-chk-srid="${esc(sr.id)}" type="button" aria-label="تحديد السلسلة">
+                <span class="chk-box">${isSel ? '✓' : ''}</span>
+              </button>
+              <div class="s-main" data-open-srid="${esc(sr.id)}" data-open-shid="${esc(sr.sheikh_id)}">
+                <div class="s-top">
+                  <span class="s-title">
+                    ${!lockSheikhId ? `<span class="pill" style="margin-left:5px;font-family:'Noto Naskh Arabic'">${esc(sr.sheikh_short || sr.sheikh_name)}</span>` : `${sr.order_no}. `}
+                    ${esc(sr.title)}
+                  </span>
+                  <div class="s-badges">
+                    <span class="s-state ${esc(sr.state)}">${STATE_LABELS[sr.state] || sr.state}</span>
+                  </div>
+                </div>
+                <div class="s-nums">
+                  <span>الدروس الفعلية: <b>${sr.actual_count}</b></span>
+                  <span>المفترض: <b>${sr.expected_count ?? '—'}</b></span>
+                  ${missing > 0 ? `<span style="color:var(--warn)">ناقص: <b>${missing}</b></span>` : ''}
+                  <span>المفرّغ: <b style="color:${sr.transcribed_count > 0 ? 'var(--ok)' : 'inherit'}">${sr.transcribed_count}</b> (${sr.actual_count ? Math.round((sr.transcribed_count/sr.actual_count)*100) : 0}%)</span>
+                  ${sr.summary_count ? `<span>ملخص: <b>${sr.summary_count}</b></span>` : ''}
+                  ${sr.questions_count ? `<span>أسئلة: <b>${sr.questions_count}</b></span>` : ''}
+                  ${sr.total_duration ? `<span>الإجمالي: <b>${fmtHours(sr.total_duration)}</b></span>` : ''}
+                  ${sr.avg_duration ? `<span>متوسط الدرس: <b>${fmtMin(sr.avg_duration)}</b></span>` : ''}
+                </div>
+                ${sr.note ? `<div class="s-note">${esc(sr.note)}</div>` : ''}
+              </div>
+            </div>
+          `;
+        }).join('') : '<p style="padding:36px;text-align:center;color:var(--mut)">لا توجد سلاسل تطابق شروط الفلتر الحالية</p>'}
+      </div>
+    `
+  };
+}
+
+function bindFilterAndSeriesEvents(matched, lockSheikhId) {
+  const app = document.getElementById('app');
+
+  const sInp = document.getElementById('seriesSearchInput');
+  if (sInp) {
+    sInp.oninput = e => {
+      F.q = e.target.value;
+      F.preset = 'custom';
+      rerenderCurrent();
+      const el = document.getElementById('seriesSearchInput');
+      if (el) {
+        el.focus();
+        el.setSelectionRange(el.value.length, el.value.length);
+      }
+    };
+  }
+
+  const btnAdv = document.getElementById('btnToggleAdv');
+  if (btnAdv) {
+    btnAdv.onclick = () => {
+      showAdvFilter = !showAdvFilter;
+      rerenderCurrent();
+    };
+  }
+
+  const btnReset = document.getElementById('btnResetFilters');
+  if (btnReset) {
+    btnReset.onclick = () => {
+      F = defaultFilters();
+      rerenderCurrent();
+    };
+  }
+
+  app.querySelectorAll('[data-preset]').forEach(btn => {
+    btn.onclick = () => {
+      applyPreset(btn.dataset.preset);
+      rerenderCurrent();
+    };
+  });
+
+  // Sheikh chips in global explorer
+  const btnShAll = document.getElementById('btnShAll');
+  if (btnShAll) {
+    btnShAll.onclick = () => {
+      F.sheikhs.clear();
+      F.preset = 'custom';
+      rerenderCurrent();
+    };
+  }
+  app.querySelectorAll('[data-sh-chip]').forEach(btn => {
+    btn.onclick = () => {
+      const sid = btn.dataset.shChip;
+      if (F.sheikhs.has(sid)) F.sheikhs.delete(sid);
+      else F.sheikhs.add(sid);
+      F.preset = 'custom';
+      rerenderCurrent();
+    };
+  });
+
+  // State chips
+  app.querySelectorAll('[data-state-chip]').forEach(btn => {
+    btn.onclick = () => {
+      const st = btn.dataset.stateChip;
+      if (F.states.has(st)) F.states.delete(st);
+      else F.states.add(st);
+      F.preset = 'custom';
+      rerenderCurrent();
+    };
+  });
+
+  // Select dropdowns
+  const bindSel = (id, key) => {
+    const el = document.getElementById(id);
+    if (el) el.onchange = e => { F[key] = e.target.value; F.preset = 'custom'; rerenderCurrent(); };
+  };
+  bindSel('fltCompleteness', 'completeness');
+  bindSel('fltTranscript', 'transcript');
+  bindSel('fltSummary', 'summary');
+  bindSel('fltQuestions', 'questions');
+  bindSel('fltSelection', 'selection');
+  bindSel('fltSortBy', 'sortBy');
+
+  // Numeric & text inputs inside advanced panel
+  const bindInp = (id, key) => {
+    const el = document.getElementById(id);
+    if (el) {
+      el.onchange = e => { F[key] = e.target.value; F.preset = 'custom'; rerenderCurrent(); };
+    }
+  };
+  bindInp('fltMinLessons', 'minLessons');
+  bindInp('fltMaxLessons', 'maxLessons');
+  bindInp('fltMinAvgMin', 'minAvgMin');
+  bindInp('fltMaxAvgMin', 'maxAvgMin');
+  bindInp('fltMinHours', 'minTotalHours');
+  bindInp('fltMaxHours', 'maxTotalHours');
+  bindInp('fltMinTrPct', 'minTrPct');
+  bindInp('fltMaxTrPct', 'maxTrPct');
+  bindInp('fltExcludeQ', 'excludeQ');
+
+  // Bulk buttons
+  const bSelAll = document.getElementById('btnSelMatched');
+  if (bSelAll) {
+    bSelAll.onclick = () => {
+      for (const sr of matched) SELECTED.add(sr.id);
+      saveSelectionToStorage();
+      rerenderCurrent();
+    };
+  }
+  const bUnselAll = document.getElementById('btnUnselMatched');
+  if (bUnselAll) {
+    bUnselAll.onclick = () => {
+      for (const sr of matched) SELECTED.delete(sr.id);
+      saveSelectionToStorage();
+      rerenderCurrent();
+    };
+  }
+  const bInv = document.getElementById('btnInvertMatched');
+  if (bInv) {
+    bInv.onclick = () => {
+      for (const sr of matched) {
+        if (SELECTED.has(sr.id)) SELECTED.delete(sr.id);
+        else SELECTED.add(sr.id);
+      }
+      saveSelectionToStorage();
+      rerenderCurrent();
+    };
+  }
+
+  // Individual card checkbox click
+  app.querySelectorAll('[data-chk-srid]').forEach(btn => {
+    btn.onclick = e => {
+      e.stopPropagation();
+      const srid = btn.dataset.chkSrid;
+      if (SELECTED.has(srid)) SELECTED.delete(srid);
+      else SELECTED.add(srid);
+      saveSelectionToStorage();
+      const card = app.querySelector(`[data-card-srid="${CSS.escape(srid)}"]`);
+      if (card) {
+        const isSel = SELECTED.has(srid);
+        card.classList.toggle('selected', isSel);
+        btn.querySelector('.chk-box').textContent = isSel ? '✓' : '';
+      }
+    };
+  });
+
+  // Clicking series body opens lessons
+  app.querySelectorAll('[data-open-srid]').forEach(el => {
+    el.onclick = () => {
+      openSeries(el.dataset.openShid, el.dataset.openSrid, currentView.type === 'explorer');
+    };
+  });
+}
+
+function renderExplorer() {
+  const app = document.getElementById('app');
+  const {matched, html} = renderFilterAndSeriesHtml(null);
+  app.innerHTML = `
+    ${navTabsHtml('explorer')}
+    ${html}
+  `;
+  bindNavTabs();
+  bindFilterAndSeriesEvents(matched, null);
+}
+
+function openSheikh(sheikhId) {
+  currentView = {type: 'sheikh', sheikhId, seriesId: null, lessonFilter: 'all', lessonQ: ''};
+  const sh = CATALOG.sheikhs.find(x => x.id === sheikhId);
+  if (!sh) return openHome();
+  document.getElementById('backBtn').hidden = false;
+  document.getElementById('navTitle').textContent = sh.short_name || sh.name;
+  renderSheikh(sh);
+  window.scrollTo(0, 0);
+}
+
+function renderSheikh(sh) {
+  const app = document.getElementById('app');
+  const {matched, html} = renderFilterAndSeriesHtml(sh.id);
+  const shSeriesIds = (sh.series || []).map(x => x.id);
+  const selCount = shSeriesIds.filter(id => SELECTED.has(id)).length;
+
+  app.innerHTML = `
+    <section class="view-head">
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap">
+        <h1>${esc(sh.name)}</h1>
+        <span class="pill ok">✓ المحدد من هذا الشيخ: ${selCount} / ${sh.series_count} سلسلة</span>
+      </div>
+      <p>${sh.series_count} سلسلة (${sh.total_lessons.toLocaleString('en-US')} درس) · المفرّغ: ${sh.transcribed_count.toLocaleString('en-US')} · الساعات: ${fmtHours(sh.total_duration)}</p>
+      <div class="ch-links">
+        ${(sh.channels || []).map(c => `<a class="ch-link" href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.title || c.handle || c.url)} ↗</a>`).join('')}
+      </div>
+    </section>
+    ${html}
+  `;
+  bindFilterAndSeriesEvents(matched, sh.id);
+}
+
+async function openSeries(sheikhId, seriesId, fromExplorer = false) {
+  currentView = {type: 'series', sheikhId, seriesId, fromExplorer, lessonFilter: 'all', lessonQ: ''};
+  document.getElementById('backBtn').hidden = false;
+  const app = document.getElementById('app');
+  app.innerHTML = '<p style="padding:40px;text-align:center;color:var(--mut)">جاري تحميل الدروس...</p>';
+  try {
+    const dir = DB_MODE === 'curated' ? 'data/series_curated' : 'data/series_raw';
+    const res = await fetch(`${dir}/${encodeURIComponent(seriesId)}.json?t=${Date.now()}`, {cache: 'no-store'});
+    const data = await res.json();
+    document.getElementById('navTitle').textContent = data.series.title;
+    renderSeriesData(data);
+    window.scrollTo(0, 0);
+  } catch (err) {
+    app.innerHTML = '<p style="padding:40px;text-align:center;color:var(--warn)">تعذر تحميل بيانات السلسلة</p>';
+  }
+}
+
+function renderSeriesData(data) {
+  const app = document.getElementById('app');
+  const sr = data.series;
+  const isSel = SELECTED.has(sr.id);
+  const qNorm = norm(currentView.lessonQ);
+  const f = currentView.lessonFilter;
+
+  const matchesFilter = l => {
+    if (qNorm && !norm(l.title).includes(qNorm)) return false;
+    if (f === 'transcribed') return l.has_transcript === 1;
+    if (f === 'pending') return l.has_transcript === 0;
+    return true;
+  };
+
+  // Group child lessons (التتمات والأجزاء الفرعية) under their parent lesson
+  const allGroups = [];
+  const groupByVid = new Map();
+  let lastGroup = null;
+  for (const l of (data.lessons || [])) {
+    if (l.is_child) {
+      const target = (l.parent_yt_id && groupByVid.get(l.parent_yt_id)) || lastGroup;
+      if (target) {
+        target.children.push(l);
+        continue;
+      }
+    }
+    const g = { parent: l, children: [] };
+    allGroups.push(g);
+    if (l.yt_id) groupByVid.set(l.yt_id, g);
+    lastGroup = g;
+  }
+
+  const visibleGroups = allGroups.filter(g => matchesFilter(g.parent) || g.children.some(matchesFilter));
+
+  app.innerHTML = `
+    <section class="view-head">
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap">
+        <h1>${esc(sr.title)}</h1>
+        <button class="dock-btn ${isSel ? 'save' : ''}" id="btnToggleThisSeries" type="button">
+          ${isSel ? '✓ محددة في قائمتك (اضغط للإلغاء)' : '+ أضف هذه السلسلة إلى التحديد'}
+        </button>
+      </div>
+      <p>الحالة: ${STATE_LABELS[sr.state] || sr.state} · الفعلي: ${sr.actual_count} · المفترض: ${sr.expected_count ?? '—'} · المفرّغ: ${sr.transcribed_count}</p>
+      ${sr.note ? `<p style="color:var(--warn);margin-top:4px">${esc(sr.note)}</p>` : ''}
+      ${sr.yt_playlist_url ? `<div class="ch-links"><a class="ch-link" href="${esc(sr.yt_playlist_url)}" target="_blank" rel="noopener">فتح القائمة في يوتيوب ↗</a></div>` : ''}
+    </section>
+    <div class="filter-bar">
+      <div class="presets-row">
+        <button class="chip ${f === 'all' ? 'on' : ''}" data-lf="all" type="button">الكل (${data.lessons.length})</button>
+        <button class="chip ${f === 'transcribed' ? 'on' : ''}" data-lf="transcribed" type="button">مفرّغ (${sr.transcribed_count})</button>
+        <button class="chip ${f === 'pending' ? 'on' : ''}" data-lf="pending" type="button">ينتظر التفريغ (${sr.actual_count - sr.transcribed_count})</button>
+      </div>
+      <div class="search-row">
+        <input id="lSearch" class="search-input" type="search" placeholder="ابحث في عناوين دروس هذه السلسلة..." value="${esc(currentView.lessonQ)}">
+      </div>
+    </div>
+    <div class="s-list">
+      ${visibleGroups.map(({parent: l, children}) => `
+        <div class="l-group">
+          <div class="l-row">
+            <div class="l-num">${esc(l.display_no || l.order_no)}</div>
+            <div class="l-body">
+              <div class="l-title">${esc(l.title)}</div>
+              <div class="l-meta">
+                ${l.duration ? `<span>⏱ ${fmtDur(l.duration)}</span>` : ''}
+                ${l.has_transcript ? `<span class="pill ok">مفرّغ</span>` : `<span class="pill">غير مفرّغ</span>`}
+                ${l.has_summary ? `<span class="pill ok">ملخص</span>` : ''}
+                ${l.has_questions ? `<span class="pill ok">أسئلة</span>` : ''}
+                ${children.length ? `<span class="pill warn">+${children.length} تتمة/جزء</span>` : ''}
+              </div>
+            </div>
+            ${l.yt_url ? `<a class="yt-btn" href="${esc(l.yt_url)}" target="_blank" rel="noopener">${l.yt_url.includes('archive.org') ? 'أرشيف ↗' : 'يوتيوب ↗'}</a>` : ''}
+          </div>
+          ${children.length ? `
+            <div class="l-children">
+              ${children.map(c => `
+                <div class="l-child">
+                  <div class="l-child-num">↳ ${esc(c.display_no || 'تتمة')}</div>
+                  <div class="l-body">
+                    <div class="l-title" style="font-size:13.5px">${esc(c.title)}</div>
+                    <div class="l-meta">
+                      ${c.duration ? `<span>⏱ ${fmtDur(c.duration)}</span>` : ''}
+                      ${c.has_transcript ? `<span class="pill ok">مفرّغ</span>` : `<span class="pill">غير مفرّغ</span>`}
+                      ${c.has_summary ? `<span class="pill ok">ملخص</span>` : ''}
+                      ${c.has_questions ? `<span class="pill ok">أسئلة</span>` : ''}
+                    </div>
+                  </div>
+                  ${c.yt_url ? `<a class="yt-btn" href="${esc(c.yt_url)}" target="_blank" rel="noopener">${c.yt_url.includes('archive.org') ? 'أرشيف ↗' : 'يوتيوب ↗'}</a>` : ''}
+                </div>
+              `).join('')}
+            </div>
+          ` : ''}
+        </div>
+      `).join('')}
+    </div>
+  `;
+
+  document.getElementById('btnToggleThisSeries').onclick = () => {
+    if (SELECTED.has(sr.id)) SELECTED.delete(sr.id);
+    else SELECTED.add(sr.id);
+    saveSelectionToStorage();
+    renderSeriesData(data);
+  };
+
+  app.querySelectorAll('[data-lf]').forEach(btn => {
+    btn.onclick = () => {
+      currentView.lessonFilter = btn.dataset.lf;
+      renderSeriesData(data);
+    };
+  });
+  const inp = document.getElementById('lSearch');
+  inp.oninput = e => {
+    currentView.lessonQ = e.target.value;
+    renderSeriesData(data);
+    const el = document.getElementById('lSearch');
+    el.focus();
+    el.setSelectionRange(el.value.length, el.value.length);
+  };
+}
+
+// Selection Review Modal & JSON Save Logic
+const reviewDlg = document.getElementById('reviewDlg');
+document.getElementById('btnReviewSel').onclick = () => {
+  renderReviewModal();
+  reviewDlg.showModal();
+};
+document.getElementById('closeDlgBtn').onclick = () => reviewDlg.close();
+document.getElementById('dlgClose2').onclick = () => reviewDlg.close();
+
+document.getElementById('btnClearSel').onclick = () => {
+  if (!confirm('هل تريد مسح جميع السلاسل المحددة؟')) return;
+  SELECTED.clear();
+  saveSelectionToStorage();
+  rerenderCurrent();
+};
+
+function renderReviewModal() {
+  const body = document.getElementById('dlgBody');
+  const bySheikh = new Map();
+  for (const id of SELECTED) {
+    const sr = ALL_SERIES_MAP.get(id);
+    if (!sr) continue;
+    if (!bySheikh.has(sr.sheikh_id)) {
+      bySheikh.set(sr.sheikh_id, {name: sr.sheikh_name, items: []});
+    }
+    bySheikh.get(sr.sheikh_id).items.push(sr);
+  }
+  if (bySheikh.size === 0) {
+    body.innerHTML = '<p style="text-align:center;color:var(--mut);padding:20px">لم يتم تحديد أي سلسلة بعد.</p>';
+    return;
+  }
+  body.innerHTML = [...bySheikh.entries()].map(([shId, grp]) => {
+    const totL = grp.items.reduce((a, x) => a + x.actual_count, 0);
+    return `
+      <div class="sel-group">
+        <div class="sel-group-head">
+          <span>${esc(grp.name)} (${grp.items.length} سلسلة · ${totL} درس)</span>
+          <button class="b-btn" data-rm-sheikh="${esc(shId)}" type="button" style="color:var(--bad)">إزالة الكل</button>
+        </div>
+        ${grp.items.map(sr => `
+          <div class="sel-item">
+            <span><b>${esc(sr.title)}</b> <small style="color:var(--mut)">(${sr.actual_count} درس · مفرّغ ${sr.transcribed_count})</small></span>
+            <button class="b-btn" data-rm-series="${esc(sr.id)}" type="button" style="color:var(--bad)">✕</button>
+          </div>
+        `).join('')}
+      </div>
+    `;
+  }).join('');
+
+  body.querySelectorAll('[data-rm-sheikh]').forEach(btn => {
+    btn.onclick = () => {
+      const shId = btn.dataset.rmSheikh;
+      for (const id of [...SELECTED]) {
+        const sr = ALL_SERIES_MAP.get(id);
+        if (sr && sr.sheikh_id === shId) SELECTED.delete(id);
+      }
+      saveSelectionToStorage();
+      renderReviewModal();
+      rerenderCurrent();
+    };
+  });
+  body.querySelectorAll('[data-rm-series]').forEach(btn => {
+    btn.onclick = () => {
+      SELECTED.delete(btn.dataset.rmSeries);
+      saveSelectionToStorage();
+      renderReviewModal();
+      rerenderCurrent();
+    };
+  });
+}
+
+async function exportSelectedToJson() {
+  const validIds = [...SELECTED].filter(id => ALL_SERIES_MAP.has(id));
+  if (validIds.length === 0) {
+    alert('الرجاء تحديد سلسلة واحدة على الأقل قبل الحفظ.');
+    return;
+  }
+  const includeLessons = document.getElementById('chkIncludeLessons').checked;
+  const saveBtns = [document.getElementById('btnSaveJson'), document.getElementById('dlgSaveBtn')];
+  saveBtns.forEach(b => { if (b) { b.disabled = true; b.textContent = '⏳ جاري تجميع JSON...'; } });
+
+  try {
+    const dir = DB_MODE === 'curated' ? 'data/series_curated' : 'data/series_raw';
+    const bySheikhMap = new Map();
+    const flatSeries = [];
+    let totalLessons = 0, totalTranscribed = 0, totalDuration = 0;
+
+    for (const id of validIds) {
+      const srMeta = ALL_SERIES_MAP.get(id);
+      if (!srMeta) continue;
+      let lessons = undefined;
+      if (includeLessons) {
+        const res = await fetch(`${dir}/${encodeURIComponent(id)}.json?t=${Date.now()}`);
+        if (res.ok) {
+          const full = await res.json();
+          lessons = full.lessons || [];
+        }
+      }
+      const entry = {
+        ...srMeta,
+        ...(includeLessons ? {lessons} : {})
+      };
+      flatSeries.push(entry);
+      if (!bySheikhMap.has(srMeta.sheikh_id)) {
+        bySheikhMap.set(srMeta.sheikh_id, {
+          sheikh_id: srMeta.sheikh_id,
+          sheikh_name: srMeta.sheikh_name,
+          series_count: 0,
+          lessons_count: 0,
+          transcribed_count: 0,
+          series: []
+        });
+      }
+      const grp = bySheikhMap.get(srMeta.sheikh_id);
+      grp.series_count += 1;
+      grp.lessons_count += srMeta.actual_count || 0;
+      grp.transcribed_count += srMeta.transcribed_count || 0;
+      grp.series.push(entry);
+
+      totalLessons += srMeta.actual_count || 0;
+      totalTranscribed += srMeta.transcribed_count || 0;
+      totalDuration += srMeta.total_duration || 0;
+    }
+
+    const payload = {
+      exported_at: new Date().toISOString(),
+      db_mode: DB_MODE,
+      include_lessons: includeLessons,
+      totals: {
+        sheikhs_count: bySheikhMap.size,
+        series_count: flatSeries.length,
+        lessons_count: totalLessons,
+        transcribed_count: totalTranscribed,
+        pending_transcript_count: Math.max(0, totalLessons - totalTranscribed),
+        total_duration_seconds: totalDuration,
+        total_hours: Number((totalDuration / 3600).toFixed(1))
+      },
+      selected_series_ids: validIds,
+      sheikhs: [...bySheikhMap.values()],
+      series: flatSeries
+    };
+
+    const blob = new Blob([JSON.stringify(payload, null, 2)], {type: 'application/json;charset=utf-8'});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    const dateStr = new Date().toISOString().slice(0, 10);
+    a.href = url;
+    a.download = `cheikh-selected-${DB_MODE}-${dateStr}.json`;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    URL.revokeObjectURL(url);
+  } catch (err) {
+    alert('حدث خطأ أثناء تجميع ملف JSON: ' + err.message);
+  } finally {
+    saveBtns.forEach(b => { if (b) { b.disabled = false; b.textContent = '💾 حفظ JSON (Save)'; } });
+  }
+}
+
+document.getElementById('btnSaveJson').onclick = exportSelectedToJson;
+document.getElementById('dlgSaveBtn').onclick = exportSelectedToJson;
+
+loadCatalog().catch(err => {
+  document.getElementById('app').innerHTML = `
+    <div style="padding:40px;text-align:center;color:var(--mut)">
+      <p>تعذّر الاتصال بالخادم المحلي على المنفذ 8090 أو جاري تحديث الكتالوج...</p>
+      <button class="dock-btn save" style="margin-top:12px" onclick="location.reload()">🔄 إعادة التحميل الآن</button>
+    </div>
+  `;
+  setTimeout(() => loadCatalog().catch(() => {}), 1500);
+});
+
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
+</script>
+</body>
+</html>

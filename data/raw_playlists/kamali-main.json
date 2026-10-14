@@ -1,0 +1,325 @@
+{
+  "channel_key": "kamali-main",
+  "sheikh_id": "kamali",
+  "source_url": "https://www.youtube.com/@elkamali",
+  "playlists_url": "https://www.youtube.com/@elkamali/playlists",
+  "total_playlists": 35,
+  "total_videos_reported": 1771,
+  "playlists": [
+    {
+      "playlist_id": "PLEbfLDlcXKwo",
+      "title": "فسيرسورة السجدة",
+      "url": "https://www.youtube.com/playlist?list=PLEbfLDlcXKwo",
+      "channel_id": "UCASAOTD6fMPEg8jmO4nPblQ",
+      "channel_title": "قناة الشَّيخ سَعيد الكَمَلي",
+      "order_no": 1,
+      "video_count": 7
+    },
+    {
+      "playlist_id": "PLFkuO76ICjPmWI-3Se9r7zv-jlPqzkX6Q",
+      "title": "مجالس الموطأ - كتاب الجامع",
+      "url": "https://www.youtube.com/playlist?list=PLFkuO76ICjPmWI-3Se9r7zv-jlPqzkX6Q",
+      "channel_id": "UCASAOTD6fMPEg8jmO4nPblQ",
+      "channel_title": "قناة الشَّيخ سَعيد الكَمَلي",
+      "order_no": 2,
+      "video_count": 29
+    },
+    {
+      "playlist_id": "PLFkuO76ICjPk-Du5_IlswvQWssChOTmn9",
+      "title": "رمضان 2025",
+      "url": "https://www.youtube.com/playlist?list=PLFkuO76ICjPk-Du5_IlswvQWssChOTmn9",
+      "channel_id": "UCASAOTD6fMPEg8jmO4nPblQ",
+      "channel_title": "قناة الشَّيخ سَعيد الكَمَلي",
+      "order_no": 3,
+      "video_count": 24
+    },
+    {
+      "playlist_id": "PLFkuO76ICjPlyokqSyhP9_rkdZ__MxGrU",
+      "title": "حفظ القرأن",
+      "url": "https://www.youtube.com/playlist?list=PLFkuO76ICjPlyokqSyhP9_rkdZ__MxGrU",
+      "channel_id": "UCASAOTD6fMPEg8jmO4nPblQ",
+      "channel_title": "قناة الشَّيخ سَعيد الكَمَلي",
+      "order_no": 4,
+      "video_count": 1
+    },
+    {
+      "playlist_id": "PLFkuO76ICjPmh5JswtEKws6YG4-9Ttc33",
+      "title": "نصائح من ذهب",
+      "url": "https://www.youtube.com/playlist?list=PLFkuO76ICjPmh5JswtEKws6YG4-9Ttc33",
+      "channel_id": "UCASAOTD6fMPEg8jmO4nPblQ",
+      "channel_title": "قناة الشَّيخ سَعيد الكَمَلي",
+      "order_no": 5,
+      "video_count": 6
+    },
+    {
+      "playlist_id": "PLFkuO76ICjPkUl-QKSDo4uVsZxLCiZf93",
+      "title": "محاضرات رمضان 2024",
+      "url": "https://www.youtube.com/playlist?list=PLFkuO76ICjPkUl-QKSDo4uVsZxLCiZf93",
+      "channel_id": "UCASAOTD6fMPEg8jmO4nPblQ",
+      "channel_title": "قناة الشَّيخ سَعيد الكَمَلي",
+      "order_no": 6,
+      "video_count": 6
+    },
+    {
+      "playlist_id": "PLFkuO76ICjPmXSX0AOmy60e39KmeRD2Rt",
+      "title": "برنامج آية وحكاية",
+      "url": "https://www.youtube.com/playlist?list=PLFkuO76ICjPmXSX0AOmy60e39KmeRD2Rt",
+      "channel_id": "UCASAOTD6fMPEg8jmO4nPblQ",
+      "channel_title": "قناة الشَّيخ سَعيد الكَمَلي",
+      "order_no": 7,
+      "video_count": 41
+    },
+    {
+      "playlist_id": "PLFkuO76ICjPk0uxSJHsjmoy_v-TQy-cBr",
+      "title": "رمضان 2024",
+      "url": "https://www.youtube.com/playlist?list=PLFkuO76ICjPk0uxSJHsjmoy_v-TQy-cBr",
+      "channel_id": "UCASAOTD6fMPEg8jmO4nPblQ",
+      "channel_title": "قناة الشَّيخ سَعيد الكَمَلي",
+      "order_no": 8,
+      "video_count": 47
+    },
+    {
+      "playlist_id": "PLFkuO76ICjPnryWlA5flPkekZLS_GkzuC",
+      "title": "Shorts",
+      "url": "https://www.youtube.com/playlist?list=PLFkuO76ICjPnryWlA5flPkekZLS_GkzuC",
+      "channel_id": "UCASAOTD6fMPEg8jmO4nPblQ",
+      "channel_title": "قناة الشَّيخ سَعيد الكَمَلي",
+      "order_no": 9,
+      "video_count": 23
+    },
+    {
+      "playlist_id": "PLFkuO76ICjPnnMHjKJyM3j_CU7e_nBFhL",
+      "title": "Ramadan 2023 | رمضان 2023",
+      "url": "https://www.youtube.com/playlist?list=PLFkuO76ICjPnnMHjKJyM3j_CU7e_nBFhL",
+      "channel_id": "UCASAOTD6fMPEg8jmO4nPblQ",
+      "channel_title": "قناة الشَّيخ سَعيد الكَمَلي",
+      "order_no": 10,
+      "video_count": 16
+    },
+    {
+      "playlist_id": "PLFkuO76ICjPljROhOWwZ-z9Jzc81KuxFf",
+      "title": "مجالس الموطأ | الشيخ سعيد الكملي",
+      "url": "https://www.youtube.com/playlist?list=PLFkuO76ICjPljROhOWwZ-z9Jzc81KuxFf",
+      "channel_id": "UCASAOTD6fMPEg8jmO4nPblQ",
+      "channel_title": "قناة الشَّيخ سَعيد الكَمَلي",
+      "order_no": 11,
+      "video_count": 178
+    },
+    {
+      "playlist_id": "PLFkuO76ICjPkxCbn7PrDvMpio4oHlT2om",
+      "title": "سلسلة سيرة الحبيب ـ الشيخ سعيد الكملي",
+      "url": "https://www.youtube.com/playlist?list=PLFkuO76ICjPkxCbn7PrDvMpio4oHlT2om",
+      "channel_id": "UCASAOTD6fMPEg8jmO4nPblQ",
+      "channel_title": "قناة الشَّيخ سَعيد الكَمَلي",
+      "order_no": 12,
+      "video_count": 102
+    },
+    {
+      "playlist_id": "PLFkuO76ICjPmw_LkCYPJI6E79mvBlLZQT",
+      "title": "إسوة حسنة:   ﷺ ـ  الشيخ سعيد الكملي",
+      "url": "https://www.youtube.com/playlist?list=PLFkuO76ICjPmw_LkCYPJI6E79mvBlLZQT",
+      "channel_id": "UCASAOTD6fMPEg8jmO4nPblQ",
+      "channel_title": "قناة الشَّيخ سَعيد الكَمَلي",
+      "order_no": 13,
+      "video_count": 10
+    },
+    {
+      "playlist_id": "PLFkuO76ICjPkhtq5s22uS_v9t3HnPUOIQ",
+      "title": "من أجمل المحاضرات /  شرح لامية ابن الوردي للشيخ سعيد الكملي",
+      "url": "https://www.youtube.com/playlist?list=PLFkuO76ICjPkhtq5s22uS_v9t3HnPUOIQ",
+      "channel_id": "UCASAOTD6fMPEg8jmO4nPblQ",
+      "channel_title": "قناة الشَّيخ سَعيد الكَمَلي",
+      "order_no": 14,
+      "video_count": 3
+    },
+    {
+      "playlist_id": "PLFkuO76ICjPk8J6mqGHqzs2rNWzbL03Rh",
+      "title": "شرح جميل لقصيدة \" عنوان الحكم \" للبستي - الشيخ سعيد الكملي",
+      "url": "https://www.youtube.com/playlist?list=PLFkuO76ICjPk8J6mqGHqzs2rNWzbL03Rh",
+      "channel_id": "UCASAOTD6fMPEg8jmO4nPblQ",
+      "channel_title": "قناة الشَّيخ سَعيد الكَمَلي",
+      "order_no": 15,
+      "video_count": 2
+    },
+    {
+      "playlist_id": "PLFkuO76ICjPmSckkduR7TcQn-2BANlw2G",
+      "title": "سلسلة جميلة - أخبار العرب و سيرة سيد البشر",
+      "url": "https://www.youtube.com/playlist?list=PLFkuO76ICjPmSckkduR7TcQn-2BANlw2G",
+      "channel_id": "UCASAOTD6fMPEg8jmO4nPblQ",
+      "channel_title": "قناة الشَّيخ سَعيد الكَمَلي",
+      "order_no": 16,
+      "video_count": 32
+    },
+    {
+      "playlist_id": "PLFkuO76ICjPlB1AQVmGLgYQwfLdNwnrHL",
+      "title": "شرح منظومة ابن أبي العز الحنفي في السيرة النبوية",
+      "url": "https://www.youtube.com/playlist?list=PLFkuO76ICjPlB1AQVmGLgYQwfLdNwnrHL",
+      "channel_id": "UCASAOTD6fMPEg8jmO4nPblQ",
+      "channel_title": "قناة الشَّيخ سَعيد الكَمَلي",
+      "order_no": 17,
+      "video_count": 2
+    },
+    {
+      "playlist_id": "PLFkuO76ICjPk5Gr_x8SXQ692YCwA7zEur",
+      "title": "شرح منظومة الألبيري في الأدب",
+      "url": "https://www.youtube.com/playlist?list=PLFkuO76ICjPk5Gr_x8SXQ692YCwA7zEur",
+      "channel_id": "UCASAOTD6fMPEg8jmO4nPblQ",
+      "channel_title": "قناة الشَّيخ سَعيد الكَمَلي",
+      "order_no": 18,
+      "video_count": 3
+    },
+    {
+      "playlist_id": "PLFkuO76ICjPlcS3MIqSEqYDHxe5RqYPDU",
+      "title": "شرح ابواب الصيام لابن أبي زيد القيرواني المالكي",
+      "url": "https://www.youtube.com/playlist?list=PLFkuO76ICjPlcS3MIqSEqYDHxe5RqYPDU",
+      "channel_id": "UCASAOTD6fMPEg8jmO4nPblQ",
+      "channel_title": "قناة الشَّيخ سَعيد الكَمَلي",
+      "order_no": 19,
+      "video_count": 3
+    },
+    {
+      "playlist_id": "PLFkuO76ICjPk-P6Ts1Y5Gkq192WOA0dhR",
+      "title": "أشذاء و أنداء ـ الشيخ سعيد الكملي",
+      "url": "https://www.youtube.com/playlist?list=PLFkuO76ICjPk-P6Ts1Y5Gkq192WOA0dhR",
+      "channel_id": "UCASAOTD6fMPEg8jmO4nPblQ",
+      "channel_title": "قناة الشَّيخ سَعيد الكَمَلي",
+      "order_no": 20,
+      "video_count": 30
+    },
+    {
+      "playlist_id": "PLFkuO76ICjPlmJEWw6-AyKGp0Yj8v9py8",
+      "title": "فـتاوى",
+      "url": "https://www.youtube.com/playlist?list=PLFkuO76ICjPlmJEWw6-AyKGp0Yj8v9py8",
+      "channel_id": "UCASAOTD6fMPEg8jmO4nPblQ",
+      "channel_title": "قناة الشَّيخ سَعيد الكَمَلي",
+      "order_no": 21,
+      "video_count": 25
+    },
+    {
+      "playlist_id": "PLFkuO76ICjPmgiy50tDpg8ZhAXuX3THJM",
+      "title": "مشاهد من سيرة الإمام مالك بن أنس رحمه الله",
+      "url": "https://www.youtube.com/playlist?list=PLFkuO76ICjPmgiy50tDpg8ZhAXuX3THJM",
+      "channel_id": "UCASAOTD6fMPEg8jmO4nPblQ",
+      "channel_title": "قناة الشَّيخ سَعيد الكَمَلي",
+      "order_no": 22,
+      "video_count": 49
+    },
+    {
+      "playlist_id": "PLFkuO76ICjPkbBMG9VNcyNzf4_IFMx5eC",
+      "title": "شرح موطأ الإمام مالك بن أنس رحمه الله",
+      "url": "https://www.youtube.com/playlist?list=PLFkuO76ICjPkbBMG9VNcyNzf4_IFMx5eC",
+      "channel_id": "UCASAOTD6fMPEg8jmO4nPblQ",
+      "channel_title": "قناة الشَّيخ سَعيد الكَمَلي",
+      "order_no": 23,
+      "video_count": 234
+    },
+    {
+      "playlist_id": "PLFkuO76ICjPkUP5-Nbi6Fur5QMMjRsN86",
+      "title": "مواقيت الصلاة",
+      "url": "https://www.youtube.com/playlist?list=PLFkuO76ICjPkUP5-Nbi6Fur5QMMjRsN86",
+      "channel_id": "UCASAOTD6fMPEg8jmO4nPblQ",
+      "channel_title": "قناة الشَّيخ سَعيد الكَمَلي",
+      "order_no": 24,
+      "video_count": 6
+    },
+    {
+      "playlist_id": "PLFkuO76ICjPnhZ0pmyfUAEXzruc84988Q",
+      "title": "العقيدة-الشيخ سعيد الكملي",
+      "url": "https://www.youtube.com/playlist?list=PLFkuO76ICjPnhZ0pmyfUAEXzruc84988Q",
+      "channel_id": "UCASAOTD6fMPEg8jmO4nPblQ",
+      "channel_title": "قناة الشَّيخ سَعيد الكَمَلي",
+      "order_no": 25,
+      "video_count": 1
+    },
+    {
+      "playlist_id": "PLFkuO76ICjPnm2d8UvkgE_ke1-MeHs1Oj",
+      "title": "شرح لامية العرب للشنفرى",
+      "url": "https://www.youtube.com/playlist?list=PLFkuO76ICjPnm2d8UvkgE_ke1-MeHs1Oj",
+      "channel_id": "UCASAOTD6fMPEg8jmO4nPblQ",
+      "channel_title": "قناة الشَّيخ سَعيد الكَمَلي",
+      "order_no": 26,
+      "video_count": 4
+    },
+    {
+      "playlist_id": "PLFkuO76ICjPlUCLvSQPQUqWB2eXEnbsCf",
+      "title": "مجالس التفسير",
+      "url": "https://www.youtube.com/playlist?list=PLFkuO76ICjPlUCLvSQPQUqWB2eXEnbsCf",
+      "channel_id": "UCASAOTD6fMPEg8jmO4nPblQ",
+      "channel_title": "قناة الشَّيخ سَعيد الكَمَلي",
+      "order_no": 27,
+      "video_count": 109
+    },
+    {
+      "playlist_id": "PLFkuO76ICjPkMGIfjDN1yfeYcZo81XhN_",
+      "title": "الـشعـر ـ الشيخ سعيد الكملي",
+      "url": "https://www.youtube.com/playlist?list=PLFkuO76ICjPkMGIfjDN1yfeYcZo81XhN_",
+      "channel_id": "UCASAOTD6fMPEg8jmO4nPblQ",
+      "channel_title": "قناة الشَّيخ سَعيد الكَمَلي",
+      "order_no": 28,
+      "video_count": 20
+    },
+    {
+      "playlist_id": "PLFkuO76ICjPl_6ZN-jkol32ohg_FC8FpR",
+      "title": "خطب الجمعة ـ الشيخ سعيد الكملي",
+      "url": "https://www.youtube.com/playlist?list=PLFkuO76ICjPl_6ZN-jkol32ohg_FC8FpR",
+      "channel_id": "UCASAOTD6fMPEg8jmO4nPblQ",
+      "channel_title": "قناة الشَّيخ سَعيد الكَمَلي",
+      "order_no": 29,
+      "video_count": 6
+    },
+    {
+      "playlist_id": "PLFkuO76ICjPlA8v1je7EhUO3UWP1uvBFe",
+      "title": "محاضرات متنوعة ـ الشيخ سعيد الكملي",
+      "url": "https://www.youtube.com/playlist?list=PLFkuO76ICjPlA8v1je7EhUO3UWP1uvBFe",
+      "channel_id": "UCASAOTD6fMPEg8jmO4nPblQ",
+      "channel_title": "قناة الشَّيخ سَعيد الكَمَلي",
+      "order_no": 30,
+      "video_count": 752
+    },
+    {
+      "playlist_id": "PLFkuO76ICjPk3ffZve8R_i9xoExvMy-Ke",
+      "title": "الفقه ـ الشيخ سعيد الكملي",
+      "url": "https://www.youtube.com/playlist?list=PLFkuO76ICjPk3ffZve8R_i9xoExvMy-Ke",
+      "channel_id": "UCASAOTD6fMPEg8jmO4nPblQ",
+      "channel_title": "قناة الشَّيخ سَعيد الكَمَلي",
+      "order_no": 31,
+      "video_count": null
+    },
+    {
+      "playlist_id": "PLFkuO76ICjPn2Hg2Bmy5fs2SscYB9UNtW",
+      "title": "التاريخ ـ الشيخ سعيد الكملي",
+      "url": "https://www.youtube.com/playlist?list=PLFkuO76ICjPn2Hg2Bmy5fs2SscYB9UNtW",
+      "channel_id": "UCASAOTD6fMPEg8jmO4nPblQ",
+      "channel_title": "قناة الشَّيخ سَعيد الكَمَلي",
+      "order_no": 32,
+      "video_count": null
+    },
+    {
+      "playlist_id": "PLFkuO76ICjPnHPIaM_j0I_Y2WiKkPv3mw",
+      "title": "الآداب والمواعظ ـ الشيخ سعيد الكملي",
+      "url": "https://www.youtube.com/playlist?list=PLFkuO76ICjPnHPIaM_j0I_Y2WiKkPv3mw",
+      "channel_id": "UCASAOTD6fMPEg8jmO4nPblQ",
+      "channel_title": "قناة الشَّيخ سَعيد الكَمَلي",
+      "order_no": 33,
+      "video_count": null
+    },
+    {
+      "playlist_id": "PLFkuO76ICjPkJffK5WG8mht0fgOnkPlQ2",
+      "title": "التراجم ـ الشيخ سعيد الكملي",
+      "url": "https://www.youtube.com/playlist?list=PLFkuO76ICjPkJffK5WG8mht0fgOnkPlQ2",
+      "channel_id": "UCASAOTD6fMPEg8jmO4nPblQ",
+      "channel_title": "قناة الشَّيخ سَعيد الكَمَلي",
+      "order_no": 34,
+      "video_count": null
+    },
+    {
+      "playlist_id": "PLFkuO76ICjPkbNSBGLiTa3lZ5xXR0cwC6",
+      "title": "علوم القرآن ـ الشيخ سعيد الكملي",
+      "url": "https://www.youtube.com/playlist?list=PLFkuO76ICjPkbNSBGLiTa3lZ5xXR0cwC6",
+      "channel_id": "UCASAOTD6fMPEg8jmO4nPblQ",
+      "channel_title": "قناة الشَّيخ سَعيد الكَمَلي",
+      "order_no": 35,
+      "video_count": null
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "شيخ — مكتبة سلاسل ودروس المشايخ",
+  "short_name": "شيخ",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "lang": "ar",
+  "dir": "rtl",
+  "background_color": "#F4EEE2",
+  "theme_color": "#F4EEE2",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
