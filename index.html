@@ -182,7 +182,6 @@ dialog::backdrop{background:rgba(0,0,0,.55);-webkit-backdrop-filter:blur(3px);ba
       📂 استيراد تحديد
       <input type="file" id="importSelInput" accept=".json" hidden>
     </label>
-    <button class="b-btn" id="btnMySel" type="button" title="عرض الاختيارات المحفوظة في المستودع">⭐ رؤية اختياراتي</button>
     <button class="ib" id="themeBtn" aria-label="تغيير الثيم" title="تغيير الثيم">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="8.5"/><path d="M12 3.5a8.5 8.5 0 0 1 0 17z" fill="currentColor"/></svg>
     </button>
@@ -328,6 +327,7 @@ async function loadCatalog() {
     }
   }
   updateSelectionDock();
+  hydrateMySelectionsIfEmpty();
   if (currentView.type === 'explorer') renderExplorer();
   else if (currentView.type === 'sheikh') openSheikh(currentView.sheikhId);
   else openHome();
@@ -388,46 +388,62 @@ document.getElementById('importSelInput').onchange = async e => {
   e.target.value = '';
 };
 
-// ⭐ رؤية اختياراتي — يطبّق الاختيارات المحفوظة في المستودع (data/my_selections.json) كتحديد حالي
-async function loadMySelections() {
-  const btn = document.getElementById('btnMySel');
-  const orig = btn.textContent;
-  btn.disabled = true;
-  btn.textContent = '⏳ جارٍ تحميل اختياراتك…';
-  try {
-    const res = await fetch('data/my_selections.json?t=' + Date.now(), {cache: 'no-store'});
-    if (!res.ok) throw new Error('HTTP ' + res.status);
-    const data = await res.json();
-    const ids = [];
-    const missing = [];
-    for (const sh of (data.sheikhs || [])) {
-      for (const sr of (sh.series || [])) {
-        if (ALL_SERIES_MAP.has(sr.id)) ids.push(sr.id);
-        else missing.push(sr.id);
-      }
+// ⭐ اختياراتي — تُحمَّل مرة واحدة من data/my_selections.json (فهرس خفيف مُولَّد من cheikh-selected.json)
+let MY_SEL = null;
+async function fetchMySelections(force = false) {
+  if (MY_SEL && !force) return MY_SEL;
+  const res = await fetch('data/my_selections.json?t=' + Date.now(), {cache: 'no-store'});
+  if (!res.ok) throw new Error('HTTP ' + res.status);
+  const d = await res.json();
+  const idsBySheikh = new Map();
+  const all = [];
+  for (const sh of (d.sheikhs || [])) {
+    const arr = [];
+    for (const sr of (sh.series || [])) {
+      if (!ALL_SERIES_MAP.has(sr.id)) continue;
+      arr.push(sr.id);
+      all.push(sr.id);
     }
-    SELECTED = new Set(ids);
+    idsBySheikh.set(sh.id, arr);
+  }
+  MY_SEL = {raw: d, all, idsBySheikh, totals: d.totals || {}};
+  return MY_SEL;
+}
+
+// عند أول تحميل فقط: إن لم يكن هناك تحديد محلي، اعتبر اختياراتك المحفوظة هي التحديد
+// (فتظهر «✓ محدد N» في صفحة كل شيخ مباشرة على أي جهاز/متصفح جديد)
+async function hydrateMySelectionsIfEmpty() {
+  try {
+    if (SELECTED.size > 0) return;
+    const m = await fetchMySelections();
+    if (!m.all.length || SELECTED.size > 0) return;
+    SELECTED = new Set(m.all);
     saveSelectionToStorage();
-    F.selection = 'selected';
-    F.sheikhs = new Set();
-    currentView = {type: 'explorer', sheikhId: null, seriesId: null, lessonFilter: 'all', lessonQ: ''};
-    document.getElementById('backBtn').hidden = false;
-    document.getElementById('navTitle').textContent = `⭐ اختياراتي (${ids.length} سلسلة)`;
-    renderExplorer();
-    window.scrollTo(0, 0);
-    const t = data.totals || {};
-    let msg = `اختياراتك: ${ids.length} سلسلة من ${(data.sheikhs || []).length} مشايخ`;
-    if (t.lessons_count) msg += ` · ${t.lessons_count.toLocaleString('en-US')} درساً`;
-    if (missing.length) msg += `\nتنبيه: ${missing.length} سلسلة في الملف غير موجودة في الفهرس الحالي ولن تُعرض.`;
-    alert(msg);
+    updateSelectionDock();
+    rerenderCurrent();
+  } catch (err) { /* صامت */ }
+}
+
+// زر صفحة الشيخ: يعرض اختياراتي من هذا الشيخ (ويضبط تحديد هذا الشيخ مطابقًا للملف المحفوظ)
+async function toggleSheikhSelection(sheikhId, btn) {
+  const orig = btn ? btn.textContent : '';
+  if (btn) { btn.disabled = true; btn.textContent = '⏳ جارٍ التحميل…'; }
+  try {
+    const m = await fetchMySelections();
+    const sh = CATALOG.sheikhs.find(x => x.id === sheikhId);
+    if (!sh) return;
+    const own = new Set((sh.series || []).map(s => s.id));
+    const ids = m.idsBySheikh.get(sheikhId) || [];
+    for (const id of own) SELECTED.delete(id);
+    for (const id of ids) SELECTED.add(id);
+    saveSelectionToStorage();
+    F.selection = (F.selection === 'selected') ? 'all' : 'selected';
+    renderSheikh(sh);
   } catch (err) {
-    alert('تعذّر تحميل الاختيارات المحفوظة: ' + err.message);
-  } finally {
-    btn.disabled = false;
-    btn.textContent = orig;
+    alert('تعذّر تحميل اختياراتك المحفوظة: ' + err.message);
+    if (btn) { btn.disabled = false; btn.textContent = orig; }
   }
 }
-document.getElementById('btnMySel').onclick = loadMySelections;
 
 function ringSvg(pct) {
   const r = 35, c = 2 * Math.PI * r;
@@ -1154,7 +1170,10 @@ function renderSheikh(sh) {
     <section class="view-head">
       <div style="display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap">
         <h1>${esc(sh.name)}</h1>
-        <span class="pill ok">✓ المحدد من هذا الشيخ: ${selCount} / ${sh.series_count} سلسلة</span>
+        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+          ${DB_MODE === 'curated' ? `<button class="b-btn" id="btnSheikhSel" type="button" data-sheikh="${esc(sh.id)}">${F.selection === 'selected' ? `↩ عرض كل سلاسل الشيخ (${sh.series_count})` : `⭐ رؤية اختياراتي من هذا الشيخ (${selCount})`}</button>` : ''}
+          <span class="pill ok">✓ المحدد من هذا الشيخ: ${selCount} / ${sh.series_count} سلسلة</span>
+        </div>
       </div>
       <p>${sh.series_count} سلسلة (${sh.total_lessons.toLocaleString('en-US')} درس) · المفرّغ: ${sh.transcribed_count.toLocaleString('en-US')} · الساعات: ${fmtHours(sh.total_duration)}</p>
       <div class="ch-links">
@@ -1163,6 +1182,8 @@ function renderSheikh(sh) {
     </section>
     ${html}
   `;
+  const bsel = document.getElementById('btnSheikhSel');
+  if (bsel) bsel.onclick = () => toggleSheikhSelection(sh.id, bsel);
   bindFilterAndSeriesEvents(matched, sh.id);
 }
 
