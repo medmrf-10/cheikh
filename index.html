@@ -117,6 +117,12 @@ button{cursor:pointer}
 .s-check{flex:none;width:30px;display:flex;align-items:flex-start;justify-content:center;padding-top:2px}
 .chk-box{width:24px;height:24px;border-radius:7px;border:2px solid var(--mut);background:var(--card);display:grid;place-items:center;color:#fff;font-weight:700;font-size:14px;transition:all .12s}
 .s-card.selected .chk-box{background:var(--ok);border-color:var(--ok)}
+.rate-row{display:flex;align-items:center;gap:3px;margin-top:7px;padding-top:6px;border-top:1px dashed var(--line);font-size:17px;line-height:1}
+.rate-star{cursor:pointer;color:var(--line);transition:color .1s,transform .1s;user-select:none}
+.rate-star:hover{transform:scale(1.15)}
+.rate-star.on{color:#e8a33d}
+.rate-val{font-size:11px;color:var(--mut);margin-right:4px}
+.rate-clr{cursor:pointer;font-size:11px;color:var(--mut);margin-right:2px}
 .s-main{flex:1;min-width:0;cursor:pointer}
 .s-top{display:flex;align-items:flex-start;justify-content:space-between;gap:8px}
 .s-title{font:700 16px/1.45 Amiri,serif;color:var(--ink)}
@@ -182,6 +188,7 @@ dialog::backdrop{background:rgba(0,0,0,.55);-webkit-backdrop-filter:blur(3px);ba
       📂 استيراد تحديد
       <input type="file" id="importSelInput" accept=".json" hidden>
     </label>
+    <button class="b-btn" id="btnExportRatings" type="button" title="تصدير تقييماتي (1-5) إلى ملف JSON">⬇ تصدير تقييماتي (0)</button>
     <button class="ib" id="themeBtn" aria-label="تغيير الثيم" title="تغيير الثيم">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="8.5"/><path d="M12 3.5a8.5 8.5 0 0 1 0 17z" fill="currentColor"/></svg>
     </button>
@@ -314,6 +321,8 @@ function updateModeBtn() {
 async function loadCatalog() {
   updateModeBtn();
   SELECTED = new Set(JSON.parse(localStorage.getItem(getSelectionKey()) || '[]'));
+  RATINGS = JSON.parse(localStorage.getItem(getRatingsKey()) || '{}');
+  updateRatingsExportBtn();
   const file = DB_MODE === 'curated' ? 'data/catalog_curated.json' : 'data/catalog_raw.json';
   const res = await fetch(file + '?t=' + Date.now(), {cache: 'no-store'});
   CATALOG = await res.json();
@@ -444,6 +453,115 @@ async function toggleSheikhSelection(sheikhId, btn) {
     if (btn) { btn.disabled = false; btn.textContent = orig; }
   }
 }
+
+// ⭐⭐ تقييم السلاسل 1-5 — يُحفظ في المتصفح ويُصدَّر بزر «⬇ تصدير تقييماتي»
+function getRatingsKey() { return `cheikh.ratings.${DB_MODE}`; }
+let RATINGS = {};
+function saveRatings() { localStorage.setItem(getRatingsKey(), JSON.stringify(RATINGS)); }
+function starsHtml(srId) {
+  const v = RATINGS[srId] || 0;
+  let h = `<div class="rate-row" data-rate-rid="${esc(srId)}">`;
+  for (let i = 1; i <= 5; i++) h += `<span class="rate-star ${i <= v ? 'on' : ''}" data-star="${i}" data-rid="${esc(srId)}" title="تقييم ${i}">★</span>`;
+  h += `<span class="rate-val">${v ? '★'.repeat(v) + ' (' + v + ')' : '—'}</span>`;
+  h += `<span class="rate-clr" data-clear-rid="${esc(srId)}" title="مسح التقييم"${v ? '' : ' style="display:none"'}>✕</span>`;
+  return h + '</div>';
+}
+function updateRatingsExportBtn() {
+  const b = document.getElementById('btnExportRatings');
+  if (b) b.textContent = `⬇ تصدير تقييماتي (${Object.keys(RATINGS).length})`;
+}
+function refreshRatingUI(rid) {
+  document.querySelectorAll('.rate-row').forEach(row => {
+    if (row.dataset.rateRid !== rid) return;
+    const v = RATINGS[rid] || 0;
+    row.querySelectorAll('.rate-star').forEach(s => s.classList.toggle('on', Number(s.dataset.star) <= v));
+    const val = row.querySelector('.rate-val');
+    if (val) val.textContent = v ? ('★'.repeat(v) + ' (' + v + ')') : '—';
+    const clr = row.querySelector('.rate-clr');
+    if (clr) clr.style.display = v ? '' : 'none';
+  });
+  updateRatingsExportBtn();
+}
+// نقر النجمة لا يفتح السلسلة (capture + توقّف الانتشار)
+document.addEventListener('click', ev => {
+  if (!ev.target || !ev.target.closest) return;
+  const star = ev.target.closest('.rate-star');
+  const clr = ev.target.closest('.rate-clr');
+  if (!star && !clr) return;
+  ev.preventDefault();
+  ev.stopPropagation();
+  const rid = star ? star.dataset.rid : clr.dataset.clearRid;
+  const cur = RATINGS[rid] || 0;
+  const v = star ? Number(star.dataset.star) : 0;
+  const nv = (star && cur === v) ? 0 : v;   // النقر على النجمة نفسها = مسح
+  if (nv) RATINGS[rid] = nv; else delete RATINGS[rid];
+  saveRatings();
+  refreshRatingUI(rid);
+}, true);
+
+function exportRatingsToJson() {
+  try {
+    const entries = [];
+    for (const sr of ALL_SERIES_MAP.values()) {
+      const r = RATINGS[sr.id];
+      if (!r) continue;
+      entries.push({
+        id: sr.id,
+        sheikh_id: sr.sheikh_id,
+        sheikh_name: sr.sheikh_name,
+        series_order_no: sr.order_no,
+        title: sr.title,
+        rating: r,
+        state: sr.state,
+        lessons_count: sr.actual_count,
+        expected_count: sr.expected_count,
+        missing_count: sr.missing_count || 0,
+        transcribed_count: sr.transcribed_count,
+        summary_count: sr.summary_count,
+        questions_count: sr.questions_count,
+        total_duration_seconds: sr.total_duration,
+        selected: SELECTED.has(sr.id)
+      });
+    }
+    entries.sort((a, b) => (b.rating - a.rating) || String(a.sheikh_name).localeCompare(String(b.sheikh_name), 'ar') || ((a.series_order_no || 0) - (b.series_order_no || 0)));
+    const dist = {1: 0, 2: 0, 3: 0, 4: 0, 5: 0};
+    for (const e of entries) dist[e.rating] = (dist[e.rating] || 0) + 1;
+    const bySheikh = new Map();
+    for (const e of entries) {
+      const k = e.sheikh_id;
+      const g = bySheikh.get(k) || {sheikh_id: k, sheikh_name: e.sheikh_name, count: 0, sum: 0, lessons: 0};
+      g.count += 1; g.sum += e.rating; g.lessons += (e.lessons_count || 0);
+      bySheikh.set(k, g);
+    }
+    const payload = {
+      exported_at: new Date().toISOString(),
+      db_mode: DB_MODE,
+      kind: 'series_ratings_1_5',
+      totals: {
+        rated_count: entries.length,
+        unrated_count: Math.max(0, ALL_SERIES_MAP.size - entries.length),
+        avg_rating: entries.length ? Number((entries.reduce((s, e) => s + e.rating, 0) / entries.length).toFixed(2)) : null,
+        distribution: dist,
+        rated_lessons_count: entries.reduce((s, e) => s + (e.lessons_count || 0), 0)
+      },
+      by_sheikh: [...bySheikh.values()].map(x => ({sheikh_id: x.sheikh_id, sheikh_name: x.sheikh_name, rated_series: x.count, avg_rating: Number((x.sum / x.count).toFixed(2)), lessons: x.lessons})).sort((a, b) => b.avg_rating - a.avg_rating),
+      ratings: entries
+    };
+    const blob = new Blob([JSON.stringify(payload, null, 2)], {type: 'application/json;charset=utf-8'});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `cheikh-ratings-${DB_MODE}-${new Date().toISOString().slice(0, 10)}.json`;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    URL.revokeObjectURL(url);
+    if (!entries.length) alert('لم تُقيّم أي سلسلة بعد — اضغط النجوم ★ أسفل كل سلسلة ثم صدّر.');
+  } catch (err) {
+    alert('تعذّر تصدير التقييمات: ' + err.message);
+  }
+}
+document.getElementById('btnExportRatings').onclick = exportRatingsToJson;
 
 function ringSvg(pct) {
   const r = 35, c = 2 * Math.PI * r;
@@ -977,6 +1095,7 @@ function renderFilterAndSeriesHtml(lockSheikhId) {
                   ${sr.avg_duration ? `<span>متوسط الدرس: <b>${fmtMin(sr.avg_duration)}</b></span>` : ''}
                 </div>
                 ${sr.note ? `<div class="s-note">${esc(sr.note)}</div>` : ''}
+                ${starsHtml(sr.id)}
               </div>
             </div>
           `;
