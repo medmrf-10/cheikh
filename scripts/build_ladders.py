@@ -58,15 +58,13 @@ TIER1_CORE_IDS = {
     "bardoni__s016",
     "sariri__s032",
     "omari__s012",
-    # 5. سلم الفقه المالكي المتدرج والقواعد الفقهية (ابن عاشر -> الرسالة -> أسهل المسالك -> المنهج المنتخب والصناعة -> خليل والشرح الكبير)
-    "dedew__sharh_ibn_ashir",
+    # 5. سلم الفقه المالكي المتدرج والقواعد الفقهية (الرسالة -> أسهل المسالك -> المنهج المنتخب والصناعة -> خليل والشرح الكبير)
     "bardoni__s006",
     "sariri__s003",
     "bardoni__s007",
     "sariri__s004",
     "sariri__s002",
     "sariri__s001",
-    "dedew__dawrat_faraid",
     # 6. سلم أصول الفقه وتخريج الفروع على الأصول (منفصل تماماً عن المقاصد — السريري والبردوني)
     "sariri__s017",
     "sariri__s018",
@@ -109,11 +107,9 @@ TIER1_CORE_IDS = {
     "asimi__s013",
     "sayed__s012",
     "sayed__s014",
-    # 10. سلم متون السنة النبوية وفقه الحديث المقارن والشمائل
+    # 10. سلم شروح متون السنة النبوية وفقه الحديث والشمائل
     "dedew__kursi_arbaeen_nawawiya",
     "kamali__s003",
-    "sariri__s023",
-    "dedew__sharh_umdat_ahkam",
     "hafiz__bulugh_maram",
     "dedew__sharh_taqreeb_asaneed",
     "kamali__s001",
@@ -150,9 +146,7 @@ TIER2_REFERENCE_IDS = {
     "sariri__s016", "sariri__s020", "sariri__s041", "sariri__s046", "sariri__s048",
     "alihani__s049", "alihani__s050",
     "dedew__sharh_miftah_wusool", "dedew__sharh_waraqat", "dedew__dawrat_maratib_dalala_kuwait",
-    "dedew__dawrat_tahara_salah", "dedew__fiqh_muamalat", "dedew__ahkam_siyam_series", "dedew__dawrat_sinaat_fatwa_nawazil",
-    "dedew__madakhil_uloom_manhajiya", "dedew__sharh_muwafaqat",
-    "kamali__s004", "kamali__s005", "kamali__s029",
+    "dedew__madakhil_uloom_manhajiya",
     "asimi__s015", "asimi__s016", "asimi__s017", "asimi__s020", "asimi__s021", "asimi__s022",
     "hawwa__ibadat2_ikhtiyar", "hawwa__ahwal_shakhsiyah_quduri", "hawwa__fiqh_ahadith_ahkam", "hawwa__usool_fiqh_1", "hawwa__usool_ifta_isad_mufti",
     "gomaa__s001", "gomaa__s002", "gomaa__s004", "gomaa__s005", "gomaa__s006", "gomaa__s007", "gomaa__s008", "gomaa__s052", "gomaa__s053", "gomaa__s054", "gomaa__s080", "gomaa__s083", "gomaa__s084",
