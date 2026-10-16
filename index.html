@@ -182,6 +182,7 @@ dialog::backdrop{background:rgba(0,0,0,.55);-webkit-backdrop-filter:blur(3px);ba
       📂 استيراد تحديد
       <input type="file" id="importSelInput" accept=".json" hidden>
     </label>
+    <button class="b-btn" id="btnMySel" type="button" title="عرض الاختيارات المحفوظة في المستودع">⭐ رؤية اختياراتي</button>
     <button class="ib" id="themeBtn" aria-label="تغيير الثيم" title="تغيير الثيم">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="8.5"/><path d="M12 3.5a8.5 8.5 0 0 1 0 17z" fill="currentColor"/></svg>
     </button>
@@ -386,6 +387,48 @@ document.getElementById('importSelInput').onchange = async e => {
   }
   e.target.value = '';
 };
+
+// ⭐ رؤية اختياراتي — يطبّق الاختيارات المحفوظة في المستودع (data/my_selections.json) كتحديد حالي
+async function loadMySelections() {
+  const btn = document.getElementById('btnMySel');
+  const orig = btn.textContent;
+  btn.disabled = true;
+  btn.textContent = '⏳ جارٍ تحميل اختياراتك…';
+  try {
+    const res = await fetch('data/my_selections.json?t=' + Date.now(), {cache: 'no-store'});
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    const ids = [];
+    const missing = [];
+    for (const sh of (data.sheikhs || [])) {
+      for (const sr of (sh.series || [])) {
+        if (ALL_SERIES_MAP.has(sr.id)) ids.push(sr.id);
+        else missing.push(sr.id);
+      }
+    }
+    SELECTED = new Set(ids);
+    saveSelectionToStorage();
+    F.selection = 'selected';
+    F.sheikhs = new Set();
+    currentView = {type: 'explorer', sheikhId: null, seriesId: null, lessonFilter: 'all', lessonQ: ''};
+    document.getElementById('backBtn').hidden = false;
+    document.getElementById('navTitle').textContent = `⭐ اختياراتي (${ids.length} سلسلة)`;
+    renderExplorer();
+    window.scrollTo(0, 0);
+    const t = data.totals || {};
+    let msg = `اختياراتك: ${ids.length} سلسلة من ${(data.sheikhs || []).length} مشايخ`;
+    if (t.lessons_count) msg += ` · ${t.lessons_count.toLocaleString('en-US')} درساً`;
+    if (t.total_hours) msg += ` · ${t.total_hours.toLocaleString('en-US')} ساعة`;
+    if (missing.length) msg += `\nتنبيه: ${missing.length} سلسلة في الملف غير موجودة في الفهرس الحالي ولن تُعرض.`;
+    alert(msg);
+  } catch (err) {
+    alert('تعذّر تحميل الاختيارات المحفوظة: ' + err.message);
+  } finally {
+    btn.disabled = false;
+    btn.textContent = orig;
+  }
+}
+document.getElementById('btnMySel').onclick = loadMySelections;
 
 function ringSvg(pct) {
   const r = 35, c = 2 * Math.PI * r;
