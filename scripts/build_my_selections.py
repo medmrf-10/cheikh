@@ -63,6 +63,11 @@ if os.path.exists(CAT):
 in_cat = [i for i in ids if i in cat_ids]
 not_in_cat = [i for i in ids if i not in cat_ids]
 
+# الأرقام تُحسب من السلاسل نفسها (نفس ما تحسبه الواجهة) حتى لا تتناقض مع العرض
+_sum_lessons = sum(int(sr.get("lessons") or 0) for sh in sheikhs for sr in sh["series"])
+_sum_dur = sum(int(sr.get("duration") or 0) for sh in sheikhs for sr in sh["series"])
+_src_t = sel.get("totals") or {}
+
 out = {
     "v": 1,
     "generated_at": datetime.datetime.now().astimezone().isoformat(timespec="seconds"),
@@ -71,8 +76,13 @@ out = {
     "totals": {
         "sheikhs_count": len(sheikhs),
         "series_count": len(ids),
-        "lessons_count": sel.get("lessons_count") or (sel.get("totals") or {}).get("lessons_count"),
-        "total_hours": sel.get("total_hours") or (sel.get("totals") or {}).get("total_hours"),
+        "lessons_count": _sum_lessons,
+        "total_hours": round(_sum_dur / 3600.0, 1),
+    },
+    "source_reported": {
+        "lessons_count": sel.get("lessons_count") or _src_t.get("lessons_count"),
+        "total_hours": sel.get("total_hours") or _src_t.get("total_hours"),
+        "selected_series_ids": len(sel.get("selected_series_ids") or []),
     },
     "in_catalog": len(in_cat),
     "missing_from_catalog": sorted(not_in_cat),

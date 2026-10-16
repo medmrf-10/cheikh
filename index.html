@@ -418,7 +418,6 @@ async function loadMySelections() {
     const t = data.totals || {};
     let msg = `اختياراتك: ${ids.length} سلسلة من ${(data.sheikhs || []).length} مشايخ`;
     if (t.lessons_count) msg += ` · ${t.lessons_count.toLocaleString('en-US')} درساً`;
-    if (t.total_hours) msg += ` · ${t.total_hours.toLocaleString('en-US')} ساعة`;
     if (missing.length) msg += `\nتنبيه: ${missing.length} سلسلة في الملف غير موجودة في الفهرس الحالي ولن تُعرض.`;
     alert(msg);
   } catch (err) {
