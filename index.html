@@ -1261,11 +1261,16 @@ function bindFilterAndSeriesEvents(matched, lockSheikhId) {
 function renderExplorer() {
   const app = document.getElementById('app');
   const {matched, html} = renderFilterAndSeriesHtml(null);
+  let selAll = 0;
+  for (const id of SELECTED) if (ALL_SERIES_MAP.has(id)) selAll += 1;
+  const totalAll = ALL_SERIES_MAP.size;
   app.innerHTML = `
     ${navTabsHtml('explorer')}
+    ${DB_MODE === 'curated' ? `<section class="view-head">${selModeButtonsHtml(selAll, Math.max(0, totalAll - selAll), '')}</section>` : ''}
     ${html}
   `;
   bindNavTabs();
+  bindSelModeButtons(app);
   bindFilterAndSeriesEvents(matched, null);
 }
 
@@ -1279,6 +1284,18 @@ function openSheikh(sheikhId) {
   window.scrollTo(0, 0);
 }
 
+// أزرار التمييز: اختياراتي / مش اختياراتي / الكل
+function selModeButtonsHtml(selCount, unselCount, ctx) {
+  const mk = (mode, label, count) => `<button class="b-btn ${F.selection === mode ? 'primary' : ''}" type="button" data-sel-mode="${mode}"${ctx ? ` data-sel-ctx="${esc(ctx)}"` : ''}>${label}${count == null ? '' : ` (${count})`}</button>`;
+  return `
+    <div style="display:flex;gap:6px;flex-wrap:wrap;align-items:center">
+      ${mk('selected', '⭐ اختياراتي', selCount)}
+      ${mk('unselected', '✖ مش اختياراتي', unselCount)}
+      ${mk('all', '☰ الكل', selCount + unselCount)}
+    </div>
+  `;
+}
+
 function renderSheikh(sh) {
   const app = document.getElementById('app');
   const {matched, html} = renderFilterAndSeriesHtml(sh.id);
@@ -1290,7 +1307,7 @@ function renderSheikh(sh) {
       <div style="display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap">
         <h1>${esc(sh.name)}</h1>
         <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
-          ${DB_MODE === 'curated' ? `<button class="b-btn" id="btnSheikhSel" type="button" data-sheikh="${esc(sh.id)}">${F.selection === 'selected' ? `↩ عرض كل سلاسل الشيخ (${sh.series_count})` : `⭐ رؤية اختياراتي من هذا الشيخ (${selCount})`}</button>` : ''}
+          ${DB_MODE === 'curated' ? selModeButtonsHtml(selCount, Math.max(0, shSeriesIds.length - selCount), sh.id) : ''}
           <span class="pill ok">✓ المحدد من هذا الشيخ: ${selCount} / ${sh.series_count} سلسلة</span>
         </div>
       </div>
@@ -1301,9 +1318,39 @@ function renderSheikh(sh) {
     </section>
     ${html}
   `;
-  const bsel = document.getElementById('btnSheikhSel');
-  if (bsel) bsel.onclick = () => toggleSheikhSelection(sh.id, bsel);
+  bindSelModeButtons(app);
   bindFilterAndSeriesEvents(matched, sh.id);
+}
+
+function bindSelModeButtons(scope) {
+  (scope || document).querySelectorAll('[data-sel-mode]').forEach(btn => {
+    btn.onclick = async () => {
+      const mode = btn.dataset.selMode;
+      const ctx = btn.dataset.selCtx || '';
+      if (ctx) {
+        const orig = btn.textContent;
+        btn.disabled = true;
+        btn.textContent = '⏳ …';
+        try {
+          const m = await fetchMySelections();
+          const sh = CATALOG.sheikhs.find(x => x.id === ctx);
+          if (sh) {
+            const own = new Set((sh.series || []).map(s => s.id));
+            const ids = m.idsBySheikh.get(ctx) || [];
+            for (const id of own) SELECTED.delete(id);
+            for (const id of ids) SELECTED.add(id);
+            saveSelectionToStorage();
+          }
+        } catch (err) {
+          alert('تعذّر تحميل اختياراتك المحفوظة: ' + err.message);
+        }
+        btn.disabled = false;
+        btn.textContent = orig;
+      }
+      F.selection = mode;
+      rerenderCurrent();
+    };
+  });
 }
 
 async function openSeries(sheikhId, seriesId, fromExplorer = false) {
