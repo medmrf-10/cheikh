@@ -424,6 +424,9 @@ async function fetchMySelections(force = false) {
 async function hydrateMySelectionsIfEmpty() {
   try {
     if (SELECTED.size > 0) return;
+    const flagKey = 'cheikh.hydrated.' + DB_MODE;
+    if (localStorage.getItem(flagKey)) return;  // مرة واحدة فقط: لا يعود التحديد بعد المسح المتعمّد
+    localStorage.setItem(flagKey, new Date().toISOString());
     const m = await fetchMySelections();
     if (!m.all.length || SELECTED.size > 0) return;
     SELECTED = new Set(m.all);
@@ -1503,6 +1506,8 @@ document.getElementById('btnClearSel').onclick = () => {
   if (!confirm('هل تريد مسح جميع السلاسل المحددة؟')) return;
   SELECTED.clear();
   saveSelectionToStorage();
+  // لا تُعِد تطبيق اختياراتك المحفوظة تلقائيًا بعد المسح المتعمّد
+  localStorage.setItem('cheikh.hydrated.' + DB_MODE, 'cleared:' + new Date().toISOString());
   rerenderCurrent();
 };
 
