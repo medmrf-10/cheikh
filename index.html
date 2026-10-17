@@ -221,7 +221,7 @@ dialog::backdrop{background:rgba(0,0,0,.55);-webkit-backdrop-filter:blur(3px);ba
   <div class="dlg-body" id="dlgBody"></div>
   <div class="dlg-foot">
     <label style="display:flex;align-items:center;gap:6px;font-size:13px;cursor:pointer">
-      <input type="checkbox" id="chkIncludeLessons" checked style="width:17px;height:17px">
+      <input type="checkbox" id="chkIncludeLessons" style="width:17px;height:17px">
       <span>تضمين قائمة الدروس الكاملة (العناوين والروابط) داخل ملف JSON</span>
     </label>
     <div style="display:flex;gap:8px">
@@ -1574,29 +1574,18 @@ async function exportSelectedToJson() {
   }
   const includeLessons = document.getElementById('chkIncludeLessons').checked;
   const saveBtns = [document.getElementById('btnSaveJson'), document.getElementById('dlgSaveBtn')];
-  saveBtns.forEach(b => { if (b) { b.disabled = true; b.textContent = '⏳ جاري تجميع JSON...'; } });
+  saveBtns.forEach(b => { if (b) { b.dataset.origLabel = b.dataset.origLabel || b.textContent; b.disabled = true; b.textContent = includeLessons ? `⏳ 0/${validIds.length}` : '⏳ جاري التجميع…'; } });
 
   try {
     const dir = DB_MODE === 'curated' ? 'data/series_curated' : 'data/series_raw';
     const bySheikhMap = new Map();
     const flatSeries = [];
     let totalLessons = 0, totalTranscribed = 0, totalDuration = 0;
+    const failed = [];
+    const stamp = Date.now();
 
-    for (const id of validIds) {
-      const srMeta = ALL_SERIES_MAP.get(id);
-      if (!srMeta) continue;
-      let lessons = undefined;
-      if (includeLessons) {
-        const res = await fetch(`${dir}/${encodeURIComponent(id)}.json?t=${Date.now()}`);
-        if (res.ok) {
-          const full = await res.json();
-          lessons = full.lessons || [];
-        }
-      }
-      const entry = {
-        ...srMeta,
-        ...(includeLessons ? {lessons} : {})
-      };
+    const addEntry = (srMeta, lessons) => {
+      const entry = {...srMeta, ...(includeLessons ? {lessons} : {})};
       flatSeries.push(entry);
       if (!bySheikhMap.has(srMeta.sheikh_id)) {
         bySheikhMap.set(srMeta.sheikh_id, {
@@ -1613,10 +1602,46 @@ async function exportSelectedToJson() {
       grp.lessons_count += srMeta.actual_count || 0;
       grp.transcribed_count += srMeta.transcribed_count || 0;
       grp.series.push(entry);
-
       totalLessons += srMeta.actual_count || 0;
       totalTranscribed += srMeta.transcribed_count || 0;
       totalDuration += srMeta.total_duration || 0;
+    };
+
+    if (includeLessons) {
+      // بالتوازي (12 في الوقت نفسه) مع عدّاد مباشر — بدل تحميل ملفات السلاسل واحداً واحداً
+      const queue = [...validIds];
+      let done = 0;
+      const worker = async () => {
+        while (queue.length) {
+          const id = queue.shift();
+          const srMeta = ALL_SERIES_MAP.get(id);
+          if (!srMeta) continue;
+          let lessons = [];
+          try {
+            const res = await fetch(`${dir}/${encodeURIComponent(id)}.json?t=${stamp}`);
+            if (res.ok) {
+              const full = await res.json();
+              lessons = full.lessons || [];
+            } else {
+              failed.push(id);
+            }
+          } catch (err) {
+            failed.push(id);
+          }
+          addEntry(srMeta, lessons);
+          done += 1;
+          if (done % 5 === 0 || done === validIds.length) {
+            saveBtns.forEach(b => { if (b) b.textContent = `⏳ ${done}/${validIds.length}`; });
+          }
+        }
+      };
+      await Promise.all(Array.from({length: Math.min(12, validIds.length)}, worker));
+    } else {
+      for (const id of validIds) {
+        const srMeta = ALL_SERIES_MAP.get(id);
+        if (!srMeta) continue;
+        addEntry(srMeta, undefined);
+      }
     }
 
     const payload = {
@@ -1647,10 +1672,11 @@ async function exportSelectedToJson() {
     a.click();
     a.remove();
     URL.revokeObjectURL(url);
+    alert(`تم التصدير: ${flatSeries.length} سلسلة · ${totalLessons.toLocaleString('en-US')} درساً\nالملف: cheikh-selected-${DB_MODE}-${dateStr}.json${failed.length ? `\nتنبيه: تعذّر تحميل ${failed.length} ملف سلسلة (لكنها مُدرجة بالبيانات الأساسية).` : ''}`);
   } catch (err) {
     alert('حدث خطأ أثناء تجميع ملف JSON: ' + err.message);
   } finally {
-    saveBtns.forEach(b => { if (b) { b.disabled = false; b.textContent = '💾 حفظ JSON (Save)'; } });
+    saveBtns.forEach(b => { if (b) { b.disabled = false; b.textContent = b.dataset.origLabel || '💾 حفظ JSON (Save)'; } });
   }
 }
 
