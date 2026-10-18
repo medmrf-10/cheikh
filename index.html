@@ -184,6 +184,7 @@ dialog::backdrop{background:rgba(0,0,0,.55);-webkit-backdrop-filter:blur(3px);ba
       <button class="mode-opt" id="btnCurated" type="button"></button>
       <button class="mode-opt" id="btnRaw" type="button"></button>
     </div>
+    <button class="b-btn primary" id="btnLoadMyLatestSel" type="button" title="تحميل وعرض اختياراتي الحديثة المحفوظة (418 سلسلة)">⭐ اختياراتي الحديثة (418)</button>
     <label class="b-btn" style="cursor:pointer" title="استيراد ملف تحديد JSON سابق">
       📂 استيراد تحديد
       <input type="file" id="importSelInput" accept=".json" hidden>
@@ -419,22 +420,49 @@ async function fetchMySelections(force = false) {
   return MY_SEL;
 }
 
-// عند أول تحميل فقط: إن لم يكن هناك تحديد محلي، اعتبر اختياراتك المحفوظة هي التحديد
-// (فتظهر «✓ محدد N» في صفحة كل شيخ مباشرة على أي جهاز/متصفح جديد)
+// عند التحميل: إذا تغيرت نسخة ملف اختياراتك الحديثة (source_exported_at) أو لم يكن هناك تحديد، طبّق اختياراتك الحديثة تلقائياً
 async function hydrateMySelectionsIfEmpty() {
   try {
-    if (SELECTED.size > 0) return;
-    const flagKey = 'cheikh.hydrated.' + DB_MODE;
-    if (localStorage.getItem(flagKey)) return;  // مرة واحدة فقط: لا يعود التحديد بعد المسح المتعمّد
-    localStorage.setItem(flagKey, new Date().toISOString());
     const m = await fetchMySelections();
-    if (!m.all.length || SELECTED.size > 0) return;
-    SELECTED = new Set(m.all);
-    saveSelectionToStorage();
-    updateSelectionDock();
-    rerenderCurrent();
+    if (!m.all.length) return;
+    const verKey = 'cheikh.hydrated_ver.' + DB_MODE;
+    const latestVer = m.raw.source_exported_at || '2026-10-17T13:24:29.277Z';
+    const bBtn = document.getElementById('btnLoadMyLatestSel');
+    if (bBtn) bBtn.textContent = `⭐ اختياراتي الحديثة (${m.all.length})`;
+    if (localStorage.getItem(verKey) !== latestVer || SELECTED.size === 0) {
+      localStorage.setItem(verKey, latestVer);
+      SELECTED = new Set(m.all);
+      saveSelectionToStorage();
+      updateSelectionDock();
+      rerenderCurrent();
+    }
   } catch (err) { /* صامت */ }
 }
+
+async function applyLatestMySelections(switchToExplorer = false) {
+  const bBtn = document.getElementById('btnLoadMyLatestSel');
+  const orig = bBtn ? bBtn.textContent : '';
+  if (bBtn) { bBtn.disabled = true; bBtn.textContent = '⏳ جارٍ التحميل…'; }
+  try {
+    const m = await fetchMySelections(true);
+    SELECTED = new Set(m.all);
+    localStorage.setItem('cheikh.hydrated_ver.' + DB_MODE, m.raw.source_exported_at || '2026-10-17T13:24:29.277Z');
+    saveSelectionToStorage();
+    updateSelectionDock();
+    F.selection = 'selected';
+    F.preset = 'selected_only';
+    if (switchToExplorer || currentView.type === 'home' || currentView.type === 'series') {
+      openExplorer();
+    } else {
+      rerenderCurrent();
+    }
+  } catch (err) {
+    alert('تعذّر تحميل اختياراتك الحديثة: ' + err.message);
+  } finally {
+    if (bBtn) { bBtn.disabled = false; bBtn.textContent = MY_SEL ? `⭐ اختياراتي الحديثة (${MY_SEL.all.length})` : orig; }
+  }
+}
+document.getElementById('btnLoadMyLatestSel').onclick = () => applyLatestMySelections(false);
 
 // زر صفحة الشيخ: يعرض اختياراتي من هذا الشيخ (ويضبط تحديد هذا الشيخ مطابقًا للملف المحفوظ)
 async function toggleSheikhSelection(sheikhId, btn) {
@@ -771,19 +799,24 @@ function rerenderCurrent() {
 }
 
 function navTabsHtml(active) {
+  const myCount = MY_SEL && MY_SEL.all ? MY_SEL.all.length : 418;
+  const isMySel = active === 'explorer' && F.selection === 'selected';
   return `
     <div class="nav-tabs">
       <button class="nav-tab ${active === 'home' ? 'on' : ''}" id="tabHome" type="button">👤 المشايخ (${CATALOG.totals.sheikhs})</button>
-      <button class="nav-tab ${active === 'explorer' ? 'on' : ''}" id="tabExplorer" type="button">🔍 مستكشف وفلترة كل السلاسل (${ALL_SERIES_MAP.size})</button>
+      <button class="nav-tab ${isMySel ? 'on' : ''}" id="tabMyLatest" type="button">⭐ اختياراتي الحديثة (${myCount} سلسلة)</button>
+      <button class="nav-tab ${active === 'explorer' && !isMySel ? 'on' : ''}" id="tabExplorer" type="button">🔍 كل السلاسل (${ALL_SERIES_MAP.size})</button>
     </div>
   `;
 }
 
 function bindNavTabs() {
   const th = document.getElementById('tabHome');
+  const tm = document.getElementById('tabMyLatest');
   const te = document.getElementById('tabExplorer');
   if (th) th.onclick = () => openHome();
-  if (te) te.onclick = () => openExplorer();
+  if (tm) tm.onclick = () => applyLatestMySelections(true);
+  if (te) te.onclick = () => { F.selection = 'all'; F.preset = 'all'; openExplorer(); };
 }
 
 function renderHome() {
@@ -1330,12 +1363,12 @@ function bindSelModeButtons(scope) {
     btn.onclick = async () => {
       const mode = btn.dataset.selMode;
       const ctx = btn.dataset.selCtx || '';
-      if (ctx) {
-        const orig = btn.textContent;
-        btn.disabled = true;
-        btn.textContent = '⏳ …';
-        try {
-          const m = await fetchMySelections();
+      const orig = btn.textContent;
+      btn.disabled = true;
+      btn.textContent = '⏳ …';
+      try {
+        const m = await fetchMySelections();
+        if (ctx) {
           const sh = CATALOG.sheikhs.find(x => x.id === ctx);
           if (sh) {
             const own = new Set((sh.series || []).map(s => s.id));
@@ -1344,12 +1377,15 @@ function bindSelModeButtons(scope) {
             for (const id of ids) SELECTED.add(id);
             saveSelectionToStorage();
           }
-        } catch (err) {
-          alert('تعذّر تحميل اختياراتك المحفوظة: ' + err.message);
+        } else if (m.all.length) {
+          SELECTED = new Set(m.all);
+          saveSelectionToStorage();
         }
-        btn.disabled = false;
-        btn.textContent = orig;
+      } catch (err) {
+        alert('تعذّر تحميل اختياراتك المحفوظة: ' + err.message);
       }
+      btn.disabled = false;
+      btn.textContent = orig;
       F.selection = mode;
       rerenderCurrent();
     };

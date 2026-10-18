@@ -1,4 +1,4 @@
-const CACHE = 'cheikh-pwa-v9';
+const CACHE = 'cheikh-pwa-v10';
 const ASSETS = ['./', './index.html', './manifest.webmanifest', './icons/icon.svg'];
 
 self.addEventListener('install', e => {
