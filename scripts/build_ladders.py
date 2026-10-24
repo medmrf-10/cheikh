@@ -105,18 +105,10 @@ TIER1_CORE_IDS = {
     "asimi__s011",
     "asimi__s012",
     "asimi__s013",
-    "sayed__s012",
-    "sayed__s014",
     # 10. سلم شروح متون السنة النبوية وفقه الحديث والشمائل
-    "dedew__kursi_arbaeen_nawawiya",
-    "kamali__s003",
+    "bouti__s020",
     "hafiz__bulugh_maram",
-    "dedew__sharh_taqreeb_asaneed",
-    "kamali__s001",
-    "kamali__s002",
     "hafiz__muwatta",
-    "dedew__mukhtasar_bukhari",
-    "dedew__sharh_bukhari",
     # 11. سلم فقه السيرة النبوية والسنن الإلهية وفقه النفس والوعي الحضاري
     "bouti__s030",
     "kamali__s021",
@@ -159,11 +151,11 @@ TIER2_REFERENCE_IDS = {
     "hafiz__tafsir_monday", "hafiz__tafsir_ramadan", "hafiz__tafsir_fatiha_qisar",
     "dedew__sharh_ikleel",
     # Parallel Hadith Sciences & Commentaries
-    "sayed__s001", "sayed__s002", "sayed__s003", "sayed__s004", "sayed__s005", "sayed__s008", "sayed__s010", "sayed__s011", "sayed__s013", "sayed__s047", "sayed__s050", "sayed__s052", "sayed__s053", "sayed__s083",
-    "dedew__sharh_maalim_sunnah",
-    "kamali__s006",
+    "sayed__s001", "sayed__s002", "sayed__s003", "sayed__s004", "sayed__s005", "sayed__s008", "sayed__s010", "sayed__s011", "sayed__s012", "sayed__s013", "sayed__s014", "sayed__s047", "sayed__s050", "sayed__s052", "sayed__s053", "sayed__s083",
+    "dedew__kursi_arbaeen_nawawiya", "dedew__sharh_taqreeb_asaneed", "dedew__mukhtasar_bukhari", "dedew__sharh_bukhari", "dedew__sharh_maalim_sunnah",
+    "kamali__s001", "kamali__s002", "kamali__s003", "kamali__s006",
     "hafiz__kashf_ghumma", "hafiz__adhkar_nawawi",
-    "bouti__s020", "jifri__s007", "gomaa__s019", "gomaa__s022", "gomaa__s024", "gomaa__s025", "gomaa__s026",
+    "jifri__s007", "gomaa__s019", "gomaa__s022", "gomaa__s024", "gomaa__s025", "gomaa__s026",
     "asimi__s014",
 }
 
@@ -455,7 +447,7 @@ LADDER_NAMES = {
     7: "السلم السابع: مقاصد الشريعة وفلسفة التشريع وتاريخه (مستقل تماماً عن أصول الفقه — السريري + البوطي)",
     8: "السلم الثامن: التفسير وعلوم القرآن والبيان القرآني (الأركان الأربعة متكاملة: العقرباوي + البوطي + السامرائي + الشعراوي + كرسي ابن عطية للبحياوي)",
     9: "السلم التاسع: علوم الحديث ومصطلحه وعلله والجرح والتعديل (أحمد معبد عبد الكريم + نور الدين عتر + محمد عوامة + عبد الفتاح أبو غدة + العاسمي)",
-    10: "السلم العاشر: متون السنة النبوية وفقه الحديث المقارن والشمائل (الكملي + البحياوي + الحبيب عمر + السريري + الددو + البوطي + المطيعي + سعد جاويش + الفاسي الفهري)",
+    10: "السلم العاشر: شروح متون السنة النبوية وفقه الحديث المقارن والشمائل (البحياوي + المطيعي + عرقسوسي + أبو غدة + نور الدين عتر + سعد جاويش + البوطي + الكتاني + فتحي حجازي + أحمد طه ريان + الحبيب عمر)",
     11: "السلم الحادي عشر: فقه السيرة النبوية والسنن الإلهية وفقه النفس والوعي الحضاري (البوطي + الكملي + العاسمي + الهاشمي + أيمن عبد الرحيم + أحمد السيد)",
 }
 
@@ -490,7 +482,6 @@ def clean_arabic_title(text: str) -> str:
         .replace("قناة CBC - ", "")
         .replace("CBC", "")
     )
-    cleaned = re.sub(r"[A-Za-z]+", "", cleaned)
     cleaned = re.sub(r"\s{2,}", " ", cleaned).strip()
     return cleaned
 
